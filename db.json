@@ -1,0 +1,6615 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Смартфоны",
+      "slug": "smartphones",
+      "count_products": 100,
+      "image": "/images/categories/smartphones.png",
+      "description": "Современные мобильные устройства от ведущих производителей",
+      "meta_title": "Купить смартфоны с доставкой | Behoof",
+      "meta_description": "Большой выбор смартфонов от ведущих брендов. Доставка по всей России, гарантия и сервисное обслуживание."
+    },
+    {
+      "id": 2,
+      "title": "Планшеты",
+      "slug": "tablets",
+      "count_products": 34,
+      "image": "/images/categories/tablets.png",
+      "description": "Портативные планшетные компьютеры для работы и развлечений",
+      "meta_title": "Планшеты по выгодным ценам | Behoof",
+      "meta_description": "Каталог планшетов различных брендов. Быстрая доставка, официальная гарантия."
+    },
+    {
+      "id": 3,
+      "title": "Ноутбуки",
+      "slug": "laptops",
+      "count_products": 50,
+      "image": "/images/categories/laptops.png",
+      "description": "Портативные компьютеры для учебы, работы и игр",
+      "meta_title": "Ноутбуки - большой выбор моделей | Behoof",
+      "meta_description": "Широкий ассортимент ноутбуков. Выгодные цены, быстрая доставка, официальная гарантия от производителя."
+    },
+    {
+      "id": 4,
+      "title": "Умные часы",
+      "slug": "smartwatches",
+      "count_products": 25,
+      "image": "/images/categories/smartwatches.png",
+      "description": "Смарт-часы и фитнес-трекеры от популярных брендов",
+      "meta_title": "Умные часы и фитнес-браслеты | Behoof",
+      "meta_description": "Смарт-часы для контроля здоровья и физической активности. Фитнес-браслеты ведущих производителей."
+    },
+    {
+      "id": 5,
+      "title": "Игровые приставки",
+      "slug": "gaming-consoles",
+      "count_products": 40,
+      "image": "/images/categories/gaming-consoles.png",
+      "description": "Игровые консоли и аксессуары для геймеров",
+      "meta_title": "Игровые приставки и аксессуары | Behoof",
+      "meta_description": "Купить игровые приставки PlayStation, Xbox, Nintendo. Официальная гарантия, быстрая доставка."
+    },
+    {
+      "id": 6,
+      "title": "Наушники",
+      "slug": "headphones",
+      "count_products": 70,
+      "image": "/images/categories/headphones.png",
+      "description": "Проводные и беспроводные наушники для меломанов",
+      "meta_title": "Наушники - большой выбор моделей | Behoof",
+      "meta_description": "Беспроводные и проводные наушники от ведущих производителей. Быстрая доставка по всей России."
+    },
+    {
+      "id": 7,
+      "title": "Мониторы",
+      "slug": "monitors",
+      "count_products": 30,
+      "image": "/images/categories/monitors.webp",
+      "description": "Компьютерные мониторы для работы и развлечений",
+      "meta_title": "Мониторы для компьютеров | Behoof",
+      "meta_description": "Широкий выбор мониторов для дома и офиса. Официальная гарантия от производителя."
+    },
+    {
+      "id": 8,
+      "title": "Комплектующие",
+      "slug": "components",
+      "count_products": 80,
+      "image": "/images/categories/components.jpg",
+      "description": "Комплектующие для сборки и апгрейда компьютеров",
+      "meta_title": "Комплектующие для ПК | Behoof",
+      "meta_description": "Комплектующие для сборки компьютеров. Официальная гарантия, консультация специалистов."
+    }
+  ],
+  "subcategories": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "title": "Apple",
+      "slug": "apple",
+      "image": "/images/subcategories/apple.jpg",
+      "description": "Инновационные смартфоны от компании Apple",
+      "featured": true,
+      "meta_title": "Купить iPhone - все модели | Behoof",
+      "meta_description": "Купить смартфоны Apple iPhone всех моделей. Официальная гарантия, быстрая доставка."
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "title": "Xiaomi",
+      "slug": "xiaomi",
+      "image": "/images/subcategories/xiaomi.jpg",
+      "description": "Доступные и функциональные смартфоны Xiaomi",
+      "featured": true,
+      "meta_title": "Смартфоны Xiaomi по выгодным ценам | Behoof",
+      "meta_description": "Купить смартфоны Xiaomi. Широкий ассортимент, выгодные цены, официальная гарантия."
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "title": "Samsung",
+      "slug": "samsung",
+      "image": "/images/subcategories/samsung.jpg",
+      "description": "Передовые смартфоны от южнокорейского производителя",
+      "featured": true,
+      "meta_title": "Смартфоны Samsung Galaxy | Behoof",
+      "meta_description": "Купить смартфоны Samsung Galaxy. Официальная гарантия, быстрая доставка по всей России."
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "title": "Lenovo",
+      "slug": "lenovo",
+      "image": "/images/subcategories/lenovo-tablets.jpg",
+      "description": "Надежные планшеты для повседневного использования",
+      "featured": false,
+      "meta_title": "Планшеты Lenovo | Behoof",
+      "meta_description": "Планшеты Lenovo по выгодным ценам. Официальная гарантия, доставка по России."
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "title": "Huawei",
+      "slug": "huawei",
+      "image": "/images/subcategories/huawei-tablets.jpg",
+      "description": "Высокопроизводительные планшеты с ярким дисплеем",
+      "featured": true,
+      "meta_title": "Планшеты Huawei | Behoof",
+      "meta_description": "Купить планшеты Huawei. Официальная гарантия от производителя, выгодные цены."
+    },
+    {
+      "id": 6,
+      "categoryId": 3,
+      "title": "ASUS",
+      "slug": "asus",
+      "image": "/images/subcategories/asus-laptops.jpg",
+      "description": "Надежные ноутбуки для работы и игр",
+      "featured": true,
+      "meta_title": "Ноутбуки ASUS | Behoof",
+      "meta_description": "Ноутбуки ASUS - большой выбор моделей. Официальная гарантия, доставка по всей России."
+    },
+    {
+      "id": 7,
+      "categoryId": 3,
+      "title": "Dell",
+      "slug": "dell",
+      "image": "/images/subcategories/dell-laptops.jpg",
+      "description": "Премиальные ноутбуки с высоким качеством сборки",
+      "featured": false,
+      "meta_title": "Ноутбуки Dell | Behoof",
+      "meta_description": "Ноутбуки Dell для дома и офиса. Официальная гарантия от производителя."
+    },
+    {
+      "id": 8,
+      "categoryId": 3,
+      "title": "HP",
+      "slug": "hp",
+      "image": "/images/subcategories/hp-laptops.jpg",
+      "description": "Широкий выбор ноутбуков для разных задач",
+      "featured": false,
+      "meta_title": "Ноутбуки HP | Behoof",
+      "meta_description": "Купить ноутбуки HP. Выгодные цены, быстрая доставка, официальная гарантия."
+    },
+    {
+      "id": 9,
+      "categoryId": 4,
+      "title": "Garmin",
+      "slug": "garmin",
+      "image": "/images/subcategories/garmin.jpg",
+      "description": "Умные часы для спортсменов и любителей активного образа жизни",
+      "featured": true,
+      "meta_title": "Умные часы Garmin | Behoof",
+      "meta_description": "Купить умные часы и фитнес-трекеры Garmin. Официальная гарантия, доставка по всей России."
+    },
+    {
+      "id": 10,
+      "categoryId": 4,
+      "title": "Fitbit",
+      "slug": "fitbit",
+      "image": "/images/subcategories/fitbit.jpg",
+      "description": "Фитнес-трекеры и смарт-часы для контроля здоровья",
+      "featured": false,
+      "meta_title": "Фитнес-трекеры Fitbit | Behoof",
+      "meta_description": "Фитнес-браслеты и умные часы Fitbit. Выгодные цены, быстрая доставка."
+    },
+    {
+      "id": 11,
+      "categoryId": 5,
+      "title": "PlayStation",
+      "slug": "playstation",
+      "image": "/images/subcategories/playstation.jpg",
+      "description": "Игровые консоли от Sony с богатой библиотекой игр",
+      "featured": true,
+      "meta_title": "Игровые приставки PlayStation | Behoof",
+      "meta_description": "Купить игровые консоли PlayStation. Официальная гарантия, доставка по всей России."
+    },
+    {
+      "id": 12,
+      "categoryId": 5,
+      "title": "Xbox",
+      "slug": "xbox",
+      "image": "/images/subcategories/xbox.jpg",
+      "description": "Игровые приставки от Microsoft с мощным железом",
+      "featured": true,
+      "meta_title": "Игровые приставки Xbox | Behoof",
+      "meta_description": "Игровые консоли Xbox. Официальная гарантия от производителя, выгодные цены."
+    },
+    {
+      "id": 13,
+      "categoryId": 6,
+      "title": "Sony",
+      "slug": "sony",
+      "image": "/images/subcategories/sony-headphones.jpg",
+      "description": "Премиальные наушники с шумоподавлением",
+      "featured": true,
+      "meta_title": "Наушники Sony | Behoof",
+      "meta_description": "Купить наушники Sony. Официальная гарантия, доставка по всей России."
+    },
+    {
+      "id": 14,
+      "categoryId": 6,
+      "title": "Bose",
+      "slug": "bose",
+      "image": "/images/subcategories/bose-headphones.jpg",
+      "description": "Наушники с превосходным качеством звука",
+      "featured": true,
+      "meta_title": "Наушники Bose | Behoof",
+      "meta_description": "Купить наушники Bose. Выгодные цены, официальная гарантия, быстрая доставка."
+    },
+    {
+      "id": 15,
+      "categoryId": 7,
+      "title": "LG",
+      "slug": "lg",
+      "image": "/images/subcategories/lg-monitors.jpg",
+      "description": "Мониторы для работы и игр с высоким качеством изображения",
+      "featured": false,
+      "meta_title": "Мониторы LG | Behoof",
+      "meta_description": "Купить мониторы LG. Официальная гарантия от производителя, выгодные цены."
+    },
+    {
+      "id": 16,
+      "categoryId": 7,
+      "title": "Samsung",
+      "slug": "samsung-monitors",
+      "image": "/images/subcategories/samsung-monitors.jpg",
+      "description": "Современные мониторы с передовыми технологиями",
+      "featured": true,
+      "meta_title": "Мониторы Samsung | Behoof",
+      "meta_description": "Купить мониторы Samsung. Выгодные цены, быстрая доставка, официальная гарантия."
+    },
+    {
+      "id": 17,
+      "categoryId": 8,
+      "title": "Видеокарты",
+      "slug": "gpu",
+      "image": "/images/subcategories/gpu.jpg",
+      "description": "Мощные видеокарты для игр и профессиональных задач",
+      "featured": true,
+      "meta_title": "Видеокарты NVIDIA и AMD | Behoof",
+      "meta_description": "Купить видеокарты NVIDIA и AMD. Официальная гарантия, консультация специалистов."
+    },
+    {
+      "id": 18,
+      "categoryId": 8,
+      "title": "Процессоры",
+      "slug": "cpu",
+      "image": "/images/subcategories/cpu.jpg",
+      "description": "Современные процессоры для любых задач",
+      "featured": true,
+      "meta_title": "Процессоры Intel и AMD | Behoof",
+      "meta_description": "Процессоры Intel и AMD. Официальная гарантия, доставка по всей России."
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "slug": "apple",
+      "logo": "/images/brands/apple-logo.png"
+    },
+    {
+      "id": 2,
+      "name": "Xiaomi",
+      "slug": "xiaomi",
+      "logo": ""
+    },
+    {
+      "id": 3,
+      "name": "Samsung",
+      "slug": "samsung",
+      "logo": ""
+    },
+    {
+      "id": 4,
+      "name": "Huawei",
+      "slug": "huawei",
+      "logo": ""
+    },
+    {
+      "id": 5,
+      "name": "LG",
+      "slug": "lg",
+      "logo": ""
+    },
+    {
+      "id": 6,
+      "name": "Sony",
+      "slug": "sony",
+      "logo": ""
+    },
+    {
+      "id": 7,
+      "name": "Lenovo",
+      "slug": "lenovo",
+      "logo": ""
+    },
+    {
+      "id": 8,
+      "name": "ASUS",
+      "slug": "asus",
+      "logo": ""
+    },
+    {
+      "id": 9,
+      "name": "Dell",
+      "slug": "dell",
+      "logo": ""
+    },
+    {
+      "id": 10,
+      "name": "HP",
+      "slug": "hp",
+      "logo": ""
+    },
+    {
+      "id": 11,
+      "name": "PlayStation",
+      "slug": "playstation",
+      "logo": ""
+    },
+    {
+      "id": 12,
+      "name": "Xbox",
+      "slug": "xbox",
+      "logo": ""
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "subCategoryId": 1,
+      "article": 231451,
+      "title": "iPhone 14 Pro Max 128 ГБ черный",
+      "slug": "iphone-14-pro-max-128-gb-chernyj",
+      "subCategorySlug": "apple",
+      "categorySlug": "smartphones",
+      "brandId": 1,
+      "price": 79999,
+      "oldPrice": 86999,
+      "discount": 8,
+      "inStock": true,
+      "rating": 3.3,
+      "reviewCount": 156,
+      "description": "iPhone 14 с дисплеем Super Retina XDR 6,1 дюйма и передовой двойной камерой 12 МП для съемки в любых условиях. Чип A15 Bionic обеспечивает высокую производительность и эффективность в работе с приложениями.",
+      "fullDescription": "iPhone 14 оснащен системой из двух камер 12 МП (широкоугольная и сверхширокоугольная), которые позволяют делать потрясающие фотографии при любом освещении. Режим киносъемки автоматически смещает фокус между объектами даже во время записи. Дисплей Super Retina XDR с диагональю 6,1 дюйма отличается невероятной детализацией и цветопередачей. Чип A15 Bionic обеспечивает молниеносную работу приложений и игр. Благодаря прочному корпусу из алюминия и стекла Ceramic Shield iPhone 14 защищен от брызг, капель воды и пыли.",
+      "features": {
+        "display": "6,1 дюйма, Super Retina XDR",
+        "processor": "A15 Bionic",
+        "camera": "Двойная камера 12 Мп",
+        "battery": "До 20 часов воспроизведения видео",
+        "memory": "128 ГБ",
+        "os": "iOS 16",
+        "waterProof": "IP68",
+        "5G": "Да",
+        "color": "черный"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,1 дюйма, Super Retina XDR"
+        },
+        {
+          "name": "Разрешение",
+          "value": "2532x1170 пикселей"
+        },
+        {
+          "name": "Процессор",
+          "value": "A15 Bionic"
+        },
+        {
+          "name": "Память",
+          "value": "128 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Двойная 12 Мп + 12 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "12 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "3279 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "iOS 16"
+        },
+        {
+          "name": "Габариты",
+          "value": "146,7 x 71,5 x 7,8 мм"
+        },
+        {
+          "name": "Вес",
+          "value": "172 г"
+        }
+      ],
+      "tags": [
+        "iPhone",
+        "Apple",
+        "смартфон",
+        "iOS",
+        "5G"
+      ],
+      "variants": [
+        {
+          "id": 1,
+          "price": 79999,
+          "inStock": true,
+          "slug": "iphone-14-pro-max-128-gb-chernyj",
+          "attributes": {
+            "memory": "128 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 101,
+          "price": 89999,
+          "inStock": true,
+          "slug": "iphone-14-pro-max-256-gb-zolotoj",
+          "attributes": {
+            "memory": "256 ГБ",
+            "color": "золотой"
+          }
+        },
+        {
+          "id": 102,
+          "price": 89999,
+          "inStock": true,
+          "slug": "iphone-14-pro-max-256-gb-chernyj",
+          "attributes": {
+            "memory": "256 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 103,
+          "price": 109999,
+          "inStock": false,
+          "slug": "iphone-14-pro-max-512-gb-chernyj",
+          "attributes": {
+            "memory": "512 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 104,
+          "price": 79999,
+          "inStock": false,
+          "slug": "iphone-14-pro-max-128-gb-zolotoj",
+          "attributes": {
+            "memory": "128 ГБ",
+            "color": "золотой"
+          }
+        }
+      ],
+      "images": [
+        "/images/products/iphone-14-2.jpg",
+        "/images/products/iphone-14-3.jpg",
+        "/images/products/iphone-14-4.jpg",
+        "/images/products/iphone-14-5.jpg",
+        "/images/products/iphone-14-6.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "createdAt": "2023-09-15T12:00:00Z",
+      "updatedAt": "2024-03-01T15:30:00Z",
+      "status": {
+        "type": "sold_out",
+        "name": "Нет в наличии"
+      },
+      "expertAssessment": 3.1,
+      "path": "/smartphones/apple/iphone-14-pro-max-128-gb-chernyj",
+      "quantity": 1,
+      "totalPrice": 79999
+    },
+    {
+      "id": 101,
+      "subCategoryId": 1,
+      "article": 231452,
+      "title": "iPhone 14 Pro Max 256 ГБ золотой",
+      "slug": "iphone-14-pro-max-256-gb-zolotoj",
+      "subCategorySlug": "apple",
+      "categorySlug": "smartphones",
+      "brandId": 1,
+      "price": 89999,
+      "oldPrice": 96999,
+      "discount": 8,
+      "inStock": true,
+      "rating": 4.3,
+      "reviewCount": 156,
+      "description": "iPhone 14 с дисплеем Super Retina XDR 6,1 дюйма и передовой двойной камерой 12 МП для съемки в любых условиях. Чип A15 Bionic обеспечивает высокую производительность и эффективность в работе с приложениями.",
+      "fullDescription": "iPhone 14 оснащен системой из двух камер 12 МП (широкоугольная и сверхширокоугольная), которые позволяют делать потрясающие фотографии при любом освещении. Режим киносъемки автоматически смещает фокус между объектами даже во время записи. Дисплей Super Retina XDR с диагональю 6,1 дюйма отличается невероятной детализацией и цветопередачей. Чип A15 Bionic обеспечивает молниеносную работу приложений и игр. Благодаря прочному корпусу из алюминия и стекла Ceramic Shield iPhone 14 защищен от брызг, капель воды и пыли.",
+      "features": {
+        "display": "6,1 дюйма, Super Retina XDR",
+        "processor": "A15 Bionic",
+        "camera": "Двойная камера 12 Мп",
+        "battery": "До 20 часов воспроизведения видео",
+        "memory": "256 ГБ",
+        "os": "iOS 16",
+        "waterProof": "IP68",
+        "5G": "Да",
+        "color": "золотой"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,1 дюйма, Super Retina XDR"
+        },
+        {
+          "name": "Разрешение",
+          "value": "2532x1170 пикселей"
+        },
+        {
+          "name": "Процессор",
+          "value": "A15 Bionic"
+        },
+        {
+          "name": "Память",
+          "value": "128 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Двойная 12 Мп + 12 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "12 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "3279 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "iOS 16"
+        },
+        {
+          "name": "Габариты",
+          "value": "146,7 x 71,5 x 7,8 мм"
+        },
+        {
+          "name": "Вес",
+          "value": "172 г"
+        }
+      ],
+      "tags": [
+        "iPhone",
+        "Apple",
+        "смартфон",
+        "iOS",
+        "5G"
+      ],
+      "variants": [
+        {
+          "id": 1,
+          "price": 79999,
+          "inStock": true,
+          "slug": "iphone-14-pro-max-128-gb-chernyj",
+          "attributes": {
+            "memory": "128 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 101,
+          "price": 89999,
+          "inStock": true,
+          "slug": "iphone-14-pro-max-256-gb-zolotoj",
+          "attributes": {
+            "memory": "256 ГБ",
+            "color": "золотой"
+          }
+        },
+        {
+          "id": 102,
+          "price": 89999,
+          "inStock": true,
+          "slug": "iphone-14-pro-max-256-gb-chernyj",
+          "attributes": {
+            "memory": "256 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 103,
+          "price": 109999,
+          "inStock": false,
+          "slug": "iphone-14-pro-max-512-gb-chernyj",
+          "attributes": {
+            "memory": "512 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 104,
+          "price": 79999,
+          "inStock": false,
+          "slug": "iphone-14-pro-max-128-gb-zolotoj",
+          "attributes": {
+            "memory": "128 ГБ",
+            "color": "золотой"
+          }
+        }
+      ],
+      "images": [
+        "/images/products/iphone-14-pro-max-zolotoj.jpeg",
+        "/images/products/iphone-14-pro-max-zolotoj-2.jpeg",
+        "/images/products/iphone-14-pro-max-zolotoj-3.jpeg",
+        "/images/products/iphone-14-pro-max-zolotoj-4.jpeg"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "createdAt": "2023-09-15T12:00:00Z",
+      "updatedAt": "2024-03-01T15:30:00Z",
+      "status": {
+        "type": "sold_out",
+        "name": "Нет в наличии"
+      },
+      "expertAssessment": 3.1,
+      "path": "/smartphones/apple/iphone-14-pro-max-256-gb-zolotoj"
+    },
+    {
+      "id": 102,
+      "subCategoryId": 1,
+      "article": 231451,
+      "title": "iPhone 14 Pro Max 256 ГБ черный",
+      "slug": "iphone-14-pro-max-256-gb-chernyj",
+      "subCategorySlug": "apple",
+      "categorySlug": "smartphones",
+      "brandId": 1,
+      "price": 89999,
+      "oldPrice": 96999,
+      "discount": 8,
+      "inStock": true,
+      "rating": 4.9,
+      "reviewCount": 156,
+      "description": "iPhone 14 с дисплеем Super Retina XDR 6,1 дюйма и передовой двойной камерой 12 МП для съемки в любых условиях. Чип A15 Bionic обеспечивает высокую производительность и эффективность в работе с приложениями.",
+      "fullDescription": "iPhone 14 оснащен системой из двух камер 12 МП (широкоугольная и сверхширокоугольная), которые позволяют делать потрясающие фотографии при любом освещении. Режим киносъемки автоматически смещает фокус между объектами даже во время записи. Дисплей Super Retina XDR с диагональю 6,1 дюйма отличается невероятной детализацией и цветопередачей. Чип A15 Bionic обеспечивает молниеносную работу приложений и игр. Благодаря прочному корпусу из алюминия и стекла Ceramic Shield iPhone 14 защищен от брызг, капель воды и пыли.",
+      "features": {
+        "display": "6,1 дюйма, Super Retina XDR",
+        "processor": "A15 Bionic",
+        "camera": "Двойная камера 12 Мп",
+        "battery": "До 20 часов воспроизведения видео",
+        "memory": "256 ГБ",
+        "os": "iOS 16",
+        "waterProof": "IP68",
+        "5G": "Да",
+        "color": "черный"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,1 дюйма, Super Retina XDR"
+        },
+        {
+          "name": "Разрешение",
+          "value": "2532x1170 пикселей"
+        },
+        {
+          "name": "Процессор",
+          "value": "A15 Bionic"
+        },
+        {
+          "name": "Память",
+          "value": "128 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Двойная 12 Мп + 12 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "12 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "3279 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "iOS 16"
+        },
+        {
+          "name": "Габариты",
+          "value": "146,7 x 71,5 x 7,8 мм"
+        },
+        {
+          "name": "Вес",
+          "value": "172 г"
+        }
+      ],
+      "tags": [
+        "iPhone",
+        "Apple",
+        "смартфон",
+        "iOS",
+        "5G"
+      ],
+      "variants": [
+        {
+          "id": 1,
+          "price": 79999,
+          "inStock": true,
+          "slug": "iphone-14-pro-max-128-gb-chernyj",
+          "attributes": {
+            "memory": "128 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 101,
+          "price": 89999,
+          "inStock": true,
+          "slug": "iphone-14-pro-max-256-gb-zolotoj",
+          "attributes": {
+            "memory": "256 ГБ",
+            "color": "золотой"
+          }
+        },
+        {
+          "id": 102,
+          "price": 89999,
+          "inStock": true,
+          "slug": "iphone-14-pro-max-256-gb-chernyj",
+          "attributes": {
+            "memory": "256 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 103,
+          "price": 109999,
+          "inStock": false,
+          "slug": "iphone-14-pro-max-512-gb-chernyj",
+          "attributes": {
+            "memory": "512 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 104,
+          "price": 79999,
+          "inStock": false,
+          "slug": "iphone-14-pro-max-128-gb-zolotoj",
+          "attributes": {
+            "memory": "128 ГБ",
+            "color": "золотой"
+          }
+        }
+      ],
+      "images": [
+        "/images/products/iphone-14-2.jpg",
+        "/images/products/iphone-14-3.jpg",
+        "/images/products/iphone-14-4.jpg",
+        "/images/products/iphone-14-5.jpg",
+        "/images/products/iphone-14-6.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "createdAt": "2023-09-15T12:00:00Z",
+      "updatedAt": "2024-03-01T15:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.8,
+      "path": "/smartphones/apple/iphone-14-pro-max-256-gb-chernyj"
+    },
+    {
+      "id": 103,
+      "subCategoryId": 1,
+      "article": 231451,
+      "title": "iPhone 14 Pro Max 512 ГБ черный",
+      "slug": "iphone-14-pro-max-512-gb-chernyj",
+      "subCategorySlug": "apple",
+      "categorySlug": "smartphones",
+      "brandId": 1,
+      "price": 109999,
+      "oldPrice": 116999,
+      "discount": 8,
+      "inStock": true,
+      "rating": 4.7,
+      "reviewCount": 156,
+      "description": "iPhone 14 с дисплеем Super Retina XDR 6,1 дюйма и передовой двойной камерой 12 МП для съемки в любых условиях. Чип A15 Bionic обеспечивает высокую производительность и эффективность в работе с приложениями.",
+      "fullDescription": "iPhone 14 оснащен системой из двух камер 12 МП (широкоугольная и сверхширокоугольная), которые позволяют делать потрясающие фотографии при любом освещении. Режим киносъемки автоматически смещает фокус между объектами даже во время записи. Дисплей Super Retina XDR с диагональю 6,1 дюйма отличается невероятной детализацией и цветопередачей. Чип A15 Bionic обеспечивает молниеносную работу приложений и игр. Благодаря прочному корпусу из алюминия и стекла Ceramic Shield iPhone 14 защищен от брызг, капель воды и пыли.",
+      "features": {
+        "display": "6,1 дюйма, Super Retina XDR",
+        "processor": "A15 Bionic",
+        "camera": "Двойная камера 12 Мп",
+        "battery": "До 20 часов воспроизведения видео",
+        "memory": "512 ГБ",
+        "os": "iOS 16",
+        "waterProof": "IP68",
+        "5G": "Да",
+        "color": "черный"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,1 дюйма, Super Retina XDR"
+        },
+        {
+          "name": "Разрешение",
+          "value": "2532x1170 пикселей"
+        },
+        {
+          "name": "Процессор",
+          "value": "A15 Bionic"
+        },
+        {
+          "name": "Память",
+          "value": "128 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Двойная 12 Мп + 12 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "12 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "3279 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "iOS 16"
+        },
+        {
+          "name": "Габариты",
+          "value": "146,7 x 71,5 x 7,8 мм"
+        },
+        {
+          "name": "Вес",
+          "value": "172 г"
+        }
+      ],
+      "tags": [
+        "iPhone",
+        "Apple",
+        "смартфон",
+        "iOS",
+        "5G"
+      ],
+      "variants": [
+        {
+          "id": 1,
+          "price": 79999,
+          "inStock": true,
+          "slug": "iphone-14-pro-max-128-gb-chernyj",
+          "attributes": {
+            "memory": "128 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 101,
+          "price": 89999,
+          "inStock": true,
+          "slug": "iphone-14-pro-max-256-gb-zolotoj",
+          "attributes": {
+            "memory": "256 ГБ",
+            "color": "золотой"
+          }
+        },
+        {
+          "id": 102,
+          "price": 89999,
+          "inStock": true,
+          "slug": "iphone-14-pro-max-256-gb-chernyj",
+          "attributes": {
+            "memory": "256 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 103,
+          "price": 109999,
+          "inStock": false,
+          "slug": "iphone-14-pro-max-512-gb-chernyj",
+          "attributes": {
+            "memory": "512 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 104,
+          "price": 79999,
+          "inStock": false,
+          "slug": "iphone-14-pro-max-128-gb-zolotoj",
+          "attributes": {
+            "memory": "128 ГБ",
+            "color": "золотой"
+          }
+        }
+      ],
+      "images": [
+        "/images/products/iphone-14-2.jpg",
+        "/images/products/iphone-14-3.jpg",
+        "/images/products/iphone-14-4.jpg",
+        "/images/products/iphone-14-5.jpg",
+        "/images/products/iphone-14-6.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "createdAt": "2023-09-15T12:00:00Z",
+      "updatedAt": "2024-03-01T15:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.8,
+      "quantity": 4,
+      "path": "/smartphones/apple/iphone-14-pro-max-512-gb-chernyj",
+      "totalPrice": 439996
+    },
+    {
+      "id": 104,
+      "subCategoryId": 1,
+      "article": 231452,
+      "title": "iPhone 14 Pro Max 128 ГБ золотой",
+      "slug": "iphone-14-pro-max-128-gb-zolotoj",
+      "subCategorySlug": "apple",
+      "categorySlug": "smartphones",
+      "brandId": 1,
+      "price": 79999,
+      "oldPrice": 86999,
+      "discount": 8,
+      "inStock": true,
+      "rating": 4.77,
+      "reviewCount": 156,
+      "description": "iPhone 14 с дисплеем Super Retina XDR 6,1 дюйма и передовой двойной камерой 12 МП для съемки в любых условиях. Чип A15 Bionic обеспечивает высокую производительность и эффективность в работе с приложениями.",
+      "fullDescription": "iPhone 14 оснащен системой из двух камер 12 МП (широкоугольная и сверхширокоугольная), которые позволяют делать потрясающие фотографии при любом освещении. Режим киносъемки автоматически смещает фокус между объектами даже во время записи. Дисплей Super Retina XDR с диагональю 6,1 дюйма отличается невероятной детализацией и цветопередачей. Чип A15 Bionic обеспечивает молниеносную работу приложений и игр. Благодаря прочному корпусу из алюминия и стекла Ceramic Shield iPhone 14 защищен от брызг, капель воды и пыли.",
+      "features": {
+        "display": "6,1 дюйма, Super Retina XDR",
+        "processor": "A15 Bionic",
+        "camera": "Двойная камера 12 Мп",
+        "battery": "До 20 часов воспроизведения видео",
+        "memory": "128 ГБ",
+        "os": "iOS 16",
+        "waterProof": "IP68",
+        "5G": "Да",
+        "color": "золотой"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,1 дюйма, Super Retina XDR"
+        },
+        {
+          "name": "Разрешение",
+          "value": "2532x1170 пикселей"
+        },
+        {
+          "name": "Процессор",
+          "value": "A15 Bionic"
+        },
+        {
+          "name": "Память",
+          "value": "128 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Двойная 12 Мп + 12 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "12 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "3279 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "iOS 16"
+        },
+        {
+          "name": "Габариты",
+          "value": "146,7 x 71,5 x 7,8 мм"
+        },
+        {
+          "name": "Вес",
+          "value": "172 г"
+        }
+      ],
+      "tags": [
+        "iPhone",
+        "Apple",
+        "смартфон",
+        "iOS",
+        "5G"
+      ],
+      "variants": [
+        {
+          "id": 1,
+          "price": 79999,
+          "inStock": true,
+          "slug": "iphone-14-pro-max-128-gb-chernyj",
+          "attributes": {
+            "memory": "128 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 101,
+          "price": 89999,
+          "inStock": true,
+          "slug": "iphone-14-pro-max-256-gb-zolotoj",
+          "attributes": {
+            "memory": "256 ГБ",
+            "color": "золотой"
+          }
+        },
+        {
+          "id": 102,
+          "price": 89999,
+          "inStock": true,
+          "slug": "iphone-14-pro-max-256-gb-chernyj",
+          "attributes": {
+            "memory": "256 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 103,
+          "price": 109999,
+          "inStock": false,
+          "slug": "iphone-14-pro-max-512-gb-chernyj",
+          "attributes": {
+            "memory": "512 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 104,
+          "price": 79999,
+          "inStock": false,
+          "slug": "iphone-14-pro-max-128-gb-zolotoj",
+          "attributes": {
+            "memory": "128 ГБ",
+            "color": "золотой"
+          }
+        }
+      ],
+      "images": [
+        "/images/products/iphone-14-pro-max-zolotoj.jpeg",
+        "/images/products/iphone-14-pro-max-zolotoj-2.jpeg",
+        "/images/products/iphone-14-pro-max-zolotoj-3.jpeg",
+        "/images/products/iphone-14-pro-max-zolotoj-4.jpeg"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "createdAt": "2023-09-15T12:00:00Z",
+      "updatedAt": "2024-03-01T15:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.5,
+      "quantity": 1,
+      "path": "/smartphones/apple/iphone-14-pro-max-128-gb-zolotoj",
+      "totalPrice": 79999
+    },
+    {
+      "id": 2,
+      "subCategoryId": 1,
+      "article": 123441,
+      "title": "iPhone 13 128 ГБ черный",
+      "slug": "iphone-13-128-gb-chernyj",
+      "subCategorySlug": "apple",
+      "categorySlug": "smartphones",
+      "brandId": 1,
+      "price": 59999,
+      "oldPrice": 69999,
+      "discount": 14,
+      "inStock": true,
+      "rating": 4.7,
+      "reviewCount": 423,
+      "description": "iPhone 13 с дисплеем Super Retina XDR 6,1 дюйма, передовой двойной камерой и чипом A15 Bionic для невероятной производительности и энергоэффективности.",
+      "fullDescription": "iPhone 13 оснащен системой из двух камер 12 МП с увеличенными матрицами, которые позволяют запечатлеть больше света и деталей в ваших фотографиях. Дисплей Super Retina XDR с диагональю 6,1 дюйма стал ярче, а благодаря технологии OLED обеспечивает потрясающую контрастность и реалистичные цвета. Чип A15 Bionic — невероятно мощный процессор для смартфонов, который обеспечивает молниеносную работу приложений и игр. Благодаря прочному корпусу из алюминия и стекла Ceramic Shield iPhone 13 защищен от брызг, капель воды и пыли.",
+      "features": {
+        "display": "6,1 дюйма, Super Retina XDR",
+        "processor": "A15 Bionic",
+        "camera": "Двойная камера 12 Мп",
+        "battery": "До 19 часов воспроизведения видео",
+        "memory": "128 ГБ",
+        "os": "iOS 15",
+        "waterProof": "IP68"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,1 дюйма, Super Retina XDR"
+        },
+        {
+          "name": "Разрешение",
+          "value": "2532x1170 пикселей"
+        },
+        {
+          "name": "Процессор",
+          "value": "A15 Bionic"
+        },
+        {
+          "name": "Память",
+          "value": "128 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Двойная 12 Мп + 12 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "12 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "3240 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "iOS 15"
+        },
+        {
+          "name": "Габариты",
+          "value": "146,7 x 71,5 x 7,65 мм"
+        },
+        {
+          "name": "Вес",
+          "value": "174 г"
+        }
+      ],
+      "tags": [
+        "iPhone",
+        "Apple",
+        "смартфон",
+        "iOS",
+        "5G"
+      ],
+      "variants": [
+        {
+          "id": 201,
+          "price": 59999,
+          "inStock": true,
+          "attributes": {
+            "memory": "128 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 202,
+          "price": 69999,
+          "inStock": true,
+          "attributes": {
+            "memory": "256 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 203,
+          "price": 89999,
+          "inStock": true,
+          "attributes": {
+            "memory": "512 ГБ",
+            "color": "черный"
+          }
+        }
+      ],
+      "images": [
+        "/images/products/iphone-13-1.jpg",
+        "/images/products/iphone-13-2.jpg",
+        "/images/products/iphone-13-3.jpg",
+        "/images/products/iphone-13-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": true,
+      "createdAt": "2022-09-20T12:00:00Z",
+      "updatedAt": "2024-02-15T10:45:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.5,
+      "path": "/smartphones/apple/iphone-13-128-gb-chernyj"
+    },
+    {
+      "id": 3,
+      "subCategoryId": 1,
+      "article": 512345,
+      "title": "iPhone SE 64 ГБ черный",
+      "slug": "iphone-se-64-gb-chernyj",
+      "subCategorySlug": "apple",
+      "categorySlug": "smartphones",
+      "brandId": 1,
+      "price": 39999,
+      "oldPrice": 44999,
+      "discount": 11,
+      "inStock": true,
+      "rating": 4.5,
+      "reviewCount": 287,
+      "description": "iPhone SE с дисплеем Retina HD 4,7 дюйма, Touch ID и чипом A15 Bionic. Компактный и мощный смартфон по доступной цене.",
+      "fullDescription": "iPhone SE сочетает в себе мощность и производительность флагманских моделей с компактным корпусом. Благодаря чипу A15 Bionic вы получаете высокую скорость работы и энергоэффективность. Дисплей Retina HD с диагональю 4,7 дюйма обеспечивает четкое и яркое изображение. Кнопка Home со встроенным сканером Touch ID позволяет быстро и безопасно разблокировать устройство. Камера 12 Мп с поддержкой режима «Портрет» и шестью эффектами освещения позволяет делать профессиональные фотографии.",
+      "features": {
+        "display": "4,7 дюйма, Retina HD",
+        "processor": "A15 Bionic",
+        "camera": "12 Мп",
+        "battery": "До 15 часов воспроизведения видео",
+        "memory": "64 ГБ",
+        "os": "iOS 15",
+        "waterProof": "IP67",
+        "color": "черный"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "4,7 дюйма, Retina HD"
+        },
+        {
+          "name": "Разрешение",
+          "value": "1334x750 пикселей"
+        },
+        {
+          "name": "Процессор",
+          "value": "A15 Bionic"
+        },
+        {
+          "name": "Память",
+          "value": "64 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "12 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "7 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "2018 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "iOS 15"
+        },
+        {
+          "name": "Габариты",
+          "value": "138,4 x 67,3 x 7,3 мм"
+        },
+        {
+          "name": "Вес",
+          "value": "144 г"
+        }
+      ],
+      "tags": [
+        "iPhone",
+        "Apple",
+        "смартфон",
+        "iOS",
+        "5G",
+        "компактный"
+      ],
+      "variants": [
+        {
+          "id": 301,
+          "price": 39999,
+          "inStock": true,
+          "attributes": {
+            "memory": "64 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 302,
+          "price": 44999,
+          "inStock": true,
+          "attributes": {
+            "memory": "128 ГБ",
+            "color": "черный"
+          }
+        },
+        {
+          "id": 303,
+          "price": 54999,
+          "inStock": true,
+          "attributes": {
+            "memory": "256 ГБ",
+            "color": "черный"
+          }
+        }
+      ],
+      "images": [
+        "/images/products/iphone-se-1.jpg",
+        "/images/products/iphone-se-2.jpg",
+        "/images/products/iphone-se-3.jpg",
+        "/images/products/iphone-se-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": false,
+      "createdAt": "2022-03-18T12:00:00Z",
+      "updatedAt": "2024-01-20T09:15:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 3.3,
+      "path": "/smartphones/apple/iphone-se-64-gb-chernyj"
+    },
+    {
+      "id": 4,
+      "subCategoryId": 2,
+      "article": 564451,
+      "title": "Xiaomi 13 64 ГБ черный",
+      "slug": "xiaomi-13-64-gb-chernyj",
+      "subCategorySlug": "xiaomi",
+      "categorySlug": "smartphones",
+      "brandId": 2,
+      "price": 69999,
+      "oldPrice": 74999,
+      "discount": 7,
+      "inStock": true,
+      "rating": 4.6,
+      "reviewCount": 123,
+      "description": "Xiaomi 13 с мощным процессором Snapdragon 8 Gen 2, великолепной камерой Leica и быстрой зарядкой 67 Вт для эффективной работы и отличных фотографий.",
+      "fullDescription": "Xiaomi 13 - флагманский смартфон с профессиональной камерой, разработанной совместно с Leica. Основная камера с сенсором 50 МП гарантирует высокое качество снимков даже в условиях низкой освещенности. Благодаря процессору Snapdragon 8 Gen 2 устройство обеспечивает высокую производительность при работе с любыми приложениями и играми. AMOLED-дисплей с частотой обновления 120 Гц и яркостью до 1900 нит обеспечивает отличную видимость даже при ярком солнечном свете. Аккумулятор емкостью 4500 мАч с поддержкой быстрой зарядки 67 Вт позволяет зарядить смартфон за 30 минут до 100%.",
+      "features": {
+        "display": "6,36 дюйма, AMOLED, 120 Гц",
+        "processor": "Snapdragon 8 Gen 2",
+        "camera": "Тройная камера 50 Мп (Leica)",
+        "battery": "4500 мАч, быстрая зарядка",
+        "memory": "64 ГБ"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,36 дюйма, AMOLED, 120 Гц"
+        },
+        {
+          "name": "Процессор",
+          "value": "Snapdragon 8 Gen 2"
+        },
+        {
+          "name": "Память",
+          "value": "64 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Тройная 50 Мп (Leica)"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "32 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "4500 мАч, быстрая зарядка"
+        },
+        {
+          "name": "Операционная система",
+          "value": "MIUI 14"
+        }
+      ],
+      "tags": [
+        "Xiaomi",
+        "Android",
+        "флагман",
+        "Leica",
+        "быстрая зарядка"
+      ],
+      "colors": [
+        "черный",
+        "белый",
+        "голубой",
+        "фиолетовый",
+        "золотистый"
+      ],
+      "variants": [
+        {
+          "id": 401,
+          "memory": "64 ГБ",
+          "color": "черный",
+          "price": 69999,
+          "inStock": true,
+          "baseTitle": "Xiaomi 13"
+        },
+        {
+          "id": 402,
+          "memory": "128 ГБ",
+          "color": "черный",
+          "price": 74999,
+          "inStock": true,
+          "baseTitle": "Xiaomi 13"
+        },
+        {
+          "id": 403,
+          "memory": "256 ГБ",
+          "color": "черный",
+          "price": 84999,
+          "inStock": true,
+          "baseTitle": "Xiaomi 13"
+        }
+      ],
+      "images": [
+        "/images/products/xiaomi-13-1.jpg",
+        "/images/products/xiaomi-13-2.jpg",
+        "/images/products/xiaomi-13-3.jpg",
+        "/images/products/xiaomi-13-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": false,
+      "createdAt": "2023-03-15T12:00:00Z",
+      "updatedAt": "2024-02-20T15:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.1,
+      "path": "/smartphones/xiaomi/xiaomi-13-64-gb-chernyj"
+    },
+    {
+      "id": 5,
+      "subCategoryId": 2,
+      "article": 451234,
+      "title": "Redmi Note 12 128 ГБ черный",
+      "slug": "redmi-note-12-128-gb-chernyj",
+      "subCategorySlug": "xiaomi",
+      "categorySlug": "smartphones",
+      "brandId": null,
+      "price": 29999,
+      "oldPrice": 32999,
+      "discount": 9,
+      "inStock": true,
+      "rating": 4.4,
+      "reviewCount": 312,
+      "description": "Xiaomi Redmi Note 12 с мощным процессором MediaTek Dimensity 1080 и хорошей автономностью.",
+      "fullDescription": "Redmi Note 12 предлагает отличное соотношение цены и качества. Процессор MediaTek Dimensity 1080 обеспечивает высокую производительность при работе с приложениями и играми. Батарея емкостью 5000 мАч обеспечивает длительное автономное использование устройства. Дисплей IPS с диагональю 6,67 дюйма имеет разрешение Full HD+ и поддерживает HDR10.",
+      "features": {
+        "display": "6,67 дюйма, IPS, Full HD+",
+        "processor": "MediaTek Dimensity 1080",
+        "camera": "Тройная камера 108 Мп",
+        "battery": "5000 мАч",
+        "memory": "128 ГБ",
+        "os": "Android 13"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,67 дюйма, IPS, Full HD+"
+        },
+        {
+          "name": "Процессор",
+          "value": "MediaTek Dimensity 1080"
+        },
+        {
+          "name": "Память",
+          "value": "128 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Тройная 108 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "16 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "5000 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 13"
+        }
+      ],
+      "tags": [
+        "Xiaomi",
+        "Redmi",
+        "Android",
+        "бюджетный",
+        "108 Мп"
+      ],
+      "colors": [
+        "черный",
+        "белый",
+        "зеленый",
+        "фиолетовый"
+      ],
+      "variants": [
+        {
+          "id": 501,
+          "memory": "128 ГБ",
+          "color": "черный",
+          "price": 29999,
+          "inStock": true,
+          "baseTitle": "Redmi Note 12"
+        },
+        {
+          "id": 502,
+          "memory": "128 ГБ",
+          "color": "белый",
+          "price": 30999,
+          "inStock": true,
+          "baseTitle": "Redmi Note 12"
+        },
+        {
+          "id": 503,
+          "memory": "128 ГБ",
+          "color": "зеленый",
+          "price": 30999,
+          "inStock": true,
+          "baseTitle": "Redmi Note 12"
+        }
+      ],
+      "images": [
+        "/images/products/redmi-note-12-1.jpg",
+        "/images/products/redmi-note-12-2.jpg",
+        "/images/products/redmi-note-12-3.jpg",
+        "/images/products/redmi-note-12-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": false,
+      "createdAt": "2023-01-20T12:00:00Z",
+      "updatedAt": "2024-02-25T12:45:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 3.8,
+      "path": "/smartphones/xiaomi/redmi-note-12-128-gb-chernyj"
+    },
+    {
+      "id": 6,
+      "subCategoryId": 3,
+      "article": 512456,
+      "title": "Galaxy S23 Ultra 256 ГБ черный",
+      "slug": "galaxy-s23-ultra-256-gb-chernyj",
+      "subCategorySlug": "samsung",
+      "categorySlug": "smartphones",
+      "brandId": 3,
+      "price": 149999,
+      "oldPrice": 164999,
+      "discount": 9,
+      "inStock": true,
+      "rating": 4.8,
+      "reviewCount": 278,
+      "description": "Samsung Galaxy S23 Ultra с дисплеем Dynamic AMOLED 2X 6,8 дюйма и четырехкамерной системой.",
+      "fullDescription": "Galaxy S23 Ultra оснащен дисплеем Dynamic AMOLED 2X с диагональю 6,8 дюйма и разрешением Quad HD+. Система из четырех камер включает основной модуль на 200 МП с оптической стабилизацией. Процессор Exynos 2300 обеспечивает высокую производительность при работе с приложениями и играми.",
+      "features": {
+        "display": "6,8 дюйма, Dynamic AMOLED 2X, Quad HD+",
+        "processor": "Exynos 2300",
+        "camera": "Четырехкамерная 200 Мп",
+        "battery": "5000 мАч",
+        "memory": "256 ГБ",
+        "os": "Android 13"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,8 дюйма, Dynamic AMOLED 2X, Quad HD+"
+        },
+        {
+          "name": "Процессор",
+          "value": "Exynos 2300"
+        },
+        {
+          "name": "Память",
+          "value": "256 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Четырехкамерная 200 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "12 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "5000 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 13"
+        }
+      ],
+      "tags": [
+        "Samsung",
+        "Android",
+        "флагман",
+        "5G"
+      ],
+      "colors": [
+        "черный",
+        "белый",
+        "зеленый",
+        "золотистый"
+      ],
+      "variants": [
+        {
+          "id": 601,
+          "memory": "256 ГБ",
+          "color": "черный",
+          "price": 149999,
+          "inStock": true,
+          "baseTitle": "Galaxy S23 Ultra"
+        },
+        {
+          "id": 602,
+          "memory": "256 ГБ",
+          "color": "белый",
+          "price": 152999,
+          "inStock": true,
+          "baseTitle": "Galaxy S23 Ultra"
+        },
+        {
+          "id": 603,
+          "memory": "512 ГБ",
+          "color": "черный",
+          "price": 179999,
+          "inStock": false,
+          "baseTitle": "Galaxy S23 Ultra"
+        }
+      ],
+      "images": [
+        "/images/products/galaxy-s23-ultra-1.jpg",
+        "/images/products/galaxy-s23-ultra-2.jpg",
+        "/images/products/galaxy-s23-ultra-3.jpg",
+        "/images/products/galaxy-s23-ultra-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "createdAt": "2023-02-10T12:00:00Z",
+      "updatedAt": "2024-03-05T16:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 3.3,
+      "path": "/smartphones/samsung/galaxy-s23-ultra-256-gb-chernyj"
+    },
+    {
+      "id": 7,
+      "subCategoryId": 3,
+      "article": 373355,
+      "title": "Galaxy Z Fold 5 512 ГБ черный",
+      "slug": "galaxy-z-fold-5-512-gb-chernyj",
+      "subCategorySlug": "samsung",
+      "categorySlug": "smartphones",
+      "brandId": 3,
+      "price": 199999,
+      "oldPrice": 224999,
+      "discount": 11,
+      "inStock": true,
+      "rating": 4.7,
+      "reviewCount": 189,
+      "description": "Samsung Galaxy Z Fold 5 - флагманская модель с гибким экраном.",
+      "fullDescription": "Galaxy Z Fold 5 представляет собой инновационный смартфон с гибким экраном. Внутренний дисплей имеет диагональ 7,6 дюйма, а внешний - 6,2 дюйма. Система из двух камер включает основной модуль на 50 Мп. Процессор Snapdragon 8 Gen 2 обеспечивает высокую производительность.",
+      "features": {
+        "display": "7,6 дюйма (внутр.), 6,2 дюйма (внешн.)",
+        "processor": "Snapdragon 8 Gen 2",
+        "camera": "Двойная камера 50 Мп",
+        "battery": "4400 мАч",
+        "memory": "512 ГБ",
+        "os": "Android 13"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "7,6 дюйма (внутр.), 6,2 дюйма (внешн.)"
+        },
+        {
+          "name": "Процессор",
+          "value": "Snapdragon 8 Gen 2"
+        },
+        {
+          "name": "Память",
+          "value": "512 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Двойная 50 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "10 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "4400 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 13"
+        }
+      ],
+      "tags": [
+        "Samsung",
+        "Android",
+        "гибкий экран",
+        "флагман",
+        "5G"
+      ],
+      "colors": [
+        "черный",
+        "серебристый",
+        "золотистый"
+      ],
+      "variants": [
+        {
+          "id": 701,
+          "memory": "512 ГБ",
+          "color": "черный",
+          "price": 199999,
+          "inStock": true,
+          "baseTitle": "Galaxy Z Fold 5"
+        },
+        {
+          "id": 702,
+          "memory": "512 ГБ",
+          "color": "серебристый",
+          "price": 202999,
+          "inStock": true,
+          "baseTitle": "Galaxy Z Fold 5"
+        },
+        {
+          "id": 703,
+          "memory": "512 ГБ",
+          "color": "золотистый",
+          "price": 202999,
+          "inStock": true,
+          "baseTitle": "Galaxy Z Fold 5"
+        }
+      ],
+      "images": [
+        "/images/products/galaxy-z-fold-5-1.jpg",
+        "/images/products/galaxy-z-fold-5-2.jpg",
+        "/images/products/galaxy-z-fold-5-3.jpg",
+        "/images/products/galaxy-z-fold-5-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "createdAt": "2023-07-15T12:00:00Z",
+      "updatedAt": "2024-03-10T17:30:00Z",
+      "status": {
+        "type": "sold_out",
+        "name": "Нет в наличии"
+      },
+      "expertAssessment": 3.7,
+      "path": "/smartphones/samsung/galaxy-z-fold-5-512-gb-chernyj"
+    },
+    {
+      "id": 8,
+      "subCategoryId": 3,
+      "article": 953234,
+      "title": "Galaxy A54 128 ГБ черный",
+      "slug": "galaxy-a54-128-gb-chernyj",
+      "subCategorySlug": "samsung",
+      "categorySlug": "smartphones",
+      "brandId": 3,
+      "price": 49999,
+      "oldPrice": 52999,
+      "discount": 6,
+      "inStock": true,
+      "rating": 4.5,
+      "reviewCount": 245,
+      "description": "Samsung Galaxy A54 с дисплеем Super AMOLED 6,5 дюйма и тройной камерой.",
+      "fullDescription": "Galaxy A54 предлагает отличное соотношение цены и качества. Дисплей Super AMOLED с диагональю 6,5 дюйма имеет разрешение Full HD+. Тройная камера включает основной модуль на 50 Мп. Процессор Exynos 1330 обеспечивает высокую производительность при работе с приложениями и играми.",
+      "features": {
+        "display": "6,5 дюйма, Super AMOLED, Full HD+",
+        "processor": "Exynos 1330",
+        "camera": "Тройная 50 Мп",
+        "battery": "5000 мАч",
+        "memory": "128 ГБ",
+        "os": "Android 13"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,5 дюйма, Super AMOLED, Full HD+"
+        },
+        {
+          "name": "Процессор",
+          "value": "Exynos 1330"
+        },
+        {
+          "name": "Память",
+          "value": "128 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Тройная 50 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "32 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "5000 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 13"
+        }
+      ],
+      "tags": [
+        "Samsung",
+        "Android",
+        "бюджетный",
+        "50 Мп",
+        "5G"
+      ],
+      "colors": [
+        "черный",
+        "белый",
+        "зеленый"
+      ],
+      "variants": [
+        {
+          "id": 801,
+          "memory": "128 ГБ",
+          "color": "черный",
+          "price": 49999,
+          "inStock": true,
+          "baseTitle": "Galaxy A54"
+        },
+        {
+          "id": 802,
+          "memory": "128 ГБ",
+          "color": "белый",
+          "price": 50999,
+          "inStock": true,
+          "baseTitle": "Galaxy A54"
+        },
+        {
+          "id": 803,
+          "memory": "128 ГБ",
+          "color": "зеленый",
+          "price": 50999,
+          "inStock": true,
+          "baseTitle": "Galaxy A54"
+        }
+      ],
+      "images": [
+        "/images/products/galaxy-a54-1.jpg",
+        "/images/products/galaxy-a54-2.jpg",
+        "/images/products/galaxy-a54-3.jpg",
+        "/images/products/galaxy-a54-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": false,
+      "createdAt": "2023-04-05T12:00:00Z",
+      "updatedAt": "2024-02-28T14:45:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4,
+      "path": "/smartphones/samsung/galaxy-a54-128-gb-chernyj"
+    },
+    {
+      "id": 9,
+      "subCategoryId": 4,
+      "article": 862545,
+      "title": "Lenovo Tab M10 Plus 64 ГБ черный",
+      "slug": "lenovo-tab-m10-plus-64-gb-chernyj",
+      "subCategorySlug": "lenovo",
+      "categorySlug": "tablets",
+      "brandId": 7,
+      "price": 19999,
+      "oldPrice": 21999,
+      "discount": 9,
+      "inStock": true,
+      "rating": 4.4,
+      "reviewCount": 280,
+      "description": "Lenovo Tab M10 Plus с дисплеем 10.6 дюйма и Full HD разрешением.",
+      "fullDescription": "Lenovo Tab M10 Plus - доступный планшет с дисплеем 10.6 дюйма и разрешением Full HD+. Идеально подходит для просмотра фильмов, работы с документами и серфинга в интернете. Батарея емкостью 7000 мАч обеспечивает длительное автономное использование устройства.",
+      "features": {
+        "display": "10.6 дюйма, IPS, Full HD+",
+        "processor": "MediaTek Helio G90T",
+        "camera": "5 Мп",
+        "battery": "7000 мАч",
+        "memory": "64 ГБ",
+        "os": "Android 12"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "10.6 дюйма, IPS, Full HD+"
+        },
+        {
+          "name": "Процессор",
+          "value": "MediaTek Helio G90T"
+        },
+        {
+          "name": "Память",
+          "value": "64 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "5 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "8 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "7000 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 12"
+        }
+      ],
+      "tags": [
+        "Lenovo",
+        "Android",
+        "budget",
+        "Full HD+",
+        "Dolby Atmos"
+      ],
+      "colors": [
+        "черный",
+        "бежевый",
+        "золотистый"
+      ],
+      "variants": [
+        {
+          "id": 901,
+          "memory": "64 ГБ",
+          "color": "черный",
+          "price": 19999,
+          "inStock": true,
+          "baseTitle": "Lenovo Tab M10 Plus"
+        },
+        {
+          "id": 902,
+          "memory": "128 ГБ",
+          "color": "черный",
+          "price": 21999,
+          "inStock": true,
+          "baseTitle": "Lenovo Tab M10 Plus"
+        },
+        {
+          "id": 903,
+          "memory": "128 ГБ",
+          "color": "бежевый",
+          "price": 22999,
+          "inStock": true,
+          "baseTitle": "Lenovo Tab M10 Plus"
+        }
+      ],
+      "images": [
+        "/images/products/lenovo-tab-m10-plus-1.jpg",
+        "/images/products/lenovo-tab-m10-plus-2.jpg",
+        "/images/products/lenovo-tab-m10-plus-3.jpg",
+        "/images/products/lenovo-tab-m10-plus-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": false,
+      "createdAt": "2021-08-10T12:00:00Z",
+      "updatedAt": "2024-02-15T15:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 3.9,
+      "path": "/tablets/lenovo/lenovo-tab-m10-plus-64-gb-chernyj"
+    },
+    {
+      "id": 10,
+      "subCategoryId": 4,
+      "article": 356123,
+      "title": "Lenovo Tab M8 32 ГБ черный",
+      "slug": "lenovo-tab-m8-32-gb-chernyj",
+      "subCategorySlug": "lenovo",
+      "categorySlug": "tablets",
+      "brandId": 7,
+      "price": 14999,
+      "oldPrice": 16999,
+      "discount": 12,
+      "inStock": true,
+      "rating": 4.3,
+      "reviewCount": 350,
+      "description": "Lenovo Tab M8 с дисплеем 8 дюймов и разрешением Full HD.",
+      "fullDescription": "Lenovo Tab M8 - бюджетный планшет с дисплеем 8 дюймов и разрешением Full HD. Хорошо подходит для повседневного использования, включая просмотр фильмов и серфинг в интернете. Батарея емкостью 5100 мАч обеспечивает длительное автономное использование устройства.",
+      "features": {
+        "display": "8 дюймов, IPS, Full HD",
+        "processor": "MediaTek Helio P22T",
+        "camera": "8 Мп",
+        "battery": "5100 мАч",
+        "memory": "32 ГБ",
+        "os": "Android 12"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "8 дюймов, IPS, Full HD"
+        },
+        {
+          "name": "Процессор",
+          "value": "MediaTek Helio P22T"
+        },
+        {
+          "name": "Память",
+          "value": "32 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "8 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "5 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "5100 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 12"
+        }
+      ],
+      "tags": [
+        "Lenovo",
+        "Android",
+        "budget",
+        "Full HD",
+        "Go Edition"
+      ],
+      "colors": [
+        "черный",
+        "серый",
+        "бежевый"
+      ],
+      "variants": [
+        {
+          "id": 1001,
+          "memory": "32 ГБ",
+          "color": "черный",
+          "price": 14999,
+          "inStock": true,
+          "baseTitle": "Lenovo Tab M8"
+        },
+        {
+          "id": 1002,
+          "memory": "64 ГБ",
+          "color": "черный",
+          "price": 16999,
+          "inStock": true,
+          "baseTitle": "Lenovo Tab M8"
+        },
+        {
+          "id": 1003,
+          "memory": "64 ГБ",
+          "color": "бежевый",
+          "price": 17999,
+          "inStock": true,
+          "baseTitle": "Lenovo Tab M8"
+        }
+      ],
+      "images": [
+        "/images/products/lenovo-tab-m8-1.jpg",
+        "/images/products/lenovo-tab-m8-2.jpg",
+        "/images/products/lenovo-tab-m8-3.jpg",
+        "/images/products/lenovo-tab-m8-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": false,
+      "createdAt": "2021-11-15T12:00:00Z",
+      "updatedAt": "2024-02-20T10:45:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 3.4,
+      "path": "/tablets/lenovo/lenovo-tab-m8-32-gb-chernyj"
+    },
+    {
+      "id": 11,
+      "subCategoryId": 4,
+      "article": 696539,
+      "title": "Lenovo Tab M7 32 ГБ черный",
+      "slug": "lenovo-tab-m7-32-gb-chernyj",
+      "subCategorySlug": "lenovo",
+      "categorySlug": "tablets",
+      "brandId": 7,
+      "price": 12999,
+      "oldPrice": 14999,
+      "discount": 13,
+      "inStock": true,
+      "rating": 4.2,
+      "reviewCount": 320,
+      "description": "Lenovo Tab M7 с дисплеем 7 дюймов и разрешением HD.",
+      "fullDescription": "Lenovo Tab M7 - доступный планшет с дисплеем 7 дюймов и разрешением HD. Отлично подходит для базовых задач, таких как просмотр фильмов и серфинг в интернете. Батарея емкостью 4850 мАч обеспечивает длительное автономное использование устройства.",
+      "features": {
+        "display": "7 дюймов, IPS, HD",
+        "processor": "MediaTek Helio P22",
+        "camera": "5 Мп",
+        "battery": "4850 мАч",
+        "memory": "32 ГБ",
+        "os": "Android 11"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "7 дюймов, IPS, HD"
+        },
+        {
+          "name": "Процессор",
+          "value": "MediaTek Helio P22"
+        },
+        {
+          "name": "Память",
+          "value": "32 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "5 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "2 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "4850 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 11"
+        }
+      ],
+      "tags": [
+        "Lenovo",
+        "Android",
+        "budget",
+        "HD",
+        "7 дюймов"
+      ],
+      "colors": [
+        "черный",
+        "серый",
+        "бежевый"
+      ],
+      "variants": [
+        {
+          "id": 1101,
+          "memory": "32 ГБ",
+          "color": "черный",
+          "price": 12999,
+          "inStock": true,
+          "baseTitle": "Lenovo Tab M7"
+        },
+        {
+          "id": 1102,
+          "memory": "64 ГБ",
+          "color": "черный",
+          "price": 14999,
+          "inStock": true,
+          "baseTitle": "Lenovo Tab M7"
+        },
+        {
+          "id": 1103,
+          "memory": "64 ГБ",
+          "color": "бежевый",
+          "price": 15999,
+          "inStock": true,
+          "baseTitle": "Lenovo Tab M7"
+        }
+      ],
+      "images": [
+        "/images/products/lenovo-tab-m7-1.jpg",
+        "/images/products/lenovo-tab-m7-2.jpg",
+        "/images/products/lenovo-tab-m7-3.jpg",
+        "/images/products/lenovo-tab-m7-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": false,
+      "createdAt": "2021-05-20T12:00:00Z",
+      "updatedAt": "2024-02-25T11:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.6,
+      "path": "/tablets/lenovo/lenovo-tab-m7-32-gb-chernyj"
+    },
+    {
+      "id": 12,
+      "subCategoryId": 5,
+      "article": 434236,
+      "title": "Huawei MatePad 11 128 ГБ черный",
+      "slug": "huawei-matepad-11-128-gb-chernyj",
+      "subCategorySlug": "huawei",
+      "categorySlug": "tablets",
+      "brandId": 4,
+      "price": 34999,
+      "oldPrice": 37999,
+      "discount": 8,
+      "inStock": true,
+      "rating": 4.6,
+      "reviewCount": 210,
+      "description": "Huawei MatePad 11 с дисплеем 10.95 дюйма и разрешением 2560x1600 для комфортного просмотра контента.",
+      "fullDescription": "Huawei MatePad 11 оснащен дисплеем 10.95 дюйма с разрешением 2560x1600, что обеспечивает высокую детализацию и яркость изображения. Планшет поддерживает гарнитуру HUAWEI M-Pencil, что делает его отличным инструментом для работы и рисования. Процессор Qualcomm Snapdragon 865+ обеспечивает высокую производительность при выполнении различных задач.",
+      "features": {
+        "display": "10.95 дюйма, IPS, 2560x1600",
+        "processor": "Qualcomm Snapdragon 865+",
+        "camera": "Двойная камера 13 Мп",
+        "battery": "До 12 часов автономной работы",
+        "memory": "128 ГБ",
+        "os": "Android 11",
+        "stylusSupport": "HUAWEI M-Pencil"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "10.95 дюйма, IPS, 2560x1600"
+        },
+        {
+          "name": "Процессор",
+          "value": "Qualcomm Snapdragon 865+"
+        },
+        {
+          "name": "Память",
+          "value": "128 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Двойная 13 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "8 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "7250 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 11"
+        }
+      ],
+      "tags": [
+        "Huawei",
+        "Android",
+        "planшet",
+        "high-res",
+        "stylus"
+      ],
+      "colors": [
+        "черный",
+        "бежевый",
+        "золотистый"
+      ],
+      "variants": [
+        {
+          "id": 1201,
+          "memory": "128 ГБ",
+          "color": "черный",
+          "price": 34999,
+          "inStock": true,
+          "baseTitle": "Huawei MatePad 11"
+        },
+        {
+          "id": 1202,
+          "memory": "256 ГБ",
+          "color": "черный",
+          "price": 39999,
+          "inStock": true,
+          "baseTitle": "Huawei MatePad 11"
+        },
+        {
+          "id": 1203,
+          "memory": "256 ГБ",
+          "color": "бежевый",
+          "price": 40999,
+          "inStock": true,
+          "baseTitle": "Huawei MatePad 11"
+        }
+      ],
+      "images": [
+        "/images/products/huawei-matepad-11-1.jpg",
+        "/images/products/huawei-matepad-11-2.jpg",
+        "/images/products/huawei-matepad-11-3.jpg",
+        "/images/products/huawei-matepad-11-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": false,
+      "createdAt": "2021-08-15T12:00:00Z",
+      "updatedAt": "2024-02-28T15:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.8,
+      "path": "/tablets/huawei/huawei-matepad-11-128-gb-chernyj"
+    },
+    {
+      "id": 13,
+      "subCategoryId": 5,
+      "article": 986234,
+      "title": "Huawei MediaPad T7 32 ГБ черный",
+      "slug": "huawei-mediapad-t7-32-gb-chernyj",
+      "subCategorySlug": "huawei",
+      "categorySlug": "tablets",
+      "brandId": 4,
+      "price": 19999,
+      "oldPrice": 22999,
+      "discount": 13,
+      "inStock": true,
+      "rating": 4.4,
+      "reviewCount": 350,
+      "description": "Huawei MediaPad T7 с дисплеем 10.1 дюйма и хорошей автономностью.",
+      "fullDescription": "Huawei MediaPad T7 - доступный планшет с дисплеем 10.1 дюйма и разрешением Full HD. Хорошо подходит для базовых задач, таких как просмотр фильмов и серфинг в интернете. Батарея емкостью 7000 мАч обеспечивает длительное автономное использование устройства. Планшет работает на Android 10 с поддержкой Google Play Services.",
+      "features": {
+        "display": "10.1 дюйма, IPS, Full HD",
+        "processor": "MediaTek Helio P22T",
+        "camera": "8 Мп",
+        "battery": "7000 мАч",
+        "memory": "32 ГБ",
+        "os": "Android 10"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "10.1 дюйма, IPS, Full HD"
+        },
+        {
+          "name": "Процессор",
+          "value": "MediaTek Helio P22T"
+        },
+        {
+          "name": "Память",
+          "value": "32 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "8 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "5 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "7000 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 10"
+        }
+      ],
+      "tags": [
+        "Huawei",
+        "Android",
+        "budget",
+        "Full HD",
+        "IPS"
+      ],
+      "colors": [
+        "черный",
+        "бежевый",
+        "золотистый"
+      ],
+      "variants": [
+        {
+          "id": 1301,
+          "memory": "32 ГБ",
+          "color": "черный",
+          "price": 19999,
+          "inStock": true,
+          "baseTitle": "Huawei MediaPad T7"
+        },
+        {
+          "id": 1302,
+          "memory": "64 ГБ",
+          "color": "черный",
+          "price": 21999,
+          "inStock": true,
+          "baseTitle": "Huawei MediaPad T7"
+        },
+        {
+          "id": 1303,
+          "memory": "64 ГБ",
+          "color": "бежевый",
+          "price": 22999,
+          "inStock": true,
+          "baseTitle": "Huawei MediaPad T7"
+        }
+      ],
+      "images": [
+        "/images/products/huawei-mediapad-t7-1.jpg",
+        "/images/products/huawei-mediapad-t7-2.jpg",
+        "/images/products/huawei-mediapad-t7-3.jpg",
+        "/images/products/huawei-mediapad-t7-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": false,
+      "createdAt": "2020-11-10T12:00:00Z",
+      "updatedAt": "2024-01-25T10:45:00Z",
+      "status": {
+        "type": "pre_order",
+        "name": "Предзаказ"
+      },
+      "expertAssessment": 4.2,
+      "path": "/tablets/huawei/huawei-mediapad-t7-32-gb-chernyj"
+    },
+    {
+      "id": 14,
+      "subCategoryId": 5,
+      "article": 962356,
+      "title": "Huawei MediaPad M5 64 ГБ черный",
+      "slug": "huawei-mediapad-m5-64-gb-chernyj",
+      "subCategorySlug": "huawei",
+      "categorySlug": "tablets",
+      "brandId": 4,
+      "price": 29999,
+      "oldPrice": 32999,
+      "discount": 9,
+      "inStock": true,
+      "rating": 4.5,
+      "reviewCount": 287,
+      "description": "Huawei MediaPad M5 с дисплеем 10.4 дюйма и хорошей автономностью.",
+      "fullDescription": "Huawei MediaPad M5 - это планшет с дисплеем 10.4 дюйма и разрешением Full HD. Поддерживает различные форматы мультимедиа и имеет динамическую систему звука. Батарея емкостью 7500 мАч обеспечивает длительное автономное использование устройства. Процессор Kirin 950 обеспечивает высокую производительность при работе с приложениями и играми.",
+      "features": {
+        "display": "10.4 дюйма, IPS, Full HD",
+        "processor": "Kirin 950",
+        "camera": "8 Мп",
+        "battery": "До 12 часов автономной работы",
+        "memory": "64 ГБ",
+        "os": "Android 9.0"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "10.4 дюйма, IPS, Full HD"
+        },
+        {
+          "name": "Процессор",
+          "value": "Kirin 950"
+        },
+        {
+          "name": "Память",
+          "value": "64 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "8 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "5 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "7500 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 9.0"
+        }
+      ],
+      "tags": [
+        "Huawei",
+        "Android",
+        "budget",
+        "Full HD",
+        "IPS"
+      ],
+      "colors": [
+        "черный",
+        "бежевый",
+        "золотистый"
+      ],
+      "variants": [
+        {
+          "id": 1401,
+          "memory": "64 ГБ",
+          "color": "черный",
+          "price": 29999,
+          "inStock": true,
+          "baseTitle": "Huawei MediaPad M5"
+        },
+        {
+          "id": 1402,
+          "memory": "128 ГБ",
+          "color": "черный",
+          "price": 32999,
+          "inStock": true,
+          "baseTitle": "Huawei MediaPad M5"
+        },
+        {
+          "id": 1403,
+          "memory": "128 ГБ",
+          "color": "бежевый",
+          "price": 33999,
+          "inStock": true,
+          "baseTitle": "Huawei MediaPad M5"
+        }
+      ],
+      "images": [
+        "/images/products/huawei-mediapad-m5-1.jpg",
+        "/images/products/huawei-mediapad-m5-2.jpg",
+        "/images/products/huawei-mediapad-m5-3.jpg",
+        "/images/products/huawei-mediapad-m5-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": false,
+      "createdAt": "2019-03-20T12:00:00Z",
+      "updatedAt": "2024-01-10T11:30:00Z",
+      "status": {
+        "type": "sold_out",
+        "name": "Нет в наличии"
+      },
+      "expertAssessment": 4.7,
+      "path": "/tablets/huawei/huawei-mediapad-m5-64-gb-chernyj"
+    },
+    {
+      "id": 15,
+      "subCategoryId": 6,
+      "article": 629845,
+      "title": "ASUS ROG Phone 7 256 ГБ черный",
+      "slug": "asus-rog-phone-7-256-gb-chernyj",
+      "subCategorySlug": "asus",
+      "categorySlug": "laptops",
+      "brandId": 8,
+      "price": 89999,
+      "oldPrice": 94999,
+      "discount": 5,
+      "inStock": true,
+      "rating": 4.7,
+      "reviewCount": 160,
+      "description": "ASUS ROG Phone 7 с мощным процессором Snapdragon 8 Gen 2, высококачественной системой охлаждения и 165 Гц дисплеем для игровых приложений.",
+      "fullDescription": "ASUS ROG Phone 7 - это профессиональный игровой смартфон с процессором Snapdragon 8 Gen 2 и 165 Гц дисплеем для плавного отображения графики. Система охлаждения GameCool 7 обеспечивает стабильную производительность даже при длительной игре. Основная камера на 50 Мп позволяет снимать качественные фото и видео, а фронтальная камера на 16 Мп подходит для игровых直播ов.",
+      "features": {
+        "display": "6,7 дюйма, AMOLED, 165 Гц",
+        "processor": "Snapdragon 8 Gen 2",
+        "camera": "Двойная камера 50 Мп + 16 Мп",
+        "battery": "6000 мАч, быстрая зарядка",
+        "memory": "256 ГБ",
+        "os": "Android 13",
+        "coolingSystem": "GameCool 7"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,7 дюйма, AMOLED, 165 Гц"
+        },
+        {
+          "name": "Процессор",
+          "value": "Snapdragon 8 Gen 2"
+        },
+        {
+          "name": "Память",
+          "value": "256 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Двойная 50 Мп + 16 Мп"
+        }
+      ],
+      "tags": [
+        "ASUS",
+        "ROG",
+        "игровой",
+        "Android",
+        "Snapdragon"
+      ],
+      "colors": [
+        "черный",
+        "белый",
+        "красный"
+      ],
+      "variants": [
+        {
+          "id": 1501,
+          "memory": "256 ГБ",
+          "color": "черный",
+          "price": 89999,
+          "inStock": true,
+          "baseTitle": "ASUS ROG Phone 7"
+        },
+        {
+          "id": 1502,
+          "memory": "512 ГБ",
+          "color": "белый",
+          "price": 94999,
+          "inStock": true,
+          "baseTitle": "ASUS ROG Phone 7"
+        },
+        {
+          "id": 1503,
+          "memory": "512 ГБ",
+          "color": "красный",
+          "price": 97999,
+          "inStock": false,
+          "baseTitle": "ASUS ROG Phone 7"
+        }
+      ],
+      "images": [
+        "/images/products/asus-rog-phone-7-1.jpg",
+        "/images/products/asus-rog-phone-7-2.jpg",
+        "/images/products/asus-rog-phone-7-3.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "createdAt": "2023-06-10T12:00:00Z",
+      "updatedAt": "2024-03-12T14:00:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.2,
+      "path": "/laptops/asus/asus-rog-phone-7-256-gb-chernyj"
+    },
+    {
+      "id": 16,
+      "subCategoryId": 6,
+      "article": 458124,
+      "title": "ASUS Zenfone 9",
+      "slug": "asus-zenfone-9",
+      "subCategorySlug": "asus",
+      "categorySlug": "laptops",
+      "brandId": 8,
+      "price": 59999,
+      "oldPrice": 64999,
+      "discount": 8,
+      "inStock": true,
+      "rating": 4.6,
+      "reviewCount": 280,
+      "description": "ASUS Zenfone 9 с дисплеем 6,0 дюйма, чипом Snapdragon 8+ Gen 1 и отличной камерой.",
+      "fullDescription": "ASUS Zenfone 9 - это компактный смартфон с дисплеем 6,0 дюйма и чипом Snapdragon 8+ Gen 1. Основная камера на 50 МП позволяет создавать потрясающие фотографии, а фронтальная камера на 12 МП подходит для качественных селфи. Благодаря прочному корпусу из алюминия и стекла Ceramic Shield Zenfone 9 защищен от брызг, капель воды и пыли.",
+      "features": {
+        "display": "6,0 дюйма, AMOLED, Full HD+",
+        "processor": "Snapdragon 8+ Gen 1",
+        "camera": "Двойная камера 50 Мп + 12 Мп",
+        "battery": "4300 мАч",
+        "memory": "128 ГБ",
+        "os": "Android 13",
+        "waterProof": "IP67"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,0 дюйма, AMOLED, Full HD+"
+        },
+        {
+          "name": "Процессор",
+          "value": "Snapdragon 8+ Gen 1"
+        },
+        {
+          "name": "Память",
+          "value": "128 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Двойная 50 Мп + 12 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "12 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "4300 мАч"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 13"
+        },
+        {
+          "name": "Габариты",
+          "value": "148 x 70 x 9,2 мм"
+        },
+        {
+          "name": "Вес",
+          "value": "170 г"
+        }
+      ],
+      "tags": [
+        "ASUS",
+        "Zenfone",
+        "Android",
+        "бюджетный",
+        "50 Мп",
+        "5G"
+      ],
+      "colors": [
+        "черный",
+        "белый",
+        "фиолетовый"
+      ],
+      "variants": [
+        {
+          "id": 1601,
+          "memory": "128 ГБ",
+          "color": "черный",
+          "price": 59999,
+          "inStock": true
+        },
+        {
+          "id": 1602,
+          "memory": "128 ГБ",
+          "color": "белый",
+          "price": 60999,
+          "inStock": true
+        },
+        {
+          "id": 1603,
+          "memory": "256 ГБ",
+          "color": "черный",
+          "price": 69999,
+          "inStock": true
+        }
+      ],
+      "images": [
+        "/images/products/asus-zenfone-9-1.jpg",
+        "/images/products/asus-zenfone-9-2.jpg",
+        "/images/products/asus-zenfone-9-3.jpg",
+        "/images/products/asus-zenfone-9-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": true,
+      "createdAt": "2022-07-10T12:00:00Z",
+      "updatedAt": "2024-02-20T15:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 3.3,
+      "path": "/laptops/asus/asus-zenfone-9"
+    },
+    {
+      "id": 17,
+      "subCategoryId": 6,
+      "article": 613255,
+      "title": "ASUS ROG Phone 6D Ultimate",
+      "slug": "asus-rog-phone-6d-ultimate",
+      "subCategorySlug": "asus",
+      "categorySlug": "laptops",
+      "brandId": 8,
+      "price": 99999,
+      "oldPrice": 109999,
+      "discount": 9,
+      "inStock": true,
+      "rating": 4.8,
+      "reviewCount": 180,
+      "description": "ASUS ROG Phone 6D Ultimate с дисплеем 6,8 дюйма, чипом Dimensity 9000+ и инновационной системой охлаждения.",
+      "fullDescription": "ASUS ROG Phone 6D Ultimate - это высокопроизводительный игровой смартфон с дисплеем 6,8 дюйма и чипом MediaTek Dimensity 9000+. Система охлаждения AeroActive Cooler 6 позволяет значительно увеличить время игры без снижения производительности. Камера на 64 МП обеспечивает высокое качество снимков.",
+      "features": {
+        "display": "6,8 дюйма, AMOLED, 165 Гц",
+        "processor": "Dimensity 9000+",
+        "camera": "Одиночная камера 64 Мп",
+        "battery": "6000 мАч, быстрая зарядка",
+        "memory": "512 ГБ",
+        "os": "Android 12",
+        "cooler": "AeroActive Cooler 6"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,8 дюйма, AMOLED, 165 Гц"
+        },
+        {
+          "name": "Процессор",
+          "value": "Dimensity 9000+"
+        },
+        {
+          "name": "Память",
+          "value": "512 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Одиночная 64 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "12 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "6000 мАч, быстрая зарядка"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 12"
+        },
+        {
+          "name": "Система охлаждения",
+          "value": "AeroActive Cooler 6"
+        }
+      ],
+      "tags": [
+        "ASUS",
+        "ROG",
+        "Android",
+        "mediatek",
+        "165 Гц",
+        "cooling"
+      ],
+      "colors": [
+        "черный",
+        "красный",
+        "фиолетовый"
+      ],
+      "variants": [
+        {
+          "id": 1701,
+          "memory": "512 ГБ",
+          "color": "черный",
+          "price": 99999,
+          "inStock": true
+        },
+        {
+          "id": 1702,
+          "memory": "512 ГБ",
+          "color": "красный",
+          "price": 100999,
+          "inStock": true
+        },
+        {
+          "id": 1703,
+          "memory": "1TB",
+          "color": "черный",
+          "price": 129999,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/asus-rog-phone-6d-ultimate-1.jpg",
+        "/images/products/asus-rog-phone-6d-ultimate-2.jpg",
+        "/images/products/asus-rog-phone-6d-ultimate-3.jpg",
+        "/images/products/asus-rog-phone-6d-ultimate-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": false,
+      "createdAt": "2022-09-25T12:00:00Z",
+      "updatedAt": "2024-02-25T16:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.1,
+      "path": "/laptops/asus/asus-rog-phone-6d-ultimate"
+    },
+    {
+      "id": 18,
+      "subCategoryId": 6,
+      "article": 451293,
+      "title": "ASUS ROG Phone 6 Pro",
+      "slug": "asus-rog-phone-6-pro",
+      "subCategorySlug": "asus",
+      "categorySlug": "laptops",
+      "brandId": 8,
+      "price": 119999,
+      "oldPrice": 129999,
+      "discount": 8,
+      "inStock": true,
+      "rating": 4.9,
+      "reviewCount": 250,
+      "description": "ASUS ROG Phone 6 Pro с дисплеем 6,8 дюйма, чипом Snapdragon 8 Gen 1 и высококачественной системой охлаждения.",
+      "fullDescription": "ASUS ROG Phone 6 Pro - это профессиональный игровой смартфон с дисплеем 6,8 дюйма и чипом Snapdragon 8 Gen 1. Система охлаждения GameCool 6 обеспечивает стабильную производительность при игре. Основная камера на 64 МП позволяет снимать качественные фото и видео, а фронтальная камера на 12 МП подходит для качественных селфи.",
+      "features": {
+        "display": "6,8 дюйма, AMOLED, 165 Гц",
+        "processor": "Snapdragon 8 Gen 1",
+        "camera": "Одиночная камера 64 Мп",
+        "battery": "6000 мАч, быстрая зарядка",
+        "memory": "512 ГБ",
+        "os": "Android 12",
+        "coolingSystem": "GameCool 6"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,8 дюйма, AMOLED, 165 Гц"
+        },
+        {
+          "name": "Процессор",
+          "value": "Snapdragon 8 Gen 1"
+        },
+        {
+          "name": "Память",
+          "value": "512 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Одиночная 64 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "12 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "6000 мАч, быстрая зарядка"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 12"
+        },
+        {
+          "name": "Система охлаждения",
+          "value": "GameCool 6"
+        }
+      ],
+      "tags": [
+        "ASUS",
+        "ROG",
+        "Android",
+        "Snapdragon 8 Gen 1",
+        "165 Гц",
+        "охлаждение"
+      ],
+      "colors": [
+        "черный",
+        "красный",
+        "фиолетовый"
+      ],
+      "variants": [
+        {
+          "id": 1801,
+          "memory": "512 ГБ",
+          "color": "черный",
+          "price": 119999,
+          "inStock": true
+        },
+        {
+          "id": 1802,
+          "memory": "512 ГБ",
+          "color": "красный",
+          "price": 120999,
+          "inStock": true
+        },
+        {
+          "id": 1803,
+          "memory": "1TB",
+          "color": "черный",
+          "price": 139999,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/asus-rog-phone-6-pro-1.jpg",
+        "/images/products/asus-rog-phone-6-pro-2.jpg",
+        "/images/products/asus-rog-phone-6-pro-3.jpg",
+        "/images/products/asus-rog-phone-6-pro-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "createdAt": "2022-10-10T12:00:00Z",
+      "updatedAt": "2024-03-01T15:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.2,
+      "path": "/laptops/asus/asus-rog-phone-6-pro"
+    },
+    {
+      "id": 19,
+      "subCategoryId": 6,
+      "article": 763954,
+      "title": "ASUS ROG Phone 6",
+      "slug": "asus-rog-phone-6",
+      "subCategorySlug": "asus",
+      "categorySlug": "laptops",
+      "brandId": 8,
+      "price": 89999,
+      "oldPrice": 94999,
+      "discount": 5,
+      "inStock": true,
+      "rating": 4.7,
+      "reviewCount": 160,
+      "description": "ASUS ROG Phone 6 с дисплеем 6,78 дюйма, процессором Snapdragon 8+ Gen 1 и системой охлаждения для игр.",
+      "fullDescription": "ASUS ROG Phone 6 - профессиональный игровой смартфон с дисплеем 6,78 дюйма и процессором Snapdragon 8+ Gen 1. Система охлаждения GameCool 6 обеспечивает стабильную производительность даже при долгой игре. Основная камера на 50 МП подходит для качественных снимков, а фронтальная камера на 12 МП подходит для качественных селфи. Батарея емкостью 6000 мАч с поддержкой быстрой зарядки 65 Вт обеспечивает длительное автономное использование устройства.",
+      "features": {
+        "display": "6,78 дюйма, AMOLED, 165 Гц",
+        "processor": "Snapdragon 8+ Gen 1",
+        "camera": "Двойная камера 50 Мп + 12 Мп",
+        "battery": "До 18 часов воспроизведения видео",
+        "memory": "256 ГБ",
+        "os": "Android 12",
+        "coolingSystem": "GameCool 6"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,78 дюйма, AMOLED, 165 Гц"
+        },
+        {
+          "name": "Процессор",
+          "value": "Snapdragon 8+ Gen 1"
+        },
+        {
+          "name": "Память",
+          "value": "256 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Двойная 50 Мп + 12 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "12 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "6000 мАч, быстрая зарядка"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 12"
+        }
+      ],
+      "tags": [
+        "ASUS",
+        "ROG",
+        "Android",
+        "Snapdragon 8+ Gen 1",
+        "165 Гц",
+        "охлаждение"
+      ],
+      "colors": [
+        "черный",
+        "красный",
+        "фиолетовый"
+      ],
+      "variants": [
+        {
+          "id": 1901,
+          "memory": "256 ГБ",
+          "color": "черный",
+          "price": 89999,
+          "inStock": true
+        },
+        {
+          "id": 1902,
+          "memory": "256 ГБ",
+          "color": "красный",
+          "price": 90999,
+          "inStock": true
+        },
+        {
+          "id": 1903,
+          "memory": "512 ГБ",
+          "color": "черный",
+          "price": 109999,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/asus-rog-phone-6-1.jpg",
+        "/images/products/asus-rog-phone-6-2.jpg",
+        "/images/products/asus-rog-phone-6-3.jpg",
+        "/images/products/asus-rog-phone-6-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": false,
+      "createdAt": "2023-06-15T12:00:00Z",
+      "updatedAt": "2024-02-28T15:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.7,
+      "path": "/laptops/asus/asus-rog-phone-6"
+    },
+    {
+      "id": 20,
+      "subCategoryId": 6,
+      "article": 926692,
+      "title": "ASUS ROG Phone 5",
+      "slug": "asus-rog-phone-5",
+      "subCategorySlug": "asus",
+      "categorySlug": "laptops",
+      "brandId": 8,
+      "price": 69999,
+      "oldPrice": 74999,
+      "discount": 7,
+      "inStock": true,
+      "rating": 4.6,
+      "reviewCount": 123,
+      "description": "ASUS ROG Phone 5 с дисплеем 6,78 дюйма, процессором Snapdragon 888 и системой охлаждения.",
+      "fullDescription": "ASUS ROG Phone 5 - это игровой смартфон с дисплеем 6,78 дюйма и процессором Snapdragon 888. Система охлаждения GameCool 5 позволяет поддерживать высокую производительность при длительной игре. Основная камера на 64 МП подходит для качественных снимков, а фронтальная камера на 24 МП подходит для качественных селфи. Батарея емкостью 6000 мАч с поддержкой быстрой зарядки 65 Вт обеспечивает длительное автономное использование устройства.",
+      "features": {
+        "display": "6,78 дюйма, AMOLED, 144 Гц",
+        "processor": "Snapdragon 888",
+        "camera": "Двойная камера 64 Мп + 24 Мп",
+        "battery": "До 17 часов воспроизведения видео",
+        "memory": "128 ГБ",
+        "os": "Android 11",
+        "coolingSystem": "GameCool 5"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,78 дюйма, AMOLED, 144 Гц"
+        },
+        {
+          "name": "Процессор",
+          "value": "Snapdragon 888"
+        },
+        {
+          "name": "Память",
+          "value": "128 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Двойная 64 Мп + 24 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "24 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "6000 мАч, быстрая зарядка"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 11"
+        }
+      ],
+      "tags": [
+        "ASUS",
+        "ROG",
+        "Android",
+        "Snapdragon 888",
+        "144 Гц",
+        "охлаждение"
+      ],
+      "colors": [
+        "черный",
+        "красный",
+        "фиолетовый"
+      ],
+      "variants": [
+        {
+          "id": 2001,
+          "memory": "128 ГБ",
+          "color": "черный",
+          "price": 69999,
+          "inStock": true
+        },
+        {
+          "id": 2002,
+          "memory": "256 ГБ",
+          "color": "черный",
+          "price": 79999,
+          "inStock": true
+        },
+        {
+          "id": 2003,
+          "memory": "512 ГБ",
+          "color": "черный",
+          "price": 99999,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/asus-rog-phone-5-1.jpg",
+        "/images/products/asus-rog-phone-5-2.jpg",
+        "/images/products/asus-rog-phone-5-3.jpg",
+        "/images/products/asus-rog-phone-5-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": true,
+      "createdAt": "2022-03-10T12:00:00Z",
+      "updatedAt": "2024-01-25T10:45:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 3.6,
+      "path": "/laptops/asus/asus-rog-phone-5"
+    },
+    {
+      "id": 21,
+      "subCategoryId": 6,
+      "article": 917451,
+      "title": "ASUS Zenfone 9",
+      "slug": "asus-zenfone-9",
+      "subCategorySlug": "asus",
+      "categorySlug": "laptops",
+      "brandId": 8,
+      "price": 59999,
+      "oldPrice": 64999,
+      "discount": 8,
+      "inStock": true,
+      "rating": 4.5,
+      "reviewCount": 287,
+      "description": "ASUS Zenfone 9 с дисплеем 6,0 дюйма, процессором Snapdragon 8 Gen 1 и хорошей камерой.",
+      "fullDescription": "ASUS Zenfone 9 - это компактный смартфон с дисплеем 6,0 дюйма и процессором Snapdragon 8 Gen 1. Камера на 50 МП позволяет делать профессиональные фотографии, а фронтальная камера на 12 МП подходит для качественных селфи. Благодаря прочному корпусу из алюминия и стекла Zenfone 9 защищен от брызг, капель воды и пыли. Дисплей имеет разрешение Full HD+ и частоту обновления 120 Гц.",
+      "features": {
+        "display": "6,0 дюйма, AMOLED, Full HD+",
+        "processor": "Snapdragon 8 Gen 1",
+        "camera": "Двойная камера 50 Мп + 12 Мп",
+        "battery": "До 16 часов воспроизведения видео",
+        "memory": "128 ГБ",
+        "os": "Android 12"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,0 дюйма, AMOLED, Full HD+"
+        },
+        {
+          "name": "Процессор",
+          "value": "Snapdragon 8 Gen 1"
+        },
+        {
+          "name": "Память",
+          "value": "128 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Двойная 50 Мп + 12 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "12 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "4000 мАч, быстрая зарядка"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 12"
+        }
+      ],
+      "tags": [
+        "ASUS",
+        "Zenfone",
+        "Android",
+        "Snapdragon 8 Gen 1",
+        "Full HD+",
+        "5G"
+      ],
+      "colors": [
+        "черный",
+        "белый",
+        "фиолетовый"
+      ],
+      "variants": [
+        {
+          "id": 2101,
+          "memory": "128 ГБ",
+          "color": "черный",
+          "price": 59999,
+          "inStock": true
+        },
+        {
+          "id": 2102,
+          "memory": "256 ГБ",
+          "color": "черный",
+          "price": 69999,
+          "inStock": true
+        },
+        {
+          "id": 2103,
+          "memory": "512 ГБ",
+          "color": "черный",
+          "price": 89999,
+          "inStock": true
+        }
+      ],
+      "images": [
+        "/images/products/asus-zenfone-9-1.jpg",
+        "/images/products/asus-zenfone-9-2.jpg",
+        "/images/products/asus-zenfone-9-3.jpg",
+        "/images/products/asus-zenfone-9-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": true,
+      "createdAt": "2022-07-15T12:00:00Z",
+      "updatedAt": "2024-02-15T10:45:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 3.2,
+      "path": "/laptops/asus/asus-zenfone-9"
+    },
+    {
+      "id": 22,
+      "subCategoryId": 6,
+      "article": 917457,
+      "title": "ASUS ROG Phone 6D",
+      "slug": "asus-rog-phone-6d",
+      "subCategorySlug": "asus",
+      "categorySlug": "laptops",
+      "brandId": 8,
+      "price": 79999,
+      "oldPrice": 84999,
+      "discount": 6,
+      "inStock": true,
+      "rating": 4.6,
+      "reviewCount": 123,
+      "description": "ASUS ROG Phone 6D с дисплеем 6,78 дюйма, процессором Dimensity 9000+ и высококачественной системой охлаждения.",
+      "fullDescription": "ASUS ROG Phone 6D - это профессиональный игровой смартфон с дисплеем 6,78 дюйма и процессором Dimensity 9000+. Система охлаждения AeroActive Cooler 6 позволяет поддерживать высокую производительность при длительной игре. Основная камера на 50 МП позволяет делать качественные фотографии, а фронтальная камера на 12 МП подходит для качественных селфи. Батарея емкостью 6000 мАч с поддержкой быстрой зарядки 65 Вт обеспечивает длительное автономное использование устройства.",
+      "features": {
+        "display": "6,78 дюйма, AMOLED, 165 Гц",
+        "processor": "Dimensity 9000+",
+        "camera": "Двойная камера 50 Мп + 12 Мп",
+        "battery": "До 18 часов воспроизведения видео",
+        "memory": "256 ГБ",
+        "os": "Android 12",
+        "cooler": "AeroActive Cooler 6"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,78 дюйма, AMOLED, 165 Гц"
+        },
+        {
+          "name": "Процессор",
+          "value": "Dimensity 9000+"
+        },
+        {
+          "name": "Память",
+          "value": "256 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Двойная 50 Мп + 12 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "12 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "6000 мАч, быстрая зарядка"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 12"
+        }
+      ],
+      "tags": [
+        "ASUS",
+        "ROG",
+        "Android",
+        "mediatek",
+        "165 Гц",
+        "охлаждение"
+      ],
+      "colors": [
+        "черный",
+        "красный",
+        "фиолетовый"
+      ],
+      "variants": [
+        {
+          "id": 2201,
+          "memory": "256 ГБ",
+          "color": "черный",
+          "price": 79999,
+          "inStock": true
+        },
+        {
+          "id": 2202,
+          "memory": "256 ГБ",
+          "color": "красный",
+          "price": 80999,
+          "inStock": true
+        },
+        {
+          "id": 2203,
+          "memory": "512 ГБ",
+          "color": "черный",
+          "price": 109999,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/asus-rog-phone-6d-1.jpg",
+        "/images/products/asus-rog-phone-6d-2.jpg",
+        "/images/products/asus-rog-phone-6d-3.jpg",
+        "/images/products/asus-rog-phone-6d-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": false,
+      "createdAt": "2022-09-15T12:00:00Z",
+      "updatedAt": "2024-02-20T15:30:00Z",
+      "status": {
+        "type": "pre_order",
+        "name": "Предзаказ"
+      },
+      "expertAssessment": 4.7,
+      "path": "/laptops/asus/asus-rog-phone-6d"
+    },
+    {
+      "id": 23,
+      "subCategoryId": 6,
+      "article": 481233,
+      "title": "ASUS ROG Phone 5D",
+      "slug": "asus-rog-phone-5d",
+      "subCategorySlug": "asus",
+      "categorySlug": "laptops",
+      "brandId": 8,
+      "price": 69999,
+      "oldPrice": 74999,
+      "discount": 7,
+      "inStock": true,
+      "rating": 4.5,
+      "reviewCount": 123,
+      "description": "ASUS ROG Phone 5D с дисплеем 6,78 дюйма, процессором Dimensity 9000 и системой охлаждения.",
+      "fullDescription": "ASUS ROG Phone 5D - это игровой смартфон с дисплеем 6,78 дюйма и процессором Dimensity 9000. Система охлаждения GameCool 5D позволяет поддерживать высокую производительность при длительной игре. Основная камера на 64 МП подходит для качественных снимков, а фронтальная камера на 12 МП подходит для качественных селфи. Батарея емкостью 6000 мАч с поддержкой быстрой зарядки 65 Вт обеспечивает длительное автономное использование устройства.",
+      "features": {
+        "display": "6,78 дюйма, AMOLED, 144 Гц",
+        "processor": "Dimensity 9000",
+        "camera": "Двойная камера 64 Мп + 12 Мп",
+        "battery": "До 17 часов воспроизведения видео",
+        "memory": "256 ГБ",
+        "os": "Android 12",
+        "cooler": "GameCool 5D"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,78 дюйма, AMOLED, 144 Гц"
+        },
+        {
+          "name": "Процессор",
+          "value": "Dimensity 9000"
+        },
+        {
+          "name": "Память",
+          "value": "256 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Двойная 64 Мп + 12 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "12 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "6000 мАч, быстрая зарядка"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 12"
+        }
+      ],
+      "tags": [
+        "ASUS",
+        "ROG",
+        "Android",
+        "mediatek",
+        "144 Гц",
+        "охлаждение"
+      ],
+      "colors": [
+        "черный",
+        "красный",
+        "фиолетовый"
+      ],
+      "variants": [
+        {
+          "id": 2301,
+          "memory": "256 ГБ",
+          "color": "черный",
+          "price": 69999,
+          "inStock": true
+        },
+        {
+          "id": 2302,
+          "memory": "256 ГБ",
+          "color": "красный",
+          "price": 70999,
+          "inStock": true
+        },
+        {
+          "id": 2303,
+          "memory": "512 ГБ",
+          "color": "черный",
+          "price": 99999,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/asus-rog-phone-5d-1.jpg",
+        "/images/products/asus-rog-phone-5d-2.jpg",
+        "/images/products/asus-rog-phone-5d-3.jpg",
+        "/images/products/asus-rog-phone-5d-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": false,
+      "createdAt": "2022-04-15T12:00:00Z",
+      "updatedAt": "2024-02-25T12:45:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.1,
+      "path": "/laptops/asus/asus-rog-phone-5d"
+    },
+    {
+      "id": 24,
+      "subCategoryId": 6,
+      "article": 412452,
+      "title": "ASUS ROG Phone 6 Pro",
+      "slug": "asus-rog-phone-6-pro",
+      "subCategorySlug": "asus",
+      "categorySlug": "laptops",
+      "brandId": 8,
+      "price": 119999,
+      "oldPrice": 129999,
+      "discount": 8,
+      "inStock": true,
+      "rating": 4.8,
+      "reviewCount": 250,
+      "description": "ASUS ROG Phone 6 Pro с дисплеем 6,78 дюйма, процессором Snapdragon 8 Gen 1 и высококачественной системой охлаждения.",
+      "fullDescription": "ASUS ROG Phone 6 Pro - это профессиональный игровой смартфон с дисплеем 6,78 дюйма и процессором Snapdragon 8 Gen 1. Система охлаждения GameCool 6 Pro позволяет поддерживать высокую производительность при длительной игре. Основная камера на 64 МП подходит для качественных снимков, а фронтальная камера на 12 МП подходит для качественных селфи. Батарея емкостью 6000 мАч с поддержкой быстрой зарядки 65 Вт обеспечивает длительное автономное использование устройства.",
+      "features": {
+        "display": "6,78 дюйма, AMOLED, 165 Гц",
+        "processor": "Snapdragon 8 Gen 1",
+        "camera": "Двойная камера 64 Мп + 12 Мп",
+        "battery": "До 18 часов воспроизведения видео",
+        "memory": "512 ГБ",
+        "os": "Android 12",
+        "cooler": "GameCool 6 Pro"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "6,78 дюйма, AMOLED, 165 Гц"
+        },
+        {
+          "name": "Процессор",
+          "value": "Snapdragon 8 Gen 1"
+        },
+        {
+          "name": "Память",
+          "value": "512 ГБ"
+        },
+        {
+          "name": "Основная камера",
+          "value": "Двойная 64 Мп + 12 Мп"
+        },
+        {
+          "name": "Фронтальная камера",
+          "value": "12 Мп"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "6000 мАч, быстрая зарядка"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Android 12"
+        }
+      ],
+      "tags": [
+        "ASUS",
+        "ROG",
+        "Android",
+        "Snapdragon 8 Gen 1",
+        "165 Гц",
+        "охлаждение"
+      ],
+      "colors": [
+        "черный",
+        "красный",
+        "фиолетовый"
+      ],
+      "variants": [
+        {
+          "id": 2401,
+          "memory": "512 ГБ",
+          "color": "черный",
+          "price": 119999,
+          "inStock": true
+        },
+        {
+          "id": 2402,
+          "memory": "512 ГБ",
+          "color": "красный",
+          "price": 120999,
+          "inStock": true
+        },
+        {
+          "id": 2403,
+          "memory": "1TB",
+          "color": "черный",
+          "price": 149999,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/asus-rog-phone-6-pro-1.jpg",
+        "/images/products/asus-rog-phone-6-pro-2.jpg",
+        "/images/products/asus-rog-phone-6-pro-3.jpg",
+        "/images/products/asus-rog-phone-6-pro-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "createdAt": "2023-02-10T12:00:00Z",
+      "updatedAt": "2024-03-01T15:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.9,
+      "path": "/laptops/asus/asus-rog-phone-6-pro"
+    },
+    {
+      "id": 25,
+      "subCategoryId": 7,
+      "article": 412563,
+      "title": "Dell XPS 15",
+      "slug": "dell-xps-15",
+      "subCategorySlug": "dell",
+      "categorySlug": "laptops",
+      "brandId": 9,
+      "price": 119999,
+      "oldPrice": 129999,
+      "discount": 8,
+      "inStock": true,
+      "rating": 4.7,
+      "reviewCount": 160,
+      "description": "Dell XPS 15 с дисплеем 15.6 дюйма, разрешением 4K и процессором Intel Core i7 для профессиональной работы.",
+      "fullDescription": "Dell XPS 15 - это премиальный ноутбук с дисплеем 15.6 дюйма и разрешением 4K. Процессор Intel Core i7 обеспечивает высокую производительность при работе с demanding приложениями и программами. Оперативная память DDR5 объемом 16 ГБ позволяет эффективно выполнять несколько задач одновременно. SSD-накопитель объемом 1 ТБ обеспечивает быстрый доступ к файлам и приложениям. Материнская плата Intel Evo Platform гарантирует стабильную работу устройства при различных нагрузках.",
+      "features": {
+        "display": "15.6 дюйма, 4K",
+        "processor": "Intel Core i7",
+        "ram": "16 ГБ DDR5",
+        "storage": "1 ТБ SSD",
+        "operatingSystem": "Windows 11",
+        "battery": "До 12 часов автономной работы",
+        "platform": "Intel Evo"
+      },
+      "specifications": [
+        {
+          "name": "Диагональ экрана",
+          "value": "15.6 дюйма"
+        },
+        {
+          "name": "Разрешение",
+          "value": "4K (3840x2160)"
+        },
+        {
+          "name": "Процессор",
+          "value": "Intel Core i7"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "16 ГБ DDR5"
+        },
+        {
+          "name": "SSD-накопитель",
+          "value": "1 ТБ"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Windows 11"
+        },
+        {
+          "name": "Время автономной работы",
+          "value": "До 12 часов"
+        }
+      ],
+      "tags": [
+        "Dell",
+        "premium",
+        "Windows",
+        "4K",
+        "i7"
+      ],
+      "colors": [
+        "черный",
+        "серебристый"
+      ],
+      "variants": [
+        {
+          "id": 2501,
+          "memory": "16 ГБ",
+          "color": "черный",
+          "price": 119999,
+          "inStock": true
+        },
+        {
+          "id": 2502,
+          "memory": "16 ГБ",
+          "color": "серебристый",
+          "price": 120999,
+          "inStock": true
+        },
+        {
+          "id": 2503,
+          "memory": "32 ГБ",
+          "color": "черный",
+          "price": 149999,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/dell-xps-15-1.jpg",
+        "/images/products/dell-xps-15-2.jpg",
+        "/images/products/dell-xps-15-3.jpg",
+        "/images/products/dell-xps-15-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "createdAt": "2023-09-10T12:00:00Z",
+      "updatedAt": "2024-02-28T15:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.4,
+      "path": "/laptops/dell/dell-xps-15"
+    },
+    {
+      "id": 26,
+      "subCategoryId": 7,
+      "article": 461234,
+      "title": "Dell Latitude 5520",
+      "slug": "dell-latitude-5520",
+      "subCategorySlug": "dell",
+      "categorySlug": "laptops",
+      "brandId": 9,
+      "price": 79999,
+      "oldPrice": 84999,
+      "discount": 6,
+      "inStock": true,
+      "rating": 4.6,
+      "reviewCount": 287,
+      "description": "Dell Latitude 5520 с дисплеем 15.6 дюйма, разрешением Full HD и процессором Intel Core i5 для повседневной работы.",
+      "fullDescription": "Dell Latitude 5520 - это бизнес-класс ноутбук с дисплеем 15.6 дюйма и разрешением Full HD. Процессор Intel Core i5 обеспечивает высокую производительность при выполнении офисных задач. Оперативная память DDR4 объемом 8 ГБ подходит для базовых рабочих нагрузок. SSD-накопитель объемом 512 ГБ обеспечивает быстрый доступ к файлам и приложениям. Материнская плата Intel vPro Platform делает его надежным решением для корпоративных пользователей.",
+      "features": {
+        "display": "15.6 дюйма, Full HD",
+        "processor": "Intel Core i5",
+        "ram": "8 ГБ DDR4",
+        "storage": "512 ГБ SSD",
+        "operatingSystem": "Windows 11 Pro",
+        "battery": "До 10 часов автономной работы",
+        "platform": "Intel vPro"
+      },
+      "specifications": [
+        {
+          "name": "Диагональ экрана",
+          "value": "15.6 дюйма"
+        },
+        {
+          "name": "Разрешение",
+          "value": "Full HD (1920x1080)"
+        },
+        {
+          "name": "Процессор",
+          "value": "Intel Core i5"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "8 ГБ DDR4"
+        },
+        {
+          "name": "SSD-накопитель",
+          "value": "512 ГБ"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Windows 11 Pro"
+        },
+        {
+          "name": "Время автономной работы",
+          "value": "До 10 часов"
+        }
+      ],
+      "tags": [
+        "Dell",
+        "business",
+        "Windows",
+        "Full HD",
+        "i5"
+      ],
+      "colors": [
+        "черный",
+        "серый"
+      ],
+      "variants": [
+        {
+          "id": 2601,
+          "memory": "8 ГБ",
+          "color": "черный",
+          "price": 79999,
+          "inStock": true
+        },
+        {
+          "id": 2602,
+          "memory": "8 ГБ",
+          "color": "серый",
+          "price": 80999,
+          "inStock": true
+        },
+        {
+          "id": 2603,
+          "memory": "16 ГБ",
+          "color": "черный",
+          "price": 99999,
+          "inStock": true
+        }
+      ],
+      "images": [
+        "/images/products/dell-latitude-5520-1.jpg",
+        "/images/products/dell-latitude-5520-2.jpg",
+        "/images/products/dell-latitude-5520-3.jpg",
+        "/images/products/dell-latitude-5520-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": false,
+      "createdAt": "2023-04-15T12:00:00Z",
+      "updatedAt": "2024-02-25T12:45:00Z",
+      "status": {
+        "type": "pre_order",
+        "name": "Предзаказ"
+      },
+      "expertAssessment": 4.1,
+      "path": "/laptops/dell/dell-latitude-5520"
+    },
+    {
+      "id": 27,
+      "subCategoryId": 7,
+      "article": 632114,
+      "title": "Dell Inspiron 14 5423",
+      "slug": "dell-inspiron-14-5423",
+      "subCategorySlug": "dell",
+      "categorySlug": "laptops",
+      "brandId": 9,
+      "price": 49999,
+      "oldPrice": 52999,
+      "discount": 6,
+      "inStock": true,
+      "rating": 4.5,
+      "reviewCount": 245,
+      "description": "Dell Inspiron 14 5423 с дисплеем 14 дюймов, разрешением Full HD и процессором Intel Core i3 для повседневной работы.",
+      "fullDescription": "Dell Inspiron 14 5423 - это доступный ноутбук с дисплеем 14 дюймов и разрешением Full HD. Процессор Intel Core i3 обеспечивает высокую производительность при выполнении базовых задач. Оперативная память DDR4 объемом 4 ГБ подходит для повседневной работы. SSD-накопитель объемом 256 ГБ обеспечивает быстрый доступ к файлам и приложениям. Ноутбук работает на Windows 11 Home и оснащен веб-камерой для видеозвонков.",
+      "features": {
+        "display": "14 дюймов, Full HD",
+        "processor": "Intel Core i3",
+        "ram": "4 ГБ DDR4",
+        "storage": "256 ГБ SSD",
+        "operatingSystem": "Windows 11 Home",
+        "battery": "До 8 часов автономной работы",
+        "webcam": "Веб-камера"
+      },
+      "specifications": [
+        {
+          "name": "Диагональ экрана",
+          "value": "14 дюймов"
+        },
+        {
+          "name": "Разрешение",
+          "value": "Full HD (1920x1080)"
+        },
+        {
+          "name": "Процессор",
+          "value": "Intel Core i3"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "4 ГБ DDR4"
+        },
+        {
+          "name": "SSD-накопитель",
+          "value": "256 ГБ"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Windows 11 Home"
+        },
+        {
+          "name": "Время автономной работы",
+          "value": "До 8 часов"
+        }
+      ],
+      "tags": [
+        "Dell",
+        "Inspiron",
+        "Windows",
+        "Full HD",
+        "i3"
+      ],
+      "colors": [
+        "черный",
+        "серый"
+      ],
+      "variants": [
+        {
+          "id": 2701,
+          "memory": "4 ГБ",
+          "color": "черный",
+          "price": 49999,
+          "inStock": true
+        },
+        {
+          "id": 2702,
+          "memory": "4 ГБ",
+          "color": "серый",
+          "price": 50999,
+          "inStock": true
+        },
+        {
+          "id": 2703,
+          "memory": "8 ГБ",
+          "color": "черный",
+          "price": 69999,
+          "inStock": true
+        }
+      ],
+      "images": [
+        "/images/products/dell-inspiron-14-5423-1.jpg",
+        "/images/products/dell-inspiron-14-5423-2.jpg",
+        "/images/products/dell-inspiron-14-5423-3.jpg",
+        "/images/products/dell-inspiron-14-5423-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": false,
+      "createdAt": "2023-01-10T12:00:00Z",
+      "updatedAt": "2024-02-20T15:30:00Z",
+      "status": {
+        "type": "sold_out",
+        "name": "Нет в наличии"
+      },
+      "expertAssessment": 4.4,
+      "path": "/laptops/dell/dell-inspiron-14-5423"
+    },
+    {
+      "id": 28,
+      "subCategoryId": 8,
+      "article": 842123,
+      "title": "HP Pavilion 15",
+      "slug": "hp-pavilion-15",
+      "subCategorySlug": "hp",
+      "categorySlug": "laptops",
+      "brandId": 10,
+      "price": 59999,
+      "oldPrice": 64999,
+      "discount": 8,
+      "inStock": true,
+      "rating": 4.6,
+      "reviewCount": 210,
+      "description": "HP Pavilion 15 с дисплеем 15,6 дюйма, процессором Intel Core i5 и оперативной памятью 8 ГБ для повседневной работы.",
+      "fullDescription": "HP Pavilion 15 - это доступный ноутбук с дисплеем 15,6 дюйма и разрешением Full HD. Процессор Intel Core i5 обеспечивает высокую производительность при выполнении офисных задач, таких как работа с документами и браузером. Оперативная память объемом 8 ГБ поддерживает многозадачность, а SSD-накопитель емкостью 512 ГБ позволяет быстро загружать приложения и файлы. Батарея емкостью 41 Wh обеспечивает до 8 часов автономной работы.",
+      "features": {
+        "display": "15,6 дюйма, IPS, Full HD",
+        "processor": "Intel Core i5",
+        "ram": "8 ГБ DDR4",
+        "storage": "512 ГБ SSD",
+        "battery": "41 Wh",
+        "os": "Windows 11 Home"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "15,6 дюйма, IPS, Full HD"
+        },
+        {
+          "name": "Разрешение",
+          "value": "1920x1080 пикселей"
+        },
+        {
+          "name": "Процессор",
+          "value": "Intel Core i5"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "8 ГБ DDR4"
+        },
+        {
+          "name": "SSD-накопитель",
+          "value": "512 ГБ"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "41 Wh"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Windows 11 Home"
+        }
+      ],
+      "tags": [
+        "HP",
+        "ноутбук",
+        "Intel",
+        "Windows",
+        "Full HD"
+      ],
+      "colors": [
+        "черный",
+        "серый",
+        "металлик"
+      ],
+      "variants": [
+        {
+          "id": 2801,
+          "memory": "8 ГБ",
+          "color": "черный",
+          "price": 59999,
+          "inStock": true
+        },
+        {
+          "id": 2802,
+          "memory": "8 ГБ",
+          "color": "серый",
+          "price": 60999,
+          "inStock": true
+        },
+        {
+          "id": 2803,
+          "memory": "16 ГБ",
+          "color": "черный",
+          "price": 79999,
+          "inStock": true
+        }
+      ],
+      "images": [
+        "/images/products/hp-pavilion-15-1.jpg",
+        "/images/products/hp-pavilion-15-2.jpg",
+        "/images/products/hp-pavilion-15-3.jpg",
+        "/images/products/hp-pavilion-15-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": false,
+      "createdAt": "2023-04-15T12:00:00Z",
+      "updatedAt": "2024-02-25T12:45:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 3.9,
+      "path": "/laptops/hp/hp-pavilion-15"
+    },
+    {
+      "id": 29,
+      "subCategoryId": 8,
+      "article": 854378,
+      "title": "HP Envy 15",
+      "slug": "hp-envy-15",
+      "subCategorySlug": "hp",
+      "categorySlug": "laptops",
+      "brandId": 10,
+      "price": 89999,
+      "oldPrice": 94999,
+      "discount": 5,
+      "inStock": true,
+      "rating": 4.7,
+      "reviewCount": 287,
+      "description": "HP Envy 15 с дисплеем 15,6 дюйма, процессором Intel Core i7 и оперативной памятью 16 ГБ для требовательных задач.",
+      "fullDescription": "HP Envy 15 - это премиальный ноутбук с дисплеем 15,6 дюйма и разрешением Full HD. Процессор Intel Core i7 обеспечивает высокую производительность при работе с требовательными приложениями и играми. Оперативная память объемом 16 ГБ позволяет эффективно выполнять несколько задач одновременно. SSD-накопитель емкостью 1 ТБ обеспечивает быстрый доступ к файлам и приложениям. Батарея емкостью 51 Wh позволяет работать до 10 часов автономно.",
+      "features": {
+        "display": "15,6 дюйма, IPS, Full HD",
+        "processor": "Intel Core i7",
+        "ram": "16 ГБ DDR4",
+        "storage": "1 ТБ SSD",
+        "battery": "51 Wh",
+        "os": "Windows 11 Pro"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "15,6 дюйма, IPS, Full HD"
+        },
+        {
+          "name": "Разрешение",
+          "value": "1920x1080 пикселей"
+        },
+        {
+          "name": "Процессор",
+          "value": "Intel Core i7"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "16 ГБ DDR4"
+        },
+        {
+          "name": "SSD-накопитель",
+          "value": "1 ТБ"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "51 Wh"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Windows 11 Pro"
+        }
+      ],
+      "tags": [
+        "HP",
+        "ноутбук",
+        "Intel",
+        "Windows",
+        "Full HD",
+        "престижный"
+      ],
+      "colors": [
+        "черный",
+        "серый",
+        "металлик"
+      ],
+      "variants": [
+        {
+          "id": 2901,
+          "memory": "16 ГБ",
+          "color": "черный",
+          "price": 89999,
+          "inStock": true
+        },
+        {
+          "id": 2902,
+          "memory": "16 ГБ",
+          "color": "серый",
+          "price": 90999,
+          "inStock": true
+        },
+        {
+          "id": 2903,
+          "memory": "32 ГБ",
+          "color": "черный",
+          "price": 119999,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/hp-envy-15-1.jpg",
+        "/images/products/hp-envy-15-2.jpg",
+        "/images/products/hp-envy-15-3.jpg",
+        "/images/products/hp-envy-15-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": false,
+      "createdAt": "2023-06-10T12:00:00Z",
+      "updatedAt": "2024-03-01T15:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 3.9,
+      "path": "/laptops/hp/hp-envy-15"
+    },
+    {
+      "id": 30,
+      "subCategoryId": 8,
+      "article": 761519,
+      "title": "HP EliteBook 840 G11",
+      "slug": "hp-elitebook-840-g11",
+      "subCategorySlug": "hp",
+      "categorySlug": "laptops",
+      "brandId": 10,
+      "price": 99999,
+      "oldPrice": 109999,
+      "discount": 9,
+      "inStock": true,
+      "rating": 4.8,
+      "reviewCount": 189,
+      "description": "HP EliteBook 840 G11 с дисплеем 14 дюймов, процессором Intel Core i7 и оперативной памятью 32 ГБ для бизнес-пользователей.",
+      "fullDescription": "HP EliteBook 840 G11 - это бизнес-класс ноутбук с дисплеем 14 дюймов и разрешением Full HD. Процессор Intel Core i7 обеспечивает высокую производительность при выполнении офисных задач. Оперативная память объемом 32 ГБ поддерживает многозадачность и позволяет эффективно работать с требовательными приложениями. SSD-накопитель емкостью 1 ТБ обеспечивает быстрый доступ к файлам и приложениям. Материнская плата Intel vPro Platform делает его надежным решением для корпоративных пользователей.",
+      "features": {
+        "display": "14 дюйма, IPS, Full HD",
+        "processor": "Intel Core i7",
+        "ram": "32 ГБ DDR4",
+        "storage": "1 ТБ SSD",
+        "battery": "47 Wh",
+        "os": "Windows 11 Pro",
+        "vpro": "Intel vPro"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "14 дюйма, IPS, Full HD"
+        },
+        {
+          "name": "Разрешение",
+          "value": "1920x1080 пикселей"
+        },
+        {
+          "name": "Процессор",
+          "value": "Intel Core i7"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "32 ГБ DDR4"
+        },
+        {
+          "name": "SSD-накопитель",
+          "value": "1 ТБ"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "47 Wh"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Windows 11 Pro"
+        }
+      ],
+      "tags": [
+        "HP",
+        "ноутбук",
+        "Intel",
+        "Windows",
+        "Full HD",
+        "бизнес"
+      ],
+      "colors": [
+        "черный",
+        "серый",
+        "металлик"
+      ],
+      "variants": [
+        {
+          "id": 3001,
+          "memory": "32 ГБ",
+          "color": "черный",
+          "price": 99999,
+          "inStock": true
+        },
+        {
+          "id": 3002,
+          "memory": "32 ГБ",
+          "color": "серый",
+          "price": 100999,
+          "inStock": true
+        },
+        {
+          "id": 3003,
+          "memory": "64 ГБ",
+          "color": "черный",
+          "price": 129999,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/hp-elitebook-840-g11-1.jpg",
+        "/images/products/hp-elitebook-840-g11-2.jpg",
+        "/images/products/hp-elitebook-840-g11-3.jpg",
+        "/images/products/hp-elitebook-840-g11-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "createdAt": "2023-08-15T12:00:00Z",
+      "updatedAt": "2024-03-05T16:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.2,
+      "path": "/laptops/hp/hp-elitebook-840-g11"
+    },
+    {
+      "id": 101,
+      "subCategoryId": 9,
+      "article": 853210,
+      "title": "Garmin Forerunner 245",
+      "slug": "garmin-forerunner-245",
+      "subCategorySlug": "garmin",
+      "categorySlug": "smartwatches",
+      "brandId": null,
+      "price": 15000,
+      "oldPrice": 17000,
+      "discount": 12,
+      "inStock": true,
+      "rating": 4.7,
+      "reviewCount": 125,
+      "description": "Garmin Forerunner 245 – спортивные часы для бегунов с GPS и мониторингом пульса.",
+      "fullDescription": "Garmin Forerunner 245 предоставляет точный GPS, расширенный мониторинг сердечного ритма и функции тренировок, идеально подходящие для бегунов и спортсменов.",
+      "features": {
+        "display": "1.2 дюйма, сенсорный, AMOLED",
+        "processor": "Двухъядерный",
+        "ram": "256 МБ",
+        "storage": "4 ГБ",
+        "battery": "до 7 дней",
+        "os": "Garmin OS",
+        "vpro": "Нет"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "1.2 дюйма, AMOLED"
+        },
+        {
+          "name": "Разрешение",
+          "value": "240x240 пикселей"
+        },
+        {
+          "name": "Процессор",
+          "value": "Двухъядерный"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "256 МБ"
+        },
+        {
+          "name": "Хранение",
+          "value": "4 ГБ"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "до 7 дней"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Garmin OS"
+        }
+      ],
+      "tags": [
+        "Garmin",
+        "Forerunner",
+        "спорт",
+        "GPS",
+        "бег"
+      ],
+      "colors": [
+        "черный",
+        "серый",
+        "синий"
+      ],
+      "variants": [
+        {
+          "id": 1101,
+          "memory": "4 ГБ",
+          "color": "черный",
+          "price": 15000,
+          "inStock": true
+        },
+        {
+          "id": 1102,
+          "memory": "4 ГБ",
+          "color": "серый",
+          "price": 15200,
+          "inStock": true
+        },
+        {
+          "id": 1103,
+          "memory": "4 ГБ",
+          "color": "синий",
+          "price": 14900,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/garmin-forerunner-245-1.jpg",
+        "/images/products/garmin-forerunner-245-2.jpg",
+        "/images/products/garmin-forerunner-245-3.jpg",
+        "/images/products/garmin-forerunner-245-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": false,
+      "createdAt": "2023-08-15T12:00:00Z",
+      "updatedAt": "2024-03-05T16:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 3.4,
+      "path": "/smartwatches/garmin/garmin-forerunner-245"
+    },
+    {
+      "id": 102,
+      "subCategoryId": 9,
+      "article": 999999,
+      "title": "Garmin Fenix 6 Pro",
+      "slug": "garmin-fenix-6-pro",
+      "subCategorySlug": "garmin",
+      "categorySlug": "smartwatches",
+      "brandId": null,
+      "price": 55000,
+      "oldPrice": 60000,
+      "discount": 8,
+      "inStock": true,
+      "rating": 4.8,
+      "reviewCount": 210,
+      "description": "Garmin Fenix 6 Pro – многофункциональные часы для экстремальных условий и активного отдыха.",
+      "fullDescription": "Garmin Fenix 6 Pro оснащены расширенными навигационными функциями, картами и прочным корпусом, что делает их идеальными для туризма, походов и активного образа жизни.",
+      "features": {
+        "display": "1.3 дюйма, сенсорный, transflective",
+        "processor": "Многоядерный",
+        "ram": "512 МБ",
+        "storage": "8 ГБ",
+        "battery": "до 14 дней",
+        "os": "Garmin OS",
+        "vpro": "Нет"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "1.3 дюйма, transflective"
+        },
+        {
+          "name": "Разрешение",
+          "value": "260x260 пикселей"
+        },
+        {
+          "name": "Процессор",
+          "value": "Многоядерный"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "512 МБ"
+        },
+        {
+          "name": "Хранение",
+          "value": "8 ГБ"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "до 14 дней"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Garmin OS"
+        }
+      ],
+      "tags": [
+        "Garmin",
+        "Fenix",
+        "спорт",
+        "навигатор",
+        "outdoor"
+      ],
+      "colors": [
+        "черный",
+        "серый",
+        "зеленый"
+      ],
+      "variants": [
+        {
+          "id": 1201,
+          "memory": "8 ГБ",
+          "color": "черный",
+          "price": 55000,
+          "inStock": true
+        },
+        {
+          "id": 1202,
+          "memory": "8 ГБ",
+          "color": "серый",
+          "price": 55200,
+          "inStock": true
+        },
+        {
+          "id": 1203,
+          "memory": "8 ГБ",
+          "color": "зеленый",
+          "price": 54900,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/garmin-fenix-6-pro-1.jpg",
+        "/images/products/garmin-fenix-6-pro-2.jpg",
+        "/images/products/garmin-fenix-6-pro-3.jpg",
+        "/images/products/garmin-fenix-6-pro-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": true,
+      "createdAt": "2023-09-01T10:00:00Z",
+      "updatedAt": "2024-02-28T15:00:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 3.5,
+      "path": "/smartwatches/garmin/garmin-fenix-6-pro"
+    },
+    {
+      "id": 103,
+      "subCategoryId": 9,
+      "article": 888891,
+      "title": "Garmin Vivoactive 4",
+      "slug": "garmin-vivoactive-4",
+      "subCategorySlug": "garmin",
+      "categorySlug": "smartwatches",
+      "brandId": null,
+      "price": 35000,
+      "oldPrice": 38000,
+      "discount": 8,
+      "inStock": true,
+      "rating": 4.6,
+      "reviewCount": 180,
+      "description": "Garmin Vivoactive 4 – универсальные умные часы для фитнеса и повседневного использования.",
+      "fullDescription": "Garmin Vivoactive 4 предлагает функции мониторинга здоровья, GPS, спортивные режимы и возможность отслеживания активности, что делает их идеальными для ежедневного использования.",
+      "features": {
+        "display": "1.2 дюйма, сенсорный, LCD",
+        "processor": "Энергоэффективный",
+        "ram": "256 МБ",
+        "storage": "4 ГБ",
+        "battery": "до 7 дней",
+        "os": "Garmin OS",
+        "vpro": "Нет"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "1.2 дюйма, LCD"
+        },
+        {
+          "name": "Разрешение",
+          "value": "240x240 пикселей"
+        },
+        {
+          "name": "Процессор",
+          "value": "Энергоэффективный"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "256 МБ"
+        },
+        {
+          "name": "Хранение",
+          "value": "4 ГБ"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "до 7 дней"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Garmin OS"
+        }
+      ],
+      "tags": [
+        "Garmin",
+        "Vivoactive",
+        "фитнес",
+        "здоровье",
+        "умные часы"
+      ],
+      "colors": [
+        "черный",
+        "серебристый",
+        "розовый"
+      ],
+      "variants": [
+        {
+          "id": 1301,
+          "memory": "4 ГБ",
+          "color": "черный",
+          "price": 35000,
+          "inStock": true
+        },
+        {
+          "id": 1302,
+          "memory": "4 ГБ",
+          "color": "серебристый",
+          "price": 35200,
+          "inStock": true
+        },
+        {
+          "id": 1303,
+          "memory": "4 ГБ",
+          "color": "розовый",
+          "price": 34900,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/garmin-vivoactive-4-1.jpg",
+        "/images/products/garmin-vivoactive-4-2.jpg",
+        "/images/products/garmin-vivoactive-4-3.jpg",
+        "/images/products/garmin-vivoactive-4-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": false,
+      "createdAt": "2023-07-20T09:30:00Z",
+      "updatedAt": "2024-01-15T14:20:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 3.8,
+      "path": "/smartwatches/garmin/garmin-vivoactive-4"
+    },
+    {
+      "id": 201,
+      "subCategoryId": 10,
+      "article": 912345,
+      "title": "Fitbit Versa 3",
+      "slug": "fitbit-versa-3",
+      "subCategorySlug": "fitbit",
+      "categorySlug": "smartwatches",
+      "brandId": null,
+      "price": 12000,
+      "oldPrice": 13500,
+      "discount": 11,
+      "inStock": true,
+      "rating": 4.5,
+      "reviewCount": 95,
+      "description": "Fitbit Versa 3 – умные часы с функциями отслеживания активности и здоровья.",
+      "fullDescription": "Fitbit Versa 3 предлагает встроенный GPS, мониторинг сердечного ритма, отслеживание сна и множество фитнес-функций, что делает его отличным выбором для активного образа жизни.",
+      "features": {
+        "display": "1.1 дюйма, сенсорный, OLED",
+        "processor": "ARM Cortex",
+        "ram": "512 МБ",
+        "storage": "2 ГБ",
+        "battery": "до 6 дней",
+        "os": "Fitbit OS",
+        "vpro": "Нет"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "1.1 дюйма, OLED"
+        },
+        {
+          "name": "Разрешение",
+          "value": "218x218 пикселей"
+        },
+        {
+          "name": "Процессор",
+          "value": "ARM Cortex"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "512 МБ"
+        },
+        {
+          "name": "Хранение",
+          "value": "2 ГБ"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "до 6 дней"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Fitbit OS"
+        }
+      ],
+      "tags": [
+        "Fitbit",
+        "Versa",
+        "фитнес",
+        "здоровье",
+        "умные часы"
+      ],
+      "colors": [
+        "черный",
+        "розовый",
+        "серебряный"
+      ],
+      "variants": [
+        {
+          "id": 2101,
+          "memory": "2 ГБ",
+          "color": "черный",
+          "price": 12000,
+          "inStock": true
+        },
+        {
+          "id": 2102,
+          "memory": "2 ГБ",
+          "color": "розовый",
+          "price": 12100,
+          "inStock": true
+        },
+        {
+          "id": 2103,
+          "memory": "2 ГБ",
+          "color": "серебряный",
+          "price": 11900,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/fitbit-versa-3-1.jpg",
+        "/images/products/fitbit-versa-3-2.jpg",
+        "/images/products/fitbit-versa-3-3.jpg",
+        "/images/products/fitbit-versa-3-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "createdAt": "2023-08-10T11:00:00Z",
+      "updatedAt": "2024-02-20T13:45:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.2,
+      "path": "/smartwatches/fitbit/fitbit-versa-3"
+    },
+    {
+      "id": 202,
+      "subCategoryId": 10,
+      "article": 887777,
+      "title": "Fitbit Sense",
+      "slug": "fitbit-sense",
+      "subCategorySlug": "fitbit",
+      "categorySlug": "smartwatches",
+      "brandId": null,
+      "price": 18000,
+      "oldPrice": 20000,
+      "discount": 10,
+      "inStock": true,
+      "rating": 4.6,
+      "reviewCount": 130,
+      "description": "Fitbit Sense – умные часы с расширенными функциями здоровья и стресса.",
+      "fullDescription": "Fitbit Sense оснащены функциями мониторинга стресса, уровня кислорода в крови, а также поддержкой встроенного GPS и анализом сна, что делает их идеальными для заботы о здоровье.",
+      "features": {
+        "display": "1.1 дюйма, сенсорный, OLED",
+        "processor": "ARM Cortex",
+        "ram": "512 МБ",
+        "storage": "2 ГБ",
+        "battery": "до 6 дней",
+        "os": "Fitbit OS",
+        "vpro": "Нет"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "1.1 дюйма, OLED"
+        },
+        {
+          "name": "Разрешение",
+          "value": "218x218 пикселей"
+        },
+        {
+          "name": "Процессор",
+          "value": "ARM Cortex"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "512 МБ"
+        },
+        {
+          "name": "Хранение",
+          "value": "2 ГБ"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "до 6 дней"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Fitbit OS"
+        }
+      ],
+      "tags": [
+        "Fitbit",
+        "Sense",
+        "здоровье",
+        "стресс",
+        "умные часы"
+      ],
+      "colors": [
+        "черный",
+        "серебряный",
+        "золотой"
+      ],
+      "variants": [
+        {
+          "id": 2201,
+          "memory": "2 ГБ",
+          "color": "черный",
+          "price": 18000,
+          "inStock": true
+        },
+        {
+          "id": 2202,
+          "memory": "2 ГБ",
+          "color": "серебряный",
+          "price": 18200,
+          "inStock": true
+        },
+        {
+          "id": 2203,
+          "memory": "2 ГБ",
+          "color": "золотой",
+          "price": 17900,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/fitbit-sense-1.jpg",
+        "/images/products/fitbit-sense-2.jpg",
+        "/images/products/fitbit-sense-3.jpg",
+        "/images/products/fitbit-sense-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": true,
+      "createdAt": "2023-09-05T12:30:00Z",
+      "updatedAt": "2024-01-25T14:00:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.4,
+      "path": "/smartwatches/fitbit/fitbit-sense"
+    },
+    {
+      "id": 203,
+      "subCategoryId": 10,
+      "article": 123321,
+      "title": "Fitbit Inspire 2",
+      "slug": "fitbit-inspire-2",
+      "subCategorySlug": "fitbit",
+      "categorySlug": "smartwatches",
+      "brandId": null,
+      "price": 8000,
+      "oldPrice": 9000,
+      "discount": 11,
+      "inStock": true,
+      "rating": 4.4,
+      "reviewCount": 75,
+      "description": "Fitbit Inspire 2 – базовые умные часы для отслеживания активности и здоровья.",
+      "fullDescription": "Fitbit Inspire 2 предлагает функции отслеживания шагов, пульса, сна и активности, что делает его отличным выбором для начинающих следить за своим здоровьем.",
+      "features": {
+        "display": "0.9 дюйма, сенсорный, OLED",
+        "processor": "ARM Cortex",
+        "ram": "256 МБ",
+        "storage": "1 ГБ",
+        "battery": "до 5 дней",
+        "os": "Fitbit OS",
+        "vpro": "Нет"
+      },
+      "specifications": [
+        {
+          "name": "Дисплей",
+          "value": "0.9 дюйма, OLED"
+        },
+        {
+          "name": "Разрешение",
+          "value": "200x200 пикселей"
+        },
+        {
+          "name": "Процессор",
+          "value": "ARM Cortex"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "256 МБ"
+        },
+        {
+          "name": "Хранение",
+          "value": "1 ГБ"
+        },
+        {
+          "name": "Аккумулятор",
+          "value": "до 5 дней"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Fitbit OS"
+        }
+      ],
+      "tags": [
+        "Fitbit",
+        "Inspire",
+        "фитнес",
+        "здоровье",
+        "умные часы"
+      ],
+      "colors": [
+        "черный",
+        "белый",
+        "розовый"
+      ],
+      "variants": [
+        {
+          "id": 2301,
+          "memory": "1 ГБ",
+          "color": "черный",
+          "price": 8000,
+          "inStock": true
+        },
+        {
+          "id": 2302,
+          "memory": "1 ГБ",
+          "color": "белый",
+          "price": 8100,
+          "inStock": true
+        },
+        {
+          "id": 2303,
+          "memory": "1 ГБ",
+          "color": "розовый",
+          "price": 7950,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/fitbit-inspire-2-1.jpg",
+        "/images/products/fitbit-inspire-2-2.jpg",
+        "/images/products/fitbit-inspire-2-3.jpg",
+        "/images/products/fitbit-inspire-2-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": false,
+      "createdAt": "2023-07-15T08:45:00Z",
+      "updatedAt": "2024-02-10T10:30:00Z",
+      "status": {
+        "type": "pre_order",
+        "name": "Предзаказ"
+      },
+      "expertAssessment": 3.3,
+      "path": "/smartwatches/fitbit/fitbit-inspire-2"
+    },
+    {
+      "id": 301,
+      "subCategoryId": 11,
+      "article": 333222,
+      "title": "PlayStation 5",
+      "slug": "playstation-5",
+      "subCategorySlug": "playstation",
+      "categorySlug": "gaming-consoles",
+      "brandId": 11,
+      "price": 70000,
+      "oldPrice": 75000,
+      "discount": 7,
+      "inStock": true,
+      "rating": 4.9,
+      "reviewCount": 350,
+      "description": "PlayStation 5 – игровая консоль нового поколения с революционной графикой.",
+      "fullDescription": "PlayStation 5 от Sony оснащена высокопроизводительным SSD, поддержкой 4K и трассировкой лучей, что обеспечивает плавный игровой процесс и потрясающую графику.",
+      "features": {
+        "display": "HDMI 2.1, 4K",
+        "processor": "AMD Zen 2",
+        "ram": "16 ГБ GDDR6",
+        "storage": "825 ГБ SSD",
+        "battery": "нет",
+        "os": "Orbis OS",
+        "vpro": "нет"
+      },
+      "specifications": [
+        {
+          "name": "Вывод видео",
+          "value": "HDMI 2.1"
+        },
+        {
+          "name": "Разрешение",
+          "value": "4K"
+        },
+        {
+          "name": "Процессор",
+          "value": "AMD Zen 2"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "16 ГБ GDDR6"
+        },
+        {
+          "name": "Хранение",
+          "value": "825 ГБ SSD"
+        },
+        {
+          "name": "Накопитель",
+          "value": "SSD"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Orbis OS"
+        }
+      ],
+      "tags": [
+        "PlayStation",
+        "игровая консоль",
+        "Sony",
+        "4K",
+        "трассировка лучей"
+      ],
+      "colors": [
+        "белый",
+        "черный"
+      ],
+      "variants": [
+        {
+          "id": 3101,
+          "memory": "825 ГБ",
+          "color": "белый",
+          "price": 70000,
+          "inStock": true
+        },
+        {
+          "id": 3102,
+          "memory": "825 ГБ",
+          "color": "черный",
+          "price": 70200,
+          "inStock": true
+        },
+        {
+          "id": 3103,
+          "memory": "825 ГБ",
+          "color": "белый",
+          "price": 69800,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/playstation-5-1.jpg",
+        "/images/products/playstation-5-2.jpg",
+        "/images/products/playstation-5-3.jpg",
+        "/images/products/playstation-5-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "createdAt": "2023-10-01T14:00:00Z",
+      "updatedAt": "2024-03-01T16:00:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.7,
+      "path": "/gaming-consoles/playstation/playstation-5"
+    },
+    {
+      "id": 302,
+      "subCategoryId": 11,
+      "article": 222111,
+      "title": "PlayStation 4 Pro",
+      "slug": "playstation-4-pro",
+      "subCategorySlug": "playstation",
+      "categorySlug": "gaming-consoles",
+      "brandId": 11,
+      "price": 45000,
+      "oldPrice": 48000,
+      "discount": 6,
+      "inStock": true,
+      "rating": 4.7,
+      "reviewCount": 280,
+      "description": "PlayStation 4 Pro – улучшенная версия популярной игровой консоли от Sony.",
+      "fullDescription": "PlayStation 4 Pro обеспечивает повышенную производительность и поддержку 4K, что делает её отличным выбором для геймеров, ценящих качество и надежность.",
+      "features": {
+        "display": "HDMI 2.0, 4K",
+        "processor": "AMD Jaguar",
+        "ram": "8 ГБ GDDR5",
+        "storage": "1 ТБ HDD",
+        "battery": "нет",
+        "os": "Orbis OS",
+        "vpro": "нет"
+      },
+      "specifications": [
+        {
+          "name": "Вывод видео",
+          "value": "HDMI 2.0"
+        },
+        {
+          "name": "Разрешение",
+          "value": "4K"
+        },
+        {
+          "name": "Процессор",
+          "value": "AMD Jaguar"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "8 ГБ GDDR5"
+        },
+        {
+          "name": "Хранение",
+          "value": "1 ТБ HDD"
+        },
+        {
+          "name": "Накопитель",
+          "value": "HDD"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Orbis OS"
+        }
+      ],
+      "tags": [
+        "PlayStation",
+        "игровая консоль",
+        "Sony",
+        "4K"
+      ],
+      "colors": [
+        "черный",
+        "серебряный"
+      ],
+      "variants": [
+        {
+          "id": 3201,
+          "memory": "1 ТБ",
+          "color": "черный",
+          "price": 45000,
+          "inStock": true
+        },
+        {
+          "id": 3202,
+          "memory": "1 ТБ",
+          "color": "серебряный",
+          "price": 45200,
+          "inStock": true
+        },
+        {
+          "id": 3203,
+          "memory": "1 ТБ",
+          "color": "черный",
+          "price": 44800,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/playstation-4-pro-1.jpg",
+        "/images/products/playstation-4-pro-2.jpg",
+        "/images/products/playstation-4-pro-3.jpg",
+        "/images/products/playstation-4-pro-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": true,
+      "createdAt": "2023-09-15T12:00:00Z",
+      "updatedAt": "2024-02-15T11:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 3.5,
+      "path": "/gaming-consoles/playstation/playstation-4-pro"
+    },
+    {
+      "id": 303,
+      "subCategoryId": 11,
+      "article": 543245,
+      "title": "PlayStation Classic",
+      "slug": "playstation-classic",
+      "subCategorySlug": "playstation",
+      "categorySlug": "gaming-consoles",
+      "brandId": 11,
+      "price": 25000,
+      "oldPrice": 27000,
+      "discount": 7,
+      "inStock": true,
+      "rating": 4.3,
+      "reviewCount": 150,
+      "description": "PlayStation Classic – ретро-версия легендарной игровой консоли.",
+      "fullDescription": "PlayStation Classic возвращает воспоминания о классических играх, предлагая эмуляцию оригинальных игр на современной аппаратуре. Идеально для ностальгирующих геймеров.",
+      "features": {
+        "display": "HDMI выход, 1080p",
+        "processor": "Эмулятор на базе ARM",
+        "ram": "2 ГБ",
+        "storage": "16 ГБ",
+        "battery": "нет",
+        "os": "Пользовательский",
+        "vpro": "нет"
+      },
+      "specifications": [
+        {
+          "name": "Вывод видео",
+          "value": "HDMI выход"
+        },
+        {
+          "name": "Разрешение",
+          "value": "1080p"
+        },
+        {
+          "name": "Процессор",
+          "value": "Эмулятор на базе ARM"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "2 ГБ"
+        },
+        {
+          "name": "Хранение",
+          "value": "16 ГБ"
+        },
+        {
+          "name": "Накопитель",
+          "value": "флеш-память"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Пользовательский"
+        }
+      ],
+      "tags": [
+        "PlayStation",
+        "Classic",
+        "ретро",
+        "игры"
+      ],
+      "colors": [
+        "белый",
+        "черный"
+      ],
+      "variants": [
+        {
+          "id": 3301,
+          "memory": "16 ГБ",
+          "color": "белый",
+          "price": 25000,
+          "inStock": true
+        },
+        {
+          "id": 3302,
+          "memory": "16 ГБ",
+          "color": "черный",
+          "price": 25200,
+          "inStock": true
+        },
+        {
+          "id": 3303,
+          "memory": "16 ГБ",
+          "color": "белый",
+          "price": 24800,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/playstation-classic-1.jpg",
+        "/images/products/playstation-classic-2.jpg",
+        "/images/products/playstation-classic-3.jpg",
+        "/images/products/playstation-classic-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": false,
+      "createdAt": "2023-06-10T10:00:00Z",
+      "updatedAt": "2024-01-05T09:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 3.1,
+      "path": "/gaming-consoles/playstation/playstation-classic"
+    },
+    {
+      "id": 401,
+      "subCategoryId": 12,
+      "article": 986375,
+      "title": "Xbox Series X",
+      "slug": "xbox-series-x",
+      "subCategorySlug": "xbox",
+      "categorySlug": "gaming-consoles",
+      "brandId": 11,
+      "price": 60000,
+      "oldPrice": 65000,
+      "discount": 8,
+      "inStock": true,
+      "rating": 4.9,
+      "reviewCount": 500,
+      "description": "Xbox Series X – игровая приставка нового поколения от Microsoft с мощным железом.",
+      "fullDescription": "Xbox Series X оснащена мощным процессором AMD, высокопроизводительным SSD и поддержкой 4K, что обеспечивает невероятную производительность и реалистичную графику.",
+      "features": {
+        "display": "HDMI 2.1, 4K output",
+        "processor": "AMD Zen 2",
+        "ram": "16 ГБ GDDR6",
+        "storage": "1 ТБ SSD",
+        "battery": "нет",
+        "os": "Xbox OS",
+        "vpro": "нет"
+      },
+      "specifications": [
+        {
+          "name": "Вывод видео",
+          "value": "HDMI 2.1"
+        },
+        {
+          "name": "Разрешение",
+          "value": "4K"
+        },
+        {
+          "name": "Процессор",
+          "value": "AMD Zen 2"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "16 ГБ GDDR6"
+        },
+        {
+          "name": "Хранение",
+          "value": "1 ТБ SSD"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Xbox OS"
+        }
+      ],
+      "tags": [
+        "Xbox",
+        "Series X",
+        "игровая приставка",
+        "Microsoft",
+        "4K"
+      ],
+      "colors": [
+        "черный",
+        "серебряный"
+      ],
+      "variants": [
+        {
+          "id": 4101,
+          "memory": "1 ТБ",
+          "color": "черный",
+          "price": 60000,
+          "inStock": true
+        },
+        {
+          "id": 4102,
+          "memory": "1 ТБ",
+          "color": "серебряный",
+          "price": 60200,
+          "inStock": true
+        },
+        {
+          "id": 4103,
+          "memory": "1 ТБ",
+          "color": "черный",
+          "price": 59800,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/xbox-series-x-1.jpg",
+        "/images/products/xbox-series-x-2.jpg",
+        "/images/products/xbox-series-x-3.jpg",
+        "/images/products/xbox-series-x-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "createdAt": "2023-11-01T10:00:00Z",
+      "updatedAt": "2024-03-10T12:00:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 3.8,
+      "path": "/gaming-consoles/xbox/xbox-series-x"
+    },
+    {
+      "id": 402,
+      "subCategoryId": 12,
+      "title": "Xbox Series S",
+      "slug": "xbox-series-s",
+      "subCategorySlug": "xbox",
+      "categorySlug": "gaming-consoles",
+      "brandId": 11,
+      "price": 40000,
+      "oldPrice": 43000,
+      "discount": 7,
+      "inStock": true,
+      "rating": 4.7,
+      "reviewCount": 350,
+      "description": "Xbox Series S – компактная и доступная игровая приставка нового поколения от Microsoft.",
+      "fullDescription": "Xbox Series S предлагает отличное качество графики и производительность в компактном форм-факторе, идеально подходит для игр в разрешении до 1440p с возможностью апскейлинга до 4K.",
+      "features": {
+        "display": "HDMI 2.1, 1440p output",
+        "processor": "AMD Zen 2",
+        "ram": "10 ГБ GDDR6",
+        "storage": "512 ГБ SSD",
+        "battery": "нет",
+        "os": "Xbox OS",
+        "vpro": "нет"
+      },
+      "specifications": [
+        {
+          "name": "Вывод видео",
+          "value": "HDMI 2.1"
+        },
+        {
+          "name": "Разрешение",
+          "value": "1440p (апскейлинг до 4K)"
+        },
+        {
+          "name": "Процессор",
+          "value": "AMD Zen 2"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "10 ГБ GDDR6"
+        },
+        {
+          "name": "Хранение",
+          "value": "512 ГБ SSD"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Xbox OS"
+        }
+      ],
+      "tags": [
+        "Xbox",
+        "Series S",
+        "компактная",
+        "игровая приставка"
+      ],
+      "colors": [
+        "белый",
+        "черный"
+      ],
+      "variants": [
+        {
+          "id": 4201,
+          "memory": "512 ГБ",
+          "color": "белый",
+          "price": 40000,
+          "inStock": true
+        },
+        {
+          "id": 4202,
+          "memory": "512 ГБ",
+          "color": "черный",
+          "price": 40200,
+          "inStock": true
+        },
+        {
+          "id": 4203,
+          "memory": "512 ГБ",
+          "color": "белый",
+          "price": 39800,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/xbox-series-s-1.jpg",
+        "/images/products/xbox-series-s-2.jpg",
+        "/images/products/xbox-series-s-3.jpg",
+        "/images/products/xbox-series-s-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": false,
+      "createdAt": "2023-10-15T11:00:00Z",
+      "updatedAt": "2024-02-20T14:00:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.1,
+      "path": "/gaming-consoles/xbox/xbox-series-s"
+    },
+    {
+      "id": 403,
+      "subCategoryId": 12,
+      "title": "Xbox One X",
+      "slug": "xbox-one-x",
+      "subCategorySlug": "xbox",
+      "categorySlug": "gaming-consoles",
+      "brandId": 11,
+      "price": 30000,
+      "oldPrice": 32000,
+      "discount": 6,
+      "inStock": false,
+      "rating": 4.5,
+      "reviewCount": 220,
+      "description": "Xbox One X – мощная игровая приставка предыдущего поколения с поддержкой 4K.",
+      "fullDescription": "Xbox One X обеспечивает отличное качество графики и высокую производительность благодаря продвинутой архитектуре, позволяющей наслаждаться играми в разрешении 4K.",
+      "features": {
+        "display": "HDMI, 4K output",
+        "processor": "AMD Jaguar",
+        "ram": "12 ГБ GDDR5",
+        "storage": "1 ТБ HDD",
+        "battery": "нет",
+        "os": "Xbox OS",
+        "vpro": "нет"
+      },
+      "specifications": [
+        {
+          "name": "Вывод видео",
+          "value": "HDMI"
+        },
+        {
+          "name": "Разрешение",
+          "value": "4K"
+        },
+        {
+          "name": "Процессор",
+          "value": "AMD Jaguar"
+        },
+        {
+          "name": "Оперативная память",
+          "value": "12 ГБ GDDR5"
+        },
+        {
+          "name": "Хранение",
+          "value": "1 ТБ HDD"
+        },
+        {
+          "name": "Операционная система",
+          "value": "Xbox OS"
+        }
+      ],
+      "tags": [
+        "Xbox",
+        "One X",
+        "игровая приставка",
+        "Microsoft"
+      ],
+      "colors": [
+        "черный"
+      ],
+      "variants": [
+        {
+          "id": 4301,
+          "memory": "1 ТБ",
+          "color": "черный",
+          "price": 30000,
+          "inStock": false
+        },
+        {
+          "id": 4302,
+          "memory": "1 ТБ",
+          "color": "черный",
+          "price": 30200,
+          "inStock": false
+        },
+        {
+          "id": 4303,
+          "memory": "1 ТБ",
+          "color": "черный",
+          "price": 29800,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/xbox-one-x-1.jpg",
+        "/images/products/xbox-one-x-2.jpg",
+        "/images/products/xbox-one-x-3.jpg",
+        "/images/products/xbox-one-x-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": true,
+      "createdAt": "2023-08-01T09:00:00Z",
+      "updatedAt": "2024-01-10T12:00:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.1,
+      "path": "/gaming-consoles/xbox/xbox-one-x"
+    },
+    {
+      "id": 501,
+      "subCategoryId": 13,
+      "title": "Sony WH-1000XM5",
+      "slug": "sony-wh-1000xm5",
+      "subCategorySlug": "sony",
+      "categorySlug": "headphones",
+      "brandId": 6,
+      "price": 25000,
+      "oldPrice": 27000,
+      "discount": 7,
+      "inStock": true,
+      "rating": 4.8,
+      "reviewCount": 320,
+      "description": "Sony WH-1000XM5 – премиальные наушники с лучшим шумоподавлением и качеством звука.",
+      "fullDescription": "Sony WH-1000XM5 предлагают непревзойденное шумоподавление, чистый звук и комфортное ношение, идеально подходят для долгих прослушиваний и поездок.",
+      "features": {
+        "display": "Н/A",
+        "processor": "Цифровой аудиопроцессор",
+        "ram": "N/A",
+        "storage": "N/A",
+        "battery": "до 30 часов",
+        "os": "N/A",
+        "vpro": "Нет"
+      },
+      "specifications": [
+        {
+          "name": "Тип",
+          "value": "Накладные"
+        },
+        {
+          "name": "Шумоподавление",
+          "value": "Активное"
+        },
+        {
+          "name": "Батарея",
+          "value": "до 30 часов"
+        },
+        {
+          "name": "Подключение",
+          "value": "Bluetooth"
+        },
+        {
+          "name": "Микрофоны",
+          "value": "встроенные"
+        }
+      ],
+      "tags": [
+        "Sony",
+        "WH-1000XM5",
+        "наушники",
+        "шумоподавление",
+        "премиум"
+      ],
+      "colors": [
+        "черный",
+        "серебряный"
+      ],
+      "variants": [
+        {
+          "id": 5101,
+          "memory": "N/A",
+          "color": "черный",
+          "price": 25000,
+          "inStock": true
+        },
+        {
+          "id": 5102,
+          "memory": "N/A",
+          "color": "серебряный",
+          "price": 25200,
+          "inStock": true
+        },
+        {
+          "id": 5103,
+          "memory": "N/A",
+          "color": "черный",
+          "price": 24800,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/sony-wh-1000xm5-1.jpg",
+        "/images/products/sony-wh-1000xm5-2.jpg",
+        "/images/products/sony-wh-1000xm5-3.jpg",
+        "/images/products/sony-wh-1000xm5-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "createdAt": "2023-11-05T10:30:00Z",
+      "updatedAt": "2024-03-12T09:15:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.7,
+      "path": "/headphones/sony/sony-wh-1000xm5"
+    },
+    {
+      "id": 502,
+      "subCategoryId": 13,
+      "title": "Sony WF-1000XM4",
+      "slug": "sony-wf-1000xm4",
+      "subCategorySlug": "sony",
+      "categorySlug": "headphones",
+      "brandId": 6,
+      "price": 20000,
+      "oldPrice": 22000,
+      "discount": 9,
+      "inStock": true,
+      "rating": 4.7,
+      "reviewCount": 290,
+      "description": "Sony WF-1000XM4 – компактные беспроводные наушники с отличным шумоподавлением.",
+      "fullDescription": "Sony WF-1000XM4 обеспечивают превосходное качество звука и активное шумоподавление в компактном дизайне, идеально подходят для использования в движении.",
+      "features": {
+        "display": "Н/A",
+        "processor": "Цифровой аудиопроцессор",
+        "ram": "N/A",
+        "storage": "N/A",
+        "battery": "до 24 часов (с зарядным кейсом)",
+        "os": "N/A",
+        "vpro": "Нет"
+      },
+      "specifications": [
+        {
+          "name": "Тип",
+          "value": "Вставные"
+        },
+        {
+          "name": "Шумоподавление",
+          "value": "Активное"
+        },
+        {
+          "name": "Батарея",
+          "value": "до 24 часов"
+        },
+        {
+          "name": "Подключение",
+          "value": "Bluetooth"
+        },
+        {
+          "name": "Микрофоны",
+          "value": "встроенные"
+        }
+      ],
+      "tags": [
+        "Sony",
+        "WF-1000XM4",
+        "наушники",
+        "беспроводные",
+        "шумоподавление"
+      ],
+      "colors": [
+        "черный",
+        "белый"
+      ],
+      "variants": [
+        {
+          "id": 5201,
+          "memory": "N/A",
+          "color": "черный",
+          "price": 20000,
+          "inStock": true
+        },
+        {
+          "id": 5202,
+          "memory": "N/A",
+          "color": "белый",
+          "price": 20200,
+          "inStock": true
+        },
+        {
+          "id": 5203,
+          "memory": "N/A",
+          "color": "черный",
+          "price": 19800,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/sony-wf-1000xm4-1.jpg",
+        "/images/products/sony-wf-1000xm4-2.jpg",
+        "/images/products/sony-wf-1000xm4-3.jpg",
+        "/images/products/sony-wf-1000xm4-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": false,
+      "createdAt": "2023-10-20T12:00:00Z",
+      "updatedAt": "2024-02-28T15:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 4.9,
+      "path": "/headphones/sony/sony-wf-1000xm4"
+    },
+    {
+      "id": 503,
+      "subCategoryId": 13,
+      "title": "Sony WH-1000XM3",
+      "slug": "sony-wh-1000xm3",
+      "subCategorySlug": "sony",
+      "categorySlug": "headphones",
+      "brandId": 6,
+      "price": 18000,
+      "oldPrice": 20000,
+      "discount": 10,
+      "inStock": true,
+      "rating": 4.6,
+      "reviewCount": 310,
+      "description": "Sony WH-1000XM3 – проверенные временем наушники с активным шумоподавлением и качественным звуком.",
+      "fullDescription": "Sony WH-1000XM3 предлагают отличное шумоподавление и комфортное ношение, что делает их идеальным выбором для длительного прослушивания музыки и работы.",
+      "features": {
+        "display": "Н/A",
+        "processor": "Цифровой аудиопроцессор",
+        "ram": "N/A",
+        "storage": "N/A",
+        "battery": "до 30 часов",
+        "os": "N/A",
+        "vpro": "Нет"
+      },
+      "specifications": [
+        {
+          "name": "Тип",
+          "value": "Накладные"
+        },
+        {
+          "name": "Шумоподавление",
+          "value": "Активное"
+        },
+        {
+          "name": "Батарея",
+          "value": "до 30 часов"
+        },
+        {
+          "name": "Подключение",
+          "value": "Bluetooth"
+        },
+        {
+          "name": "Микрофоны",
+          "value": "встроенные"
+        }
+      ],
+      "tags": [
+        "Sony",
+        "WH-1000XM3",
+        "наушники",
+        "шумоподавление"
+      ],
+      "colors": [
+        "черный",
+        "серебряный"
+      ],
+      "variants": [
+        {
+          "id": 5301,
+          "memory": "N/A",
+          "color": "черный",
+          "price": 18000,
+          "inStock": true
+        },
+        {
+          "id": 5302,
+          "memory": "N/A",
+          "color": "серебряный",
+          "price": 18200,
+          "inStock": true
+        },
+        {
+          "id": 5303,
+          "memory": "N/A",
+          "color": "черный",
+          "price": 17800,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/sony-wh-1000xm3-1.jpg",
+        "/images/products/sony-wh-1000xm3-2.jpg",
+        "/images/products/sony-wh-1000xm3-3.jpg",
+        "/images/products/sony-wh-1000xm3-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": true,
+      "createdAt": "2023-09-10T11:30:00Z",
+      "updatedAt": "2024-01-20T14:45:00Z",
+      "status": {
+        "type": "pre_order",
+        "name": "Предзаказ"
+      },
+      "expertAssessment": 3.7,
+      "path": "/headphones/sony/sony-wh-1000xm3"
+    },
+    {
+      "id": 601,
+      "subCategoryId": 14,
+      "title": "Bose Noise Cancelling Headphones 700",
+      "slug": "bose-noise-cancelling-headphones-700",
+      "subCategorySlug": "bose",
+      "categorySlug": "headphones",
+      "brandId": null,
+      "price": 24000,
+      "oldPrice": 26000,
+      "discount": 8,
+      "inStock": true,
+      "rating": 4.8,
+      "reviewCount": 280,
+      "description": "Bose Noise Cancelling Headphones 700 – наушники с передовым шумоподавлением и чистым звуком.",
+      "fullDescription": "Bose Noise Cancelling Headphones 700 предлагают превосходное активное шумоподавление, высокое качество звука и современный дизайн, что делает их идеальными для путешествий и работы в офисе.",
+      "features": {
+        "display": "Н/A",
+        "processor": "Н/A",
+        "ram": "N/A",
+        "storage": "Н/A",
+        "battery": "до 20 часов",
+        "os": "Н/A",
+        "vpro": "Нет"
+      },
+      "specifications": [
+        {
+          "name": "Тип",
+          "value": "Накладные"
+        },
+        {
+          "name": "Шумоподавление",
+          "value": "Активное"
+        },
+        {
+          "name": "Батарея",
+          "value": "до 20 часов"
+        },
+        {
+          "name": "Подключение",
+          "value": "Bluetooth"
+        },
+        {
+          "name": "Микрофоны",
+          "value": "встроенные"
+        }
+      ],
+      "tags": [
+        "Bose",
+        "Headphones 700",
+        "наушники",
+        "шумоподавление",
+        "премиум"
+      ],
+      "colors": [
+        "черный",
+        "белый"
+      ],
+      "variants": [
+        {
+          "id": 6101,
+          "memory": "Н/A",
+          "color": "черный",
+          "price": 24000,
+          "inStock": true
+        },
+        {
+          "id": 6102,
+          "memory": "Н/A",
+          "color": "белый",
+          "price": 24200,
+          "inStock": true
+        },
+        {
+          "id": 6103,
+          "memory": "Н/A",
+          "color": "черный",
+          "price": 23800,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/bose-headphones-700-1.jpg",
+        "/images/products/bose-headphones-700-2.jpg",
+        "/images/products/bose-headphones-700-3.jpg",
+        "/images/products/bose-headphones-700-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "createdAt": "2023-10-05T10:00:00Z",
+      "updatedAt": "2024-03-05T15:00:00Z",
+      "status": {
+        "type": "pre_order",
+        "name": "Предзаказ"
+      },
+      "expertAssessment": 3.2,
+      "path": "/headphones/bose/bose-noise-cancelling-headphones-700"
+    },
+    {
+      "id": 602,
+      "subCategoryId": 14,
+      "title": "Bose QuietComfort 35 II",
+      "slug": "bose-quietcomfort-35-ii",
+      "subCategorySlug": "bose",
+      "categorySlug": "headphones",
+      "brandId": null,
+      "price": 22000,
+      "oldPrice": 24000,
+      "discount": 8,
+      "inStock": true,
+      "rating": 4.7,
+      "reviewCount": 310,
+      "description": "Bose QuietComfort 35 II – наушники с отменным комфортом и эффективным шумоподавлением.",
+      "fullDescription": "Bose QuietComfort 35 II предлагают долгую работу от батареи, легкий вес и превосходное шумоподавление, что делает их идеальными для длительных поездок и работы.",
+      "features": {
+        "display": "Н/A",
+        "processor": "Н/A",
+        "ram": "N/A",
+        "storage": "Н/A",
+        "battery": "до 20 часов",
+        "os": "Н/A",
+        "vpro": "Нет"
+      },
+      "specifications": [
+        {
+          "name": "Тип",
+          "value": "Накладные"
+        },
+        {
+          "name": "Шумоподавление",
+          "value": "Активное"
+        },
+        {
+          "name": "Батарея",
+          "value": "до 20 часов"
+        },
+        {
+          "name": "Подключение",
+          "value": "Bluetooth"
+        },
+        {
+          "name": "Микрофоны",
+          "value": "встроенные"
+        }
+      ],
+      "tags": [
+        "Bose",
+        "QuietComfort 35 II",
+        "наушники",
+        "комфорт",
+        "шумоподавление"
+      ],
+      "colors": [
+        "черный",
+        "серебряный"
+      ],
+      "variants": [
+        {
+          "id": 6201,
+          "memory": "Н/A",
+          "color": "черный",
+          "price": 22000,
+          "inStock": true
+        },
+        {
+          "id": 6202,
+          "memory": "Н/A",
+          "color": "серебряный",
+          "price": 22200,
+          "inStock": true
+        },
+        {
+          "id": 6203,
+          "memory": "Н/A",
+          "color": "черный",
+          "price": 21800,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/bose-quietcomfort-35-ii-1.jpg",
+        "/images/products/bose-quietcomfort-35-ii-2.jpg",
+        "/images/products/bose-quietcomfort-35-ii-3.jpg",
+        "/images/products/bose-quietcomfort-35-ii-4.jpg"
+      ],
+      "isNew": false,
+      "isBestseller": true,
+      "createdAt": "2023-09-20T11:00:00Z",
+      "updatedAt": "2024-02-25T14:30:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 5,
+      "path": "/headphones/bose/bose-quietcomfort-35-ii"
+    },
+    {
+      "id": 603,
+      "subCategoryId": 14,
+      "title": "Bose QuietComfort 45",
+      "slug": "bose-quietcomfort-45",
+      "subCategorySlug": "bose",
+      "categorySlug": "headphones",
+      "brandId": null,
+      "price": 23000,
+      "oldPrice": 25000,
+      "discount": 8,
+      "inStock": true,
+      "rating": 4.6,
+      "reviewCount": 290,
+      "description": "Bose QuietComfort 45 – наушники с улучшенным комфортом и эффективным шумоподавлением для ежедневного использования.",
+      "fullDescription": "Bose QuietComfort 45 обеспечивают высокое качество звука, длительное время работы от батареи и оптимальное шумоподавление, идеально подходят для работы и путешествий.",
+      "features": {
+        "display": "Н/A",
+        "processor": "Н/A",
+        "ram": "N/A",
+        "storage": "Н/A",
+        "battery": "до 22 часов",
+        "os": "Н/A",
+        "vpro": "Нет"
+      },
+      "specifications": [
+        {
+          "name": "Тип",
+          "value": "Накладные"
+        },
+        {
+          "name": "Шумоподавление",
+          "value": "Активное"
+        },
+        {
+          "name": "Батарея",
+          "value": "до 22 часов"
+        },
+        {
+          "name": "Подключение",
+          "value": "Bluetooth"
+        },
+        {
+          "name": "Микрофоны",
+          "value": "встроенные"
+        }
+      ],
+      "tags": [
+        "Bose",
+        "QuietComfort 45",
+        "наушники",
+        "комфорт",
+        "шумоподавление"
+      ],
+      "colors": [
+        "черный",
+        "белый"
+      ],
+      "variants": [
+        {
+          "id": 6301,
+          "memory": "Н/A",
+          "color": "черный",
+          "price": 23000,
+          "inStock": true
+        },
+        {
+          "id": 6302,
+          "memory": "Н/A",
+          "color": "белый",
+          "price": 23200,
+          "inStock": true
+        },
+        {
+          "id": 6303,
+          "memory": "Н/A",
+          "color": "черный",
+          "price": 22800,
+          "inStock": false
+        }
+      ],
+      "images": [
+        "/images/products/bose-quietcomfort-45-1.jpg",
+        "/images/products/bose-quietcomfort-45-2.jpg",
+        "/images/products/bose-quietcomfort-45-3.jpg",
+        "/images/products/bose-quietcomfort-45-4.jpg"
+      ],
+      "isNew": true,
+      "isBestseller": false,
+      "createdAt": "2023-10-10T10:30:00Z",
+      "updatedAt": "2024-03-08T13:00:00Z",
+      "status": {
+        "type": "available",
+        "name": "В наличии"
+      },
+      "expertAssessment": 3.8,
+      "path": "/headphones/bose/bose-quietcomfort-45"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "title": "Обзор устаревших смартфонов",
+      "slug": "obzor-ystarevshich-smarfonov",
+      "description": "Lorem ipsum dolor sit amet consectetur. Rhoncus risus viverra enim nunc. Lorem ipsum dolor sit amet consectetur. Rhoncus risus viverra enim nunc. Lorem ipsum dolor sit amet consectetur. Rhoncus risus viverra enim nunc.",
+      "image": "/images/reviews/Frame 2371.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Обзор устаревших смартфонов",
+      "slug": "obzor-ystarevshich-smarfonov",
+      "description": "Lorem ipsum dolor sit amet consectetur. Rhoncus risus viverra enim nunc.",
+      "image": "/images/reviews/"
+    },
+    {
+      "id": 3,
+      "title": "Обзор устаревших смартфонов",
+      "slug": "obzor-ystarevshich-smarfonov",
+      "description": "Lorem ipsum dolor sit amet consectetur. Rhoncus risus viverra enim nunc.",
+      "image": "/images/reviews/"
+    },
+    {
+      "id": 4,
+      "title": "Обзор устаревших смартфонов",
+      "slug": "obzor-ystarevshich-smarfonov",
+      "description": "Lorem ipsum dolor sit amet consectetur. Rhoncus risus viverra enim nunc.",
+      "image": "/images/reviews/"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1743699239270,
+      "userId": 1743344597740,
+      "productId": 1
+    },
+    {
+      "id": 1743699802079,
+      "userId": 1743344597740,
+      "productId": 103
+    }
+  ],
+  "comparison": [],
+  "basket": [
+    {
+      "id": 1743352652347,
+      "userId": 1743344597740,
+      "productId": 103,
+      "quantity": 5
+    },
+    {
+      "id": 1743355619792,
+      "userId": 1743344597740,
+      "productId": 104,
+      "quantity": 1
+    },
+    {
+      "id": 1743356970537,
+      "userId": 1743344597740,
+      "productId": 1,
+      "quantity": 1
+    },
+    {
+      "id": 1743595761343,
+      "userId": 1743595759305,
+      "productId": 1,
+      "quantity": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Алексей",
+      "surname": "Иванов",
+      "patronymic": "Сергеевич",
+      "age": 25
+    },
+    {
+      "id": 2,
+      "name": "Марина",
+      "surname": "Петрова",
+      "patronymic": "Александровна",
+      "age": 30
+    },
+    {
+      "id": 3,
+      "name": "Дмитрий",
+      "surname": "Соколов",
+      "patronymic": "Викторович",
+      "age": 28
+    },
+    {
+      "id": 4,
+      "name": "Елена",
+      "surname": "Кузнецова",
+      "patronymic": "Игоревна",
+      "age": 33
+    },
+    {
+      "id": 5,
+      "name": "Владимир",
+      "surname": "Попов",
+      "patronymic": "Дмитриевич",
+      "age": 26
+    },
+    {
+      "id": 6,
+      "name": "Ирина",
+      "surname": "Новикова",
+      "patronymic": "Андреевна",
+      "age": 29
+    },
+    {
+      "id": 7,
+      "name": "Максим",
+      "surname": "Федоров",
+      "patronymic": "Николаевич",
+      "age": 31
+    },
+    {
+      "id": 8,
+      "name": "Анна",
+      "surname": "Морозова",
+      "patronymic": "Павловна",
+      "age": 27
+    },
+    {
+      "id": 9,
+      "name": "Сергей",
+      "surname": "Волков",
+      "patronymic": "Олегович",
+      "age": 35
+    },
+    {
+      "id": 10,
+      "name": "Ольга",
+      "surname": "Зайцева",
+      "patronymic": "Владимировна",
+      "age": 24
+    },
+    {
+      "id": 1743344597740,
+      "name": "Андрей",
+      "surname": "",
+      "patronymic": "",
+      "phone": "79086028955",
+      "email": "",
+      "age": null,
+      "password": "$2b$10$0OsTYIyKFdwxA6bhS93u5e.j11cjgPLhwh.rhcT71kGp/2.u1maEy",
+      "createdAt": "2025-03-30T14:23:17.740Z"
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 2,
+      "rating": 5,
+      "dignities": "Отличная камера и долгий заряд батареи.",
+      "disadvantages": "Высокая цена.",
+      "comment": "Лучший телефон, который я использовал.",
+      "createdAt": "2019-03-20T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "productId": 1,
+      "rating": 4,
+      "dignities": "Хороший экран и удобный интерфейс.",
+      "disadvantages": "Мало места для хранения.",
+      "comment": "Очень удобен в использовании.",
+      "createdAt": "2010-03-20T12:00:00Z",
+      "user": {
+        "name": "Марина",
+        "surname": "Петрова",
+        "patronymic": "Александровна",
+        "age": 30
+      }
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "productId": 1,
+      "rating": 3,
+      "dignities": "Качественная сборка.",
+      "disadvantages": "Аккумулятор быстро разряжается.",
+      "comment": "Ожидал большего за такую цену.",
+      "createdAt": "2010-03-20T12:00:00Z",
+      "user": {
+        "name": "Дмитрий",
+        "surname": "Соколов",
+        "patronymic": "Викторович",
+        "age": 28
+      }
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "productId": 1,
+      "rating": 5,
+      "dignities": "Быстрая работа и стильный дизайн.",
+      "disadvantages": "Пока не обнаружил.",
+      "comment": "Телефон превзошёл все ожидания.",
+      "createdAt": "2010-03-20T12:00:00Z",
+      "user": {
+        "name": "Елена",
+        "surname": "Кузнецова",
+        "patronymic": "Игоревна",
+        "age": 33
+      }
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "productId": 1,
+      "rating": 2,
+      "dignities": "Приятный на ощупь корпус.",
+      "disadvantages": "Частые сбои в работе приложений.",
+      "comment": "Не оправдал моих ожиданий.",
+      "createdAt": "2010-03-20T12:00:00Z",
+      "user": {
+        "name": "Владимир",
+        "surname": "Попов",
+        "patronymic": "Дмитриевич",
+        "age": 26
+      }
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "productId": 1,
+      "rating": 4,
+      "dignities": "Отличный звук и производительность.",
+      "disadvantages": "Нет зарядного устройства в комплекте.",
+      "comment": "В целом очень доволен.",
+      "createdAt": "2010-03-20T12:00:00Z",
+      "user": {
+        "name": "Ирина",
+        "surname": "Новикова",
+        "patronymic": "Андреевна",
+        "age": 29
+      }
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "productId": 1,
+      "rating": 5,
+      "dignities": "Стабильность и быстрота работы.",
+      "disadvantages": "Стоимость аксессуаров.",
+      "comment": "Рекомендую к покупке.",
+      "createdAt": "2024-03-20T12:00:00Z",
+      "user": {
+        "name": "Максим",
+        "surname": "Федоров",
+        "patronymic": "Николаевич",
+        "age": 31
+      }
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "productId": 1,
+      "rating": 3,
+      "dignities": "Красивый дизайн.",
+      "disadvantages": "Слабая автономность.",
+      "comment": "Средний телефон за высокую цену.",
+      "createdAt": "2024-05-20T12:00:00Z",
+      "user": {
+        "name": "Анна",
+        "surname": "Морозова",
+        "patronymic": "Павловна",
+        "age": 27
+      }
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "productId": 1,
+      "rating": 4,
+      "dignities": "Хорошая камера и экран.",
+      "disadvantages": "Тяжеловат.",
+      "comment": "Хороший телефон, но есть недостатки.",
+      "createdAt": "2024-03-20T12:00:00Z",
+      "user": {
+        "name": "Сергей",
+        "surname": "Волков",
+        "patronymic": "Олегович",
+        "age": 35
+      }
+    },
+    {
+      "id": 10,
+      "userId": 10,
+      "productId": 1,
+      "rating": 5,
+      "dignities": "Производительность на высоте.",
+      "disadvantages": "Очень дорогой ремонт.",
+      "comment": "Лучшее, что есть на рынке.",
+      "createdAt": "2025-02-20T12:00:00Z",
+      "user": {
+        "name": "Ольга",
+        "surname": "Зайцева",
+        "patronymic": "Владимировна",
+        "age": 24
+      }
+    },
+    {
+      "id": 11,
+      "userId": 1,
+      "productId": 2,
+      "rating": 4,
+      "dignities": "Отличное качество сборки.",
+      "disadvantages": "Небольшая оперативная память.",
+      "comment": "Телефон имеет высокое качество сборки, но можно улучшить память.",
+      "createdAt": "2019-04-15T12:00:00Z"
+    },
+    {
+      "id": 12,
+      "userId": 2,
+      "productId": 1,
+      "rating": 5,
+      "dignities": "Быстрый процессор и четкий экран.",
+      "disadvantages": "Высокая цена.",
+      "comment": "Оптимальное сочетание цены и качества.",
+      "createdAt": "2019-05-10T12:00:00Z",
+      "user": {
+        "name": "Марина",
+        "surname": "Петрова",
+        "patronymic": "Александровна",
+        "age": 30
+      }
+    },
+    {
+      "id": 13,
+      "userId": 3,
+      "productId": 1,
+      "rating": 4,
+      "dignities": "Удобный интерфейс.",
+      "disadvantages": "Слабая камера при слабом освещении.",
+      "comment": "Хороший выбор для повседневного использования.",
+      "createdAt": "2020-01-20T12:00:00Z",
+      "user": {
+        "name": "Дмитрий",
+        "surname": "Соколов",
+        "patronymic": "Викторович",
+        "age": 28
+      }
+    },
+    {
+      "id": 14,
+      "userId": 4,
+      "productId": 1,
+      "rating": 3,
+      "dignities": "Стильный дизайн.",
+      "disadvantages": "Неудобное расположение кнопок.",
+      "comment": "Дизайн отличный, но интерфейс требует доработки.",
+      "createdAt": "2020-06-30T12:00:00Z",
+      "user": {
+        "name": "Елена",
+        "surname": "Кузнецова",
+        "patronymic": "Игоревна",
+        "age": 33
+      }
+    },
+    {
+      "id": 15,
+      "userId": 5,
+      "productId": 1,
+      "rating": 4,
+      "dignities": "Хорошая батарея.",
+      "disadvantages": "Средняя производительность.",
+      "comment": "Долгое время работы, но немного медленный.",
+      "createdAt": "2021-03-25T12:00:00Z",
+      "user": {
+        "name": "Владимир",
+        "surname": "Попов",
+        "patronymic": "Дмитриевич",
+        "age": 26
+      }
+    },
+    {
+      "id": 16,
+      "userId": 6,
+      "productId": 1,
+      "rating": 5,
+      "dignities": "Высокая производительность.",
+      "disadvantages": "Неудобное меню настроек.",
+      "comment": "Идеально для игр и приложений.",
+      "createdAt": "2021-08-10T12:00:00Z",
+      "user": {
+        "name": "Ирина",
+        "surname": "Новикова",
+        "patronymic": "Андреевна",
+        "age": 29
+      }
+    },
+    {
+      "id": 17,
+      "userId": 7,
+      "productId": 1,
+      "rating": 3,
+      "dignities": "Компактный размер.",
+      "disadvantages": "Маленький экран.",
+      "comment": "Подходит для тех, кто ценит компактность.",
+      "createdAt": "2022-02-14T12:00:00Z",
+      "user": {
+        "name": "Максим",
+        "surname": "Федоров",
+        "patronymic": "Николаевич",
+        "age": 31
+      }
+    },
+    {
+      "id": 18,
+      "userId": 8,
+      "productId": 1,
+      "rating": 4,
+      "dignities": "Качественная камера.",
+      "disadvantages": "Плохая звуковая система.",
+      "comment": "Хорошая камера компенсирует недостатки звука.",
+      "createdAt": "2022-07-05T12:00:00Z",
+      "user": {
+        "name": "Анна",
+        "surname": "Морозова",
+        "patronymic": "Павловна",
+        "age": 27
+      }
+    },
+    {
+      "id": 19,
+      "userId": 9,
+      "productId": 1,
+      "rating": 2,
+      "dignities": "Привлекательный внешний вид.",
+      "disadvantages": "Слабый аккумулятор.",
+      "comment": "Стильный, но быстро разряжается.",
+      "createdAt": "2023-04-01T12:00:00Z",
+      "user": {
+        "name": "Сергей",
+        "surname": "Волков",
+        "patronymic": "Олегович",
+        "age": 35
+      }
+    },
+    {
+      "id": 20,
+      "userId": 10,
+      "productId": 1,
+      "rating": 5,
+      "dignities": "Отличный звук и камера.",
+      "disadvantages": "Отсутствие обновлений.",
+      "comment": "На рынке лучших вариантов не найти.",
+      "createdAt": "2025-03-01T12:00:00Z",
+      "user": {
+        "name": "Ольга",
+        "surname": "Зайцева",
+        "patronymic": "Владимировна",
+        "age": 24
+      }
+    }
+  ]
+}
