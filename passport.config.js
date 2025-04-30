@@ -94,7 +94,7 @@ passport.use(new VKStrategy(
   {
     clientID: process.env.VK_CLIENT_ID,
     clientSecret: process.env.VK_CLIENT_SECRET,
-    callbackURL: 'http://localhost:8888/auth/vk/callback' // Важно настроить в ВК
+    callbackURL: `${global.URL}/auth/vk/callback` // Важно настроить в ВК
   },
   async (accessToken, refreshToken, params, profile, done) => {
     try {
@@ -121,7 +121,7 @@ passport.use(new YandexStrategy(
   {
     clientID: process.env.YANDEX_CLIENT_ID,
     clientSecret: process.env.YANDEX_CLIENT_SECRET,
-    callbackURL: 'http://localhost:8888/auth/yandex/callback'
+    callbackURL: `${global.URL}/auth/yandex/callback`
   },
   async (accessToken, refreshToken, profile, done) => {
     try {
