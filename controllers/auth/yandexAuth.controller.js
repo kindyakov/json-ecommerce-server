@@ -1,7 +1,5 @@
 import passport from 'passport';
 import { createToken } from '../../helpers/createToken.js';
-import { getBasket } from '../../helpers/getBasket.js';
-import { getFavorites } from '../../helpers/getFavorites.js';
 
 export const yandexAuth = passport.authenticate('yandex', { session: false });
 
@@ -14,22 +12,15 @@ export const yandexCallback = (req, res, next) => {
       }
 
       const token = createToken(user);
-      const { basket, basketTotal } = getBasket(user.id)
-      const favorites = getFavorites(user.id)
 
-      return res.json({
-        message: 'Успешный вход через Яндекс',
-        status: 'success',
-        token,
-        user: {
-          id: user.id,
-          name: user.name
-          // ...
-        },
-        basket,
-        favorites,
-        basketTotal
-      });
+      // res.cookie('token', token, {
+      //   httpOnly: true,
+      //   secure: process.env.NODE_ENV === 'production', // В продакшене true, в dev – false
+      //   sameSite: 'lax', // или 'strict', чтобы повысить защиту от CSRF
+      //   maxAge: 24 * 60 * 60 * 1000 // 1 день
+      // });
+
+      return res.redirect(`${global.CLIENT_URL}/auth-success?token=${token}`);
     }
   )(req, res, next);
 };

@@ -6,6 +6,7 @@ import { Strategy as JwtStrategy, ExtractJwt } from 'passport-jwt';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
+import moment from 'moment';
 
 // Для чтения переменных окружения (JWT_SECRET, VK_CLIENT_ID, и т.д.)
 dotenv.config();
@@ -16,23 +17,18 @@ dotenv.config();
  * или создавать, если нет
  */
 function findOrCreateUser(db, userData) {
-  const { phone, vkId, yandexId, password } = userData;
-  let existingUser;
+  const { phone, vkId, yandexId, } = userData;
+  let existingUser = null;
 
-  // Пробуем найти по телефону, если он передан
-  if (phone) {
-    existingUser = db.get('users').find({ phone }).value();
-  }
-  // Или по vkId
   if (vkId) {
     existingUser = db.get('users').find({ vkId }).value();
-  }
-  // Или по yandexId
-  if (yandexId) {
+  } else if (yandexId) {
     existingUser = db.get('users').find({ yandexId }).value();
+  } else if (phone) {
+    existingUser = db.get('users').find({ phone }).value();
   }
 
-  // Если есть - возвращаем
+  // Если есть пользователь, то его возвращаем
   if (existingUser) {
     return existingUser;
   }
@@ -41,10 +37,17 @@ function findOrCreateUser(db, userData) {
   const newUser = {
     id: Date.now(),
     name: userData.name || '',
+    surname: userData.surname || '',
+    patronymic: userData.patronymic || '',
     phone: phone || '',
+    email: userData.email || '',
+    birthday: userData.birthday || null,
+    gender: userData.gender || '',
+    photo: userData.photo || '',
+    age: userData.birthday ? moment().diff(moment(userData.birthday), 'years') : null,
     vkId: vkId || null,
     yandexId: yandexId || null,
-    password: password || null,
+    password: null,
     createdAt: new Date()
   };
 
@@ -52,7 +55,6 @@ function findOrCreateUser(db, userData) {
 
   return newUser;
 }
-
 
 /**
  * Локальная стратегия (phone + password)
@@ -65,7 +67,7 @@ passport.use(new LocalStrategy(
   async (phone, password, done) => {
     try {
       // Подключаемся к db через специальное поле, которое мы добавим в server.js
-      const db = global.__DB__;
+      const db = global.DB;
       const user = db.get('users').find({ phone }).value();
 
       if (!user) {
@@ -96,7 +98,7 @@ passport.use(new VKStrategy(
   },
   async (accessToken, refreshToken, params, profile, done) => {
     try {
-      const db = global.__DB__;
+      const db = global.DB;
 
       const userData = {
         vkId: profile.id,
@@ -123,11 +125,18 @@ passport.use(new YandexStrategy(
   },
   async (accessToken, refreshToken, profile, done) => {
     try {
-      const db = global.__DB__;
+      const db = global.DB;
+      const yandexUser = profile._json;
 
       const userData = {
-        yandexId: profile.id,
-        name: profile.displayName || ''
+        yandexId: yandexUser.id,
+        name: yandexUser.first_name || '',
+        surname: yandexUser.last_name || '',
+        birthday: yandexUser.birthday || null,
+        gender: yandexUser.sex || null,
+        email: yandexUser.default_email || null,
+        photo: profile.photos[0]?.value || null,
+        phone: yandexUser.default_phone?.number?.replace('+', '') || null
       };
 
       const user = findOrCreateUser(db, userData);
@@ -150,7 +159,7 @@ passport.use(new JwtStrategy(
   (payload, done) => {
     // payload — это { id, phone, iat, exp }, которые вы зашиваете в JWT
     try {
-      const db = global.__DB__;
+      const db = global.DB;
 
       const user = db.get('users').find({ id: payload.id }).value();
 
@@ -176,7 +185,7 @@ passport.serializeUser((user, done) => {
 
 passport.deserializeUser((id, done) => {
   try {
-    const db = global.__DB__;
+    const db = global.DB;
     const user = db.get('users').find({ id }).value();
     done(null, user);
   } catch (err) {

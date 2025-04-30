@@ -502,8 +502,8 @@
       },
       "expertAssessment": 3.1,
       "path": "/smartphones/apple/iphone-14-pro-max-128-gb-chernyj",
-      "quantity": 1,
-      "totalPrice": 79999
+      "quantity": 2,
+      "totalPrice": 159998
     },
     {
       "id": 101,
@@ -649,7 +649,9 @@
         "name": "Нет в наличии"
       },
       "expertAssessment": 3.1,
-      "path": "/smartphones/apple/iphone-14-pro-max-256-gb-zolotoj"
+      "path": "/smartphones/apple/iphone-14-pro-max-256-gb-zolotoj",
+      "quantity": 1,
+      "totalPrice": 89999
     },
     {
       "id": 102,
@@ -796,7 +798,9 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.8,
-      "path": "/smartphones/apple/iphone-14-pro-max-256-gb-chernyj"
+      "path": "/smartphones/apple/iphone-14-pro-max-256-gb-chernyj",
+      "quantity": 1,
+      "totalPrice": 89999
     },
     {
       "id": 103,
@@ -943,9 +947,9 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.8,
-      "quantity": 4,
+      "quantity": 2,
       "path": "/smartphones/apple/iphone-14-pro-max-512-gb-chernyj",
-      "totalPrice": 439996
+      "totalPrice": 219998
     },
     {
       "id": 104,
@@ -1214,7 +1218,9 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.5,
-      "path": "/smartphones/apple/iphone-13-128-gb-chernyj"
+      "path": "/smartphones/apple/iphone-13-128-gb-chernyj",
+      "quantity": 1,
+      "totalPrice": 59999
     },
     {
       "id": 3,
@@ -1337,7 +1343,9 @@
         "name": "В наличии"
       },
       "expertAssessment": 3.3,
-      "path": "/smartphones/apple/iphone-se-64-gb-chernyj"
+      "path": "/smartphones/apple/iphone-se-64-gb-chernyj",
+      "quantity": 2,
+      "totalPrice": 79998
     },
     {
       "id": 4,
@@ -1407,32 +1415,7 @@
         "фиолетовый",
         "золотистый"
       ],
-      "variants": [
-        {
-          "id": 401,
-          "memory": "64 ГБ",
-          "color": "черный",
-          "price": 69999,
-          "inStock": true,
-          "baseTitle": "Xiaomi 13"
-        },
-        {
-          "id": 402,
-          "memory": "128 ГБ",
-          "color": "черный",
-          "price": 74999,
-          "inStock": true,
-          "baseTitle": "Xiaomi 13"
-        },
-        {
-          "id": 403,
-          "memory": "256 ГБ",
-          "color": "черный",
-          "price": 84999,
-          "inStock": true,
-          "baseTitle": "Xiaomi 13"
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/xiaomi-13-1.jpg",
         "/images/products/xiaomi-13-2.jpg",
@@ -1448,7 +1431,9 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.1,
-      "path": "/smartphones/xiaomi/xiaomi-13-64-gb-chernyj"
+      "path": "/smartphones/xiaomi/xiaomi-13-64-gb-chernyj",
+      "quantity": 1,
+      "totalPrice": 69999
     },
     {
       "id": 5,
@@ -1518,32 +1503,7 @@
         "зеленый",
         "фиолетовый"
       ],
-      "variants": [
-        {
-          "id": 501,
-          "memory": "128 ГБ",
-          "color": "черный",
-          "price": 29999,
-          "inStock": true,
-          "baseTitle": "Redmi Note 12"
-        },
-        {
-          "id": 502,
-          "memory": "128 ГБ",
-          "color": "белый",
-          "price": 30999,
-          "inStock": true,
-          "baseTitle": "Redmi Note 12"
-        },
-        {
-          "id": 503,
-          "memory": "128 ГБ",
-          "color": "зеленый",
-          "price": 30999,
-          "inStock": true,
-          "baseTitle": "Redmi Note 12"
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/redmi-note-12-1.jpg",
         "/images/products/redmi-note-12-2.jpg",
@@ -1559,7 +1519,9 @@
         "name": "В наличии"
       },
       "expertAssessment": 3.8,
-      "path": "/smartphones/xiaomi/redmi-note-12-128-gb-chernyj"
+      "path": "/smartphones/xiaomi/redmi-note-12-128-gb-chernyj",
+      "quantity": 1,
+      "totalPrice": 29999
     },
     {
       "id": 6,
@@ -1628,32 +1590,7 @@
         "зеленый",
         "золотистый"
       ],
-      "variants": [
-        {
-          "id": 601,
-          "memory": "256 ГБ",
-          "color": "черный",
-          "price": 149999,
-          "inStock": true,
-          "baseTitle": "Galaxy S23 Ultra"
-        },
-        {
-          "id": 602,
-          "memory": "256 ГБ",
-          "color": "белый",
-          "price": 152999,
-          "inStock": true,
-          "baseTitle": "Galaxy S23 Ultra"
-        },
-        {
-          "id": 603,
-          "memory": "512 ГБ",
-          "color": "черный",
-          "price": 179999,
-          "inStock": false,
-          "baseTitle": "Galaxy S23 Ultra"
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/galaxy-s23-ultra-1.jpg",
         "/images/products/galaxy-s23-ultra-2.jpg",
@@ -1669,7 +1606,9 @@
         "name": "В наличии"
       },
       "expertAssessment": 3.3,
-      "path": "/smartphones/samsung/galaxy-s23-ultra-256-gb-chernyj"
+      "path": "/smartphones/samsung/galaxy-s23-ultra-256-gb-chernyj",
+      "quantity": 1,
+      "totalPrice": 149999
     },
     {
       "id": 7,
@@ -1738,32 +1677,7 @@
         "серебристый",
         "золотистый"
       ],
-      "variants": [
-        {
-          "id": 701,
-          "memory": "512 ГБ",
-          "color": "черный",
-          "price": 199999,
-          "inStock": true,
-          "baseTitle": "Galaxy Z Fold 5"
-        },
-        {
-          "id": 702,
-          "memory": "512 ГБ",
-          "color": "серебристый",
-          "price": 202999,
-          "inStock": true,
-          "baseTitle": "Galaxy Z Fold 5"
-        },
-        {
-          "id": 703,
-          "memory": "512 ГБ",
-          "color": "золотистый",
-          "price": 202999,
-          "inStock": true,
-          "baseTitle": "Galaxy Z Fold 5"
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/galaxy-z-fold-5-1.jpg",
         "/images/products/galaxy-z-fold-5-2.jpg",
@@ -1848,32 +1762,7 @@
         "белый",
         "зеленый"
       ],
-      "variants": [
-        {
-          "id": 801,
-          "memory": "128 ГБ",
-          "color": "черный",
-          "price": 49999,
-          "inStock": true,
-          "baseTitle": "Galaxy A54"
-        },
-        {
-          "id": 802,
-          "memory": "128 ГБ",
-          "color": "белый",
-          "price": 50999,
-          "inStock": true,
-          "baseTitle": "Galaxy A54"
-        },
-        {
-          "id": 803,
-          "memory": "128 ГБ",
-          "color": "зеленый",
-          "price": 50999,
-          "inStock": true,
-          "baseTitle": "Galaxy A54"
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/galaxy-a54-1.jpg",
         "/images/products/galaxy-a54-2.jpg",
@@ -1958,32 +1847,7 @@
         "бежевый",
         "золотистый"
       ],
-      "variants": [
-        {
-          "id": 901,
-          "memory": "64 ГБ",
-          "color": "черный",
-          "price": 19999,
-          "inStock": true,
-          "baseTitle": "Lenovo Tab M10 Plus"
-        },
-        {
-          "id": 902,
-          "memory": "128 ГБ",
-          "color": "черный",
-          "price": 21999,
-          "inStock": true,
-          "baseTitle": "Lenovo Tab M10 Plus"
-        },
-        {
-          "id": 903,
-          "memory": "128 ГБ",
-          "color": "бежевый",
-          "price": 22999,
-          "inStock": true,
-          "baseTitle": "Lenovo Tab M10 Plus"
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/lenovo-tab-m10-plus-1.jpg",
         "/images/products/lenovo-tab-m10-plus-2.jpg",
@@ -1999,7 +1863,9 @@
         "name": "В наличии"
       },
       "expertAssessment": 3.9,
-      "path": "/tablets/lenovo/lenovo-tab-m10-plus-64-gb-chernyj"
+      "path": "/tablets/lenovo/lenovo-tab-m10-plus-64-gb-chernyj",
+      "quantity": 1,
+      "totalPrice": 19999
     },
     {
       "id": 10,
@@ -2068,32 +1934,7 @@
         "серый",
         "бежевый"
       ],
-      "variants": [
-        {
-          "id": 1001,
-          "memory": "32 ГБ",
-          "color": "черный",
-          "price": 14999,
-          "inStock": true,
-          "baseTitle": "Lenovo Tab M8"
-        },
-        {
-          "id": 1002,
-          "memory": "64 ГБ",
-          "color": "черный",
-          "price": 16999,
-          "inStock": true,
-          "baseTitle": "Lenovo Tab M8"
-        },
-        {
-          "id": 1003,
-          "memory": "64 ГБ",
-          "color": "бежевый",
-          "price": 17999,
-          "inStock": true,
-          "baseTitle": "Lenovo Tab M8"
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/lenovo-tab-m8-1.jpg",
         "/images/products/lenovo-tab-m8-2.jpg",
@@ -2109,7 +1950,9 @@
         "name": "В наличии"
       },
       "expertAssessment": 3.4,
-      "path": "/tablets/lenovo/lenovo-tab-m8-32-gb-chernyj"
+      "path": "/tablets/lenovo/lenovo-tab-m8-32-gb-chernyj",
+      "quantity": 1,
+      "totalPrice": 14999
     },
     {
       "id": 11,
@@ -2178,32 +2021,7 @@
         "серый",
         "бежевый"
       ],
-      "variants": [
-        {
-          "id": 1101,
-          "memory": "32 ГБ",
-          "color": "черный",
-          "price": 12999,
-          "inStock": true,
-          "baseTitle": "Lenovo Tab M7"
-        },
-        {
-          "id": 1102,
-          "memory": "64 ГБ",
-          "color": "черный",
-          "price": 14999,
-          "inStock": true,
-          "baseTitle": "Lenovo Tab M7"
-        },
-        {
-          "id": 1103,
-          "memory": "64 ГБ",
-          "color": "бежевый",
-          "price": 15999,
-          "inStock": true,
-          "baseTitle": "Lenovo Tab M7"
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/lenovo-tab-m7-1.jpg",
         "/images/products/lenovo-tab-m7-2.jpg",
@@ -2289,32 +2107,7 @@
         "бежевый",
         "золотистый"
       ],
-      "variants": [
-        {
-          "id": 1201,
-          "memory": "128 ГБ",
-          "color": "черный",
-          "price": 34999,
-          "inStock": true,
-          "baseTitle": "Huawei MatePad 11"
-        },
-        {
-          "id": 1202,
-          "memory": "256 ГБ",
-          "color": "черный",
-          "price": 39999,
-          "inStock": true,
-          "baseTitle": "Huawei MatePad 11"
-        },
-        {
-          "id": 1203,
-          "memory": "256 ГБ",
-          "color": "бежевый",
-          "price": 40999,
-          "inStock": true,
-          "baseTitle": "Huawei MatePad 11"
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/huawei-matepad-11-1.jpg",
         "/images/products/huawei-matepad-11-2.jpg",
@@ -2399,32 +2192,7 @@
         "бежевый",
         "золотистый"
       ],
-      "variants": [
-        {
-          "id": 1301,
-          "memory": "32 ГБ",
-          "color": "черный",
-          "price": 19999,
-          "inStock": true,
-          "baseTitle": "Huawei MediaPad T7"
-        },
-        {
-          "id": 1302,
-          "memory": "64 ГБ",
-          "color": "черный",
-          "price": 21999,
-          "inStock": true,
-          "baseTitle": "Huawei MediaPad T7"
-        },
-        {
-          "id": 1303,
-          "memory": "64 ГБ",
-          "color": "бежевый",
-          "price": 22999,
-          "inStock": true,
-          "baseTitle": "Huawei MediaPad T7"
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/huawei-mediapad-t7-1.jpg",
         "/images/products/huawei-mediapad-t7-2.jpg",
@@ -2509,32 +2277,7 @@
         "бежевый",
         "золотистый"
       ],
-      "variants": [
-        {
-          "id": 1401,
-          "memory": "64 ГБ",
-          "color": "черный",
-          "price": 29999,
-          "inStock": true,
-          "baseTitle": "Huawei MediaPad M5"
-        },
-        {
-          "id": 1402,
-          "memory": "128 ГБ",
-          "color": "черный",
-          "price": 32999,
-          "inStock": true,
-          "baseTitle": "Huawei MediaPad M5"
-        },
-        {
-          "id": 1403,
-          "memory": "128 ГБ",
-          "color": "бежевый",
-          "price": 33999,
-          "inStock": true,
-          "baseTitle": "Huawei MediaPad M5"
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/huawei-mediapad-m5-1.jpg",
         "/images/products/huawei-mediapad-m5-2.jpg",
@@ -2608,32 +2351,7 @@
         "белый",
         "красный"
       ],
-      "variants": [
-        {
-          "id": 1501,
-          "memory": "256 ГБ",
-          "color": "черный",
-          "price": 89999,
-          "inStock": true,
-          "baseTitle": "ASUS ROG Phone 7"
-        },
-        {
-          "id": 1502,
-          "memory": "512 ГБ",
-          "color": "белый",
-          "price": 94999,
-          "inStock": true,
-          "baseTitle": "ASUS ROG Phone 7"
-        },
-        {
-          "id": 1503,
-          "memory": "512 ГБ",
-          "color": "красный",
-          "price": 97999,
-          "inStock": false,
-          "baseTitle": "ASUS ROG Phone 7"
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/asus-rog-phone-7-1.jpg",
         "/images/products/asus-rog-phone-7-2.jpg",
@@ -2648,7 +2366,9 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.2,
-      "path": "/laptops/asus/asus-rog-phone-7-256-gb-chernyj"
+      "path": "/laptops/asus/asus-rog-phone-7-256-gb-chernyj",
+      "quantity": 1,
+      "totalPrice": 89999
     },
     {
       "id": 16,
@@ -2727,29 +2447,7 @@
         "белый",
         "фиолетовый"
       ],
-      "variants": [
-        {
-          "id": 1601,
-          "memory": "128 ГБ",
-          "color": "черный",
-          "price": 59999,
-          "inStock": true
-        },
-        {
-          "id": 1602,
-          "memory": "128 ГБ",
-          "color": "белый",
-          "price": 60999,
-          "inStock": true
-        },
-        {
-          "id": 1603,
-          "memory": "256 ГБ",
-          "color": "черный",
-          "price": 69999,
-          "inStock": true
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/asus-zenfone-9-1.jpg",
         "/images/products/asus-zenfone-9-2.jpg",
@@ -2840,29 +2538,7 @@
         "красный",
         "фиолетовый"
       ],
-      "variants": [
-        {
-          "id": 1701,
-          "memory": "512 ГБ",
-          "color": "черный",
-          "price": 99999,
-          "inStock": true
-        },
-        {
-          "id": 1702,
-          "memory": "512 ГБ",
-          "color": "красный",
-          "price": 100999,
-          "inStock": true
-        },
-        {
-          "id": 1703,
-          "memory": "1TB",
-          "color": "черный",
-          "price": 129999,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/asus-rog-phone-6d-ultimate-1.jpg",
         "/images/products/asus-rog-phone-6d-ultimate-2.jpg",
@@ -2953,29 +2629,7 @@
         "красный",
         "фиолетовый"
       ],
-      "variants": [
-        {
-          "id": 1801,
-          "memory": "512 ГБ",
-          "color": "черный",
-          "price": 119999,
-          "inStock": true
-        },
-        {
-          "id": 1802,
-          "memory": "512 ГБ",
-          "color": "красный",
-          "price": 120999,
-          "inStock": true
-        },
-        {
-          "id": 1803,
-          "memory": "1TB",
-          "color": "черный",
-          "price": 139999,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/asus-rog-phone-6-pro-1.jpg",
         "/images/products/asus-rog-phone-6-pro-2.jpg",
@@ -3062,29 +2716,7 @@
         "красный",
         "фиолетовый"
       ],
-      "variants": [
-        {
-          "id": 1901,
-          "memory": "256 ГБ",
-          "color": "черный",
-          "price": 89999,
-          "inStock": true
-        },
-        {
-          "id": 1902,
-          "memory": "256 ГБ",
-          "color": "красный",
-          "price": 90999,
-          "inStock": true
-        },
-        {
-          "id": 1903,
-          "memory": "512 ГБ",
-          "color": "черный",
-          "price": 109999,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/asus-rog-phone-6-1.jpg",
         "/images/products/asus-rog-phone-6-2.jpg",
@@ -3171,29 +2803,7 @@
         "красный",
         "фиолетовый"
       ],
-      "variants": [
-        {
-          "id": 2001,
-          "memory": "128 ГБ",
-          "color": "черный",
-          "price": 69999,
-          "inStock": true
-        },
-        {
-          "id": 2002,
-          "memory": "256 ГБ",
-          "color": "черный",
-          "price": 79999,
-          "inStock": true
-        },
-        {
-          "id": 2003,
-          "memory": "512 ГБ",
-          "color": "черный",
-          "price": 99999,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/asus-rog-phone-5-1.jpg",
         "/images/products/asus-rog-phone-5-2.jpg",
@@ -3279,29 +2889,7 @@
         "белый",
         "фиолетовый"
       ],
-      "variants": [
-        {
-          "id": 2101,
-          "memory": "128 ГБ",
-          "color": "черный",
-          "price": 59999,
-          "inStock": true
-        },
-        {
-          "id": 2102,
-          "memory": "256 ГБ",
-          "color": "черный",
-          "price": 69999,
-          "inStock": true
-        },
-        {
-          "id": 2103,
-          "memory": "512 ГБ",
-          "color": "черный",
-          "price": 89999,
-          "inStock": true
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/asus-zenfone-9-1.jpg",
         "/images/products/asus-zenfone-9-2.jpg",
@@ -3388,29 +2976,7 @@
         "красный",
         "фиолетовый"
       ],
-      "variants": [
-        {
-          "id": 2201,
-          "memory": "256 ГБ",
-          "color": "черный",
-          "price": 79999,
-          "inStock": true
-        },
-        {
-          "id": 2202,
-          "memory": "256 ГБ",
-          "color": "красный",
-          "price": 80999,
-          "inStock": true
-        },
-        {
-          "id": 2203,
-          "memory": "512 ГБ",
-          "color": "черный",
-          "price": 109999,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/asus-rog-phone-6d-1.jpg",
         "/images/products/asus-rog-phone-6d-2.jpg",
@@ -3497,29 +3063,7 @@
         "красный",
         "фиолетовый"
       ],
-      "variants": [
-        {
-          "id": 2301,
-          "memory": "256 ГБ",
-          "color": "черный",
-          "price": 69999,
-          "inStock": true
-        },
-        {
-          "id": 2302,
-          "memory": "256 ГБ",
-          "color": "красный",
-          "price": 70999,
-          "inStock": true
-        },
-        {
-          "id": 2303,
-          "memory": "512 ГБ",
-          "color": "черный",
-          "price": 99999,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/asus-rog-phone-5d-1.jpg",
         "/images/products/asus-rog-phone-5d-2.jpg",
@@ -3606,29 +3150,7 @@
         "красный",
         "фиолетовый"
       ],
-      "variants": [
-        {
-          "id": 2401,
-          "memory": "512 ГБ",
-          "color": "черный",
-          "price": 119999,
-          "inStock": true
-        },
-        {
-          "id": 2402,
-          "memory": "512 ГБ",
-          "color": "красный",
-          "price": 120999,
-          "inStock": true
-        },
-        {
-          "id": 2403,
-          "memory": "1TB",
-          "color": "черный",
-          "price": 149999,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/asus-rog-phone-6-pro-1.jpg",
         "/images/products/asus-rog-phone-6-pro-2.jpg",
@@ -3713,29 +3235,7 @@
         "черный",
         "серебристый"
       ],
-      "variants": [
-        {
-          "id": 2501,
-          "memory": "16 ГБ",
-          "color": "черный",
-          "price": 119999,
-          "inStock": true
-        },
-        {
-          "id": 2502,
-          "memory": "16 ГБ",
-          "color": "серебристый",
-          "price": 120999,
-          "inStock": true
-        },
-        {
-          "id": 2503,
-          "memory": "32 ГБ",
-          "color": "черный",
-          "price": 149999,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/dell-xps-15-1.jpg",
         "/images/products/dell-xps-15-2.jpg",
@@ -3820,29 +3320,7 @@
         "черный",
         "серый"
       ],
-      "variants": [
-        {
-          "id": 2601,
-          "memory": "8 ГБ",
-          "color": "черный",
-          "price": 79999,
-          "inStock": true
-        },
-        {
-          "id": 2602,
-          "memory": "8 ГБ",
-          "color": "серый",
-          "price": 80999,
-          "inStock": true
-        },
-        {
-          "id": 2603,
-          "memory": "16 ГБ",
-          "color": "черный",
-          "price": 99999,
-          "inStock": true
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/dell-latitude-5520-1.jpg",
         "/images/products/dell-latitude-5520-2.jpg",
@@ -3927,29 +3405,7 @@
         "черный",
         "серый"
       ],
-      "variants": [
-        {
-          "id": 2701,
-          "memory": "4 ГБ",
-          "color": "черный",
-          "price": 49999,
-          "inStock": true
-        },
-        {
-          "id": 2702,
-          "memory": "4 ГБ",
-          "color": "серый",
-          "price": 50999,
-          "inStock": true
-        },
-        {
-          "id": 2703,
-          "memory": "8 ГБ",
-          "color": "черный",
-          "price": 69999,
-          "inStock": true
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/dell-inspiron-14-5423-1.jpg",
         "/images/products/dell-inspiron-14-5423-2.jpg",
@@ -4034,29 +3490,7 @@
         "серый",
         "металлик"
       ],
-      "variants": [
-        {
-          "id": 2801,
-          "memory": "8 ГБ",
-          "color": "черный",
-          "price": 59999,
-          "inStock": true
-        },
-        {
-          "id": 2802,
-          "memory": "8 ГБ",
-          "color": "серый",
-          "price": 60999,
-          "inStock": true
-        },
-        {
-          "id": 2803,
-          "memory": "16 ГБ",
-          "color": "черный",
-          "price": 79999,
-          "inStock": true
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/hp-pavilion-15-1.jpg",
         "/images/products/hp-pavilion-15-2.jpg",
@@ -4142,29 +3576,7 @@
         "серый",
         "металлик"
       ],
-      "variants": [
-        {
-          "id": 2901,
-          "memory": "16 ГБ",
-          "color": "черный",
-          "price": 89999,
-          "inStock": true
-        },
-        {
-          "id": 2902,
-          "memory": "16 ГБ",
-          "color": "серый",
-          "price": 90999,
-          "inStock": true
-        },
-        {
-          "id": 2903,
-          "memory": "32 ГБ",
-          "color": "черный",
-          "price": 119999,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/hp-envy-15-1.jpg",
         "/images/products/hp-envy-15-2.jpg",
@@ -4251,29 +3663,7 @@
         "серый",
         "металлик"
       ],
-      "variants": [
-        {
-          "id": 3001,
-          "memory": "32 ГБ",
-          "color": "черный",
-          "price": 99999,
-          "inStock": true
-        },
-        {
-          "id": 3002,
-          "memory": "32 ГБ",
-          "color": "серый",
-          "price": 100999,
-          "inStock": true
-        },
-        {
-          "id": 3003,
-          "memory": "64 ГБ",
-          "color": "черный",
-          "price": 129999,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/hp-elitebook-840-g11-1.jpg",
         "/images/products/hp-elitebook-840-g11-2.jpg",
@@ -4359,29 +3749,7 @@
         "серый",
         "синий"
       ],
-      "variants": [
-        {
-          "id": 1101,
-          "memory": "4 ГБ",
-          "color": "черный",
-          "price": 15000,
-          "inStock": true
-        },
-        {
-          "id": 1102,
-          "memory": "4 ГБ",
-          "color": "серый",
-          "price": 15200,
-          "inStock": true
-        },
-        {
-          "id": 1103,
-          "memory": "4 ГБ",
-          "color": "синий",
-          "price": 14900,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/garmin-forerunner-245-1.jpg",
         "/images/products/garmin-forerunner-245-2.jpg",
@@ -4467,29 +3835,7 @@
         "серый",
         "зеленый"
       ],
-      "variants": [
-        {
-          "id": 1201,
-          "memory": "8 ГБ",
-          "color": "черный",
-          "price": 55000,
-          "inStock": true
-        },
-        {
-          "id": 1202,
-          "memory": "8 ГБ",
-          "color": "серый",
-          "price": 55200,
-          "inStock": true
-        },
-        {
-          "id": 1203,
-          "memory": "8 ГБ",
-          "color": "зеленый",
-          "price": 54900,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/garmin-fenix-6-pro-1.jpg",
         "/images/products/garmin-fenix-6-pro-2.jpg",
@@ -4575,29 +3921,7 @@
         "серебристый",
         "розовый"
       ],
-      "variants": [
-        {
-          "id": 1301,
-          "memory": "4 ГБ",
-          "color": "черный",
-          "price": 35000,
-          "inStock": true
-        },
-        {
-          "id": 1302,
-          "memory": "4 ГБ",
-          "color": "серебристый",
-          "price": 35200,
-          "inStock": true
-        },
-        {
-          "id": 1303,
-          "memory": "4 ГБ",
-          "color": "розовый",
-          "price": 34900,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/garmin-vivoactive-4-1.jpg",
         "/images/products/garmin-vivoactive-4-2.jpg",
@@ -4683,29 +4007,7 @@
         "розовый",
         "серебряный"
       ],
-      "variants": [
-        {
-          "id": 2101,
-          "memory": "2 ГБ",
-          "color": "черный",
-          "price": 12000,
-          "inStock": true
-        },
-        {
-          "id": 2102,
-          "memory": "2 ГБ",
-          "color": "розовый",
-          "price": 12100,
-          "inStock": true
-        },
-        {
-          "id": 2103,
-          "memory": "2 ГБ",
-          "color": "серебряный",
-          "price": 11900,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/fitbit-versa-3-1.jpg",
         "/images/products/fitbit-versa-3-2.jpg",
@@ -4791,29 +4093,7 @@
         "серебряный",
         "золотой"
       ],
-      "variants": [
-        {
-          "id": 2201,
-          "memory": "2 ГБ",
-          "color": "черный",
-          "price": 18000,
-          "inStock": true
-        },
-        {
-          "id": 2202,
-          "memory": "2 ГБ",
-          "color": "серебряный",
-          "price": 18200,
-          "inStock": true
-        },
-        {
-          "id": 2203,
-          "memory": "2 ГБ",
-          "color": "золотой",
-          "price": 17900,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/fitbit-sense-1.jpg",
         "/images/products/fitbit-sense-2.jpg",
@@ -4899,29 +4179,7 @@
         "белый",
         "розовый"
       ],
-      "variants": [
-        {
-          "id": 2301,
-          "memory": "1 ГБ",
-          "color": "черный",
-          "price": 8000,
-          "inStock": true
-        },
-        {
-          "id": 2302,
-          "memory": "1 ГБ",
-          "color": "белый",
-          "price": 8100,
-          "inStock": true
-        },
-        {
-          "id": 2303,
-          "memory": "1 ГБ",
-          "color": "розовый",
-          "price": 7950,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/fitbit-inspire-2-1.jpg",
         "/images/products/fitbit-inspire-2-2.jpg",
@@ -5006,29 +4264,7 @@
         "белый",
         "черный"
       ],
-      "variants": [
-        {
-          "id": 3101,
-          "memory": "825 ГБ",
-          "color": "белый",
-          "price": 70000,
-          "inStock": true
-        },
-        {
-          "id": 3102,
-          "memory": "825 ГБ",
-          "color": "черный",
-          "price": 70200,
-          "inStock": true
-        },
-        {
-          "id": 3103,
-          "memory": "825 ГБ",
-          "color": "белый",
-          "price": 69800,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/playstation-5-1.jpg",
         "/images/products/playstation-5-2.jpg",
@@ -5112,29 +4348,7 @@
         "черный",
         "серебряный"
       ],
-      "variants": [
-        {
-          "id": 3201,
-          "memory": "1 ТБ",
-          "color": "черный",
-          "price": 45000,
-          "inStock": true
-        },
-        {
-          "id": 3202,
-          "memory": "1 ТБ",
-          "color": "серебряный",
-          "price": 45200,
-          "inStock": true
-        },
-        {
-          "id": 3203,
-          "memory": "1 ТБ",
-          "color": "черный",
-          "price": 44800,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/playstation-4-pro-1.jpg",
         "/images/products/playstation-4-pro-2.jpg",
@@ -5218,29 +4432,7 @@
         "белый",
         "черный"
       ],
-      "variants": [
-        {
-          "id": 3301,
-          "memory": "16 ГБ",
-          "color": "белый",
-          "price": 25000,
-          "inStock": true
-        },
-        {
-          "id": 3302,
-          "memory": "16 ГБ",
-          "color": "черный",
-          "price": 25200,
-          "inStock": true
-        },
-        {
-          "id": 3303,
-          "memory": "16 ГБ",
-          "color": "белый",
-          "price": 24800,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/playstation-classic-1.jpg",
         "/images/products/playstation-classic-2.jpg",
@@ -5321,29 +4513,7 @@
         "черный",
         "серебряный"
       ],
-      "variants": [
-        {
-          "id": 4101,
-          "memory": "1 ТБ",
-          "color": "черный",
-          "price": 60000,
-          "inStock": true
-        },
-        {
-          "id": 4102,
-          "memory": "1 ТБ",
-          "color": "серебряный",
-          "price": 60200,
-          "inStock": true
-        },
-        {
-          "id": 4103,
-          "memory": "1 ТБ",
-          "color": "черный",
-          "price": 59800,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/xbox-series-x-1.jpg",
         "/images/products/xbox-series-x-2.jpg",
@@ -5422,29 +4592,7 @@
         "белый",
         "черный"
       ],
-      "variants": [
-        {
-          "id": 4201,
-          "memory": "512 ГБ",
-          "color": "белый",
-          "price": 40000,
-          "inStock": true
-        },
-        {
-          "id": 4202,
-          "memory": "512 ГБ",
-          "color": "черный",
-          "price": 40200,
-          "inStock": true
-        },
-        {
-          "id": 4203,
-          "memory": "512 ГБ",
-          "color": "белый",
-          "price": 39800,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/xbox-series-s-1.jpg",
         "/images/products/xbox-series-s-2.jpg",
@@ -5522,29 +4670,7 @@
       "colors": [
         "черный"
       ],
-      "variants": [
-        {
-          "id": 4301,
-          "memory": "1 ТБ",
-          "color": "черный",
-          "price": 30000,
-          "inStock": false
-        },
-        {
-          "id": 4302,
-          "memory": "1 ТБ",
-          "color": "черный",
-          "price": 30200,
-          "inStock": false
-        },
-        {
-          "id": 4303,
-          "memory": "1 ТБ",
-          "color": "черный",
-          "price": 29800,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/xbox-one-x-1.jpg",
         "/images/products/xbox-one-x-2.jpg",
@@ -5620,29 +4746,7 @@
         "черный",
         "серебряный"
       ],
-      "variants": [
-        {
-          "id": 5101,
-          "memory": "N/A",
-          "color": "черный",
-          "price": 25000,
-          "inStock": true
-        },
-        {
-          "id": 5102,
-          "memory": "N/A",
-          "color": "серебряный",
-          "price": 25200,
-          "inStock": true
-        },
-        {
-          "id": 5103,
-          "memory": "N/A",
-          "color": "черный",
-          "price": 24800,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/sony-wh-1000xm5-1.jpg",
         "/images/products/sony-wh-1000xm5-2.jpg",
@@ -5718,29 +4822,7 @@
         "черный",
         "белый"
       ],
-      "variants": [
-        {
-          "id": 5201,
-          "memory": "N/A",
-          "color": "черный",
-          "price": 20000,
-          "inStock": true
-        },
-        {
-          "id": 5202,
-          "memory": "N/A",
-          "color": "белый",
-          "price": 20200,
-          "inStock": true
-        },
-        {
-          "id": 5203,
-          "memory": "N/A",
-          "color": "черный",
-          "price": 19800,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/sony-wf-1000xm4-1.jpg",
         "/images/products/sony-wf-1000xm4-2.jpg",
@@ -5815,29 +4897,7 @@
         "черный",
         "серебряный"
       ],
-      "variants": [
-        {
-          "id": 5301,
-          "memory": "N/A",
-          "color": "черный",
-          "price": 18000,
-          "inStock": true
-        },
-        {
-          "id": 5302,
-          "memory": "N/A",
-          "color": "серебряный",
-          "price": 18200,
-          "inStock": true
-        },
-        {
-          "id": 5303,
-          "memory": "N/A",
-          "color": "черный",
-          "price": 17800,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/sony-wh-1000xm3-1.jpg",
         "/images/products/sony-wh-1000xm3-2.jpg",
@@ -5913,29 +4973,7 @@
         "черный",
         "белый"
       ],
-      "variants": [
-        {
-          "id": 6101,
-          "memory": "Н/A",
-          "color": "черный",
-          "price": 24000,
-          "inStock": true
-        },
-        {
-          "id": 6102,
-          "memory": "Н/A",
-          "color": "белый",
-          "price": 24200,
-          "inStock": true
-        },
-        {
-          "id": 6103,
-          "memory": "Н/A",
-          "color": "черный",
-          "price": 23800,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/bose-headphones-700-1.jpg",
         "/images/products/bose-headphones-700-2.jpg",
@@ -6011,29 +5049,7 @@
         "черный",
         "серебряный"
       ],
-      "variants": [
-        {
-          "id": 6201,
-          "memory": "Н/A",
-          "color": "черный",
-          "price": 22000,
-          "inStock": true
-        },
-        {
-          "id": 6202,
-          "memory": "Н/A",
-          "color": "серебряный",
-          "price": 22200,
-          "inStock": true
-        },
-        {
-          "id": 6203,
-          "memory": "Н/A",
-          "color": "черный",
-          "price": 21800,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/bose-quietcomfort-35-ii-1.jpg",
         "/images/products/bose-quietcomfort-35-ii-2.jpg",
@@ -6109,29 +5125,7 @@
         "черный",
         "белый"
       ],
-      "variants": [
-        {
-          "id": 6301,
-          "memory": "Н/A",
-          "color": "черный",
-          "price": 23000,
-          "inStock": true
-        },
-        {
-          "id": 6302,
-          "memory": "Н/A",
-          "color": "белый",
-          "price": 23200,
-          "inStock": true
-        },
-        {
-          "id": 6303,
-          "memory": "Н/A",
-          "color": "черный",
-          "price": 22800,
-          "inStock": false
-        }
-      ],
+      "variants": [],
       "images": [
         "/images/products/bose-quietcomfort-45-1.jpg",
         "/images/products/bose-quietcomfort-45-2.jpg",
@@ -6182,40 +5176,75 @@
   ],
   "favorites": [
     {
-      "id": 1743699239270,
-      "userId": 1743344597740,
-      "productId": 1
-    },
-    {
       "id": 1743699802079,
       "userId": 1743344597740,
       "productId": 103
+    },
+    {
+      "id": 1744894080008,
+      "userId": 1743867386569,
+      "productId": 1
+    },
+    {
+      "id": 1745535533253,
+      "userId": 1743867386569,
+      "productId": 102
     }
   ],
   "comparison": [],
   "basket": [
     {
-      "id": 1743352652347,
-      "userId": 1743344597740,
-      "productId": 103,
-      "quantity": 5
+      "id": 1743595761343,
+      "userId": 1743595759305,
+      "productId": 1,
+      "quantity": 1
     },
     {
-      "id": 1743355619792,
+      "id": 1745682521878,
+      "userId": 1743344597740,
+      "productId": 3,
+      "quantity": 2
+    },
+    {
+      "id": 1745760623565,
       "userId": 1743344597740,
       "productId": 104,
       "quantity": 1
     },
     {
-      "id": 1743356970537,
-      "userId": 1743344597740,
+      "id": 1745845020259,
+      "userId": 1743867386569,
       "productId": 1,
+      "quantity": 2
+    },
+    {
+      "id": 1745939611585,
+      "userId": 1743867386569,
+      "productId": 101,
       "quantity": 1
     },
     {
-      "id": 1743595761343,
-      "userId": 1743595759305,
-      "productId": 1,
+      "id": 1745939615446,
+      "userId": 1743867386569,
+      "productId": 5,
+      "quantity": 2
+    },
+    {
+      "id": 1745941619014,
+      "userId": 1743867386569,
+      "productId": 9,
+      "quantity": 1
+    },
+    {
+      "id": 1746029490176,
+      "userId": 1743344597740,
+      "productId": 15,
+      "quantity": 1
+    },
+    {
+      "id": 1746029632094,
+      "userId": 1743344597740,
+      "productId": 101,
       "quantity": 1
     }
   ],
@@ -6300,8 +5329,25 @@
       "age": null,
       "password": "$2b$10$0OsTYIyKFdwxA6bhS93u5e.j11cjgPLhwh.rhcT71kGp/2.u1maEy",
       "createdAt": "2025-03-30T14:23:17.740Z"
+    },
+    {
+      "id": 1743867386569,
+      "name": "Андрей",
+      "surname": "Киндяков",
+      "patronymic": "",
+      "phone": "79086028955",
+      "email": "Smidvard@yandex.ru",
+      "birthday": "2003-08-30",
+      "gender": "male",
+      "photo": "https://avatars.yandex.net/get-yapic/61207/kp3Mk3zQyPTUeMz7hnbBSleBVts-1/islands-200",
+      "age": 21,
+      "vkId": null,
+      "yandexId": "563896504",
+      "password": null,
+      "createdAt": "2025-04-05T15:36:26.571Z"
     }
   ],
+  "orders": [],
   "feedbacks": [
     {
       "id": 1,

@@ -7,6 +7,7 @@ import { register } from '../controllers/register.controller.js';
 import { auth } from '../controllers/auth.controller.js';
 import { addWithBasket, deleteFromBasket, basket } from '../controllers/basket.controller.js';
 import { favorites, toggleFavorites } from '../controllers/favorites.controller.js';
+import { profile } from '../controllers/profile.controller.js';
 
 const routes = express.Router();
 
@@ -16,12 +17,13 @@ routes.route('/register').post(register)
 // routes.route('/auth').post(auth)
 routes.route('/feedbacks').get(feedbacks)
 routes.route('/filters/:categorySlug?/:subCategorySlug?').get(filters)
-routes.route('/basket').get(checkAuth, basket)
+routes.route('/basket')
+  .get(checkAuth, basket)
+  .delete(checkAuth, deleteFromBasket);
 routes.route('/basket/:productId')
   .post(checkAuth, addWithBasket)
-  .delete(checkAuth, deleteFromBasket);
 routes.route('/favorites').get(checkAuth, favorites)
 routes.route('/favorites/:productId').put(checkAuth, toggleFavorites);
-
+routes.route('/profile').get(checkAuth, profile)
 
 export default routes;

@@ -1,9 +1,9 @@
 export function getFavorites(userId) {
-  let favorites = global.__DB__.get('favorites').filter({ userId }).value();
+  let favorites = global.DB.get('favorites').filter({ userId }).value();
 
   if (favorites.length) {
     favorites = favorites.map(item =>
-      global.__DB__.get('products').find({ id: item.productId }).value()
+      global.DB.get('products').find({ id: item.productId }).value()
     );
   }
 

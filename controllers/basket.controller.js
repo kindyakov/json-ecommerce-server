@@ -1,22 +1,7 @@
+import { getBasket } from '../helpers/getBasket.js';
+
 export const basket = (req, res) => {
-  const db = req.app.locals.db;
-
-  let basket = db.get('basket').filter({ userId: req.user.id }).value();
-  let basketTotal = 0
-
-  if (basket.length) {
-    basket = basket.map(item => {
-      // Получаем актуальные данные товара по productId
-      const product = db.get('products').find({ id: item.productId }).value();
-      if (product) {
-        product.quantity = item.quantity;
-        product.totalPrice = product.price * item.quantity;
-        basketTotal += product.totalPrice;
-      }
-      return product;
-    });
-  }
-
+  const { basket, basketTotal } = getBasket(req.user.id);
   res.json(basket)
 }
 
@@ -24,25 +9,23 @@ export const addWithBasket = (req, res) => {
   const { productId } = req.params;
   const { quantity = 1 } = req.body;
 
-  const db = req.app.locals.db;
-
-  const product = db.get('products').find({ id: +productId }).value()
+  const product = global.DB.get('products').find({ id: +productId }).value()
 
   if (!product) {
     return res.json({ message: 'Товар не найден!', status: 'error' });
   }
 
-  const checkInBasket = db.get('basket').find({ userId: req.user.id, productId: +productId }).value()
+  const checkInBasket = global.DB.get('basket').find({ userId: req.user.id, productId: +productId }).value()
 
   if (checkInBasket) {
-    db.get('basket')
+    global.DB.get('basket')
       .find({ userId: req.user.id, productId: +productId })
       .assign({ quantity })
       .write();
 
     res.json({ message: 'Товар обновлен в корзине!', status: 'success' })
   } else {
-    db.get('basket').push({
+    global.DB.get('basket').push({
       id: Date.now(),
       userId: req.user.id,
       productId: +productId,
@@ -54,24 +37,23 @@ export const addWithBasket = (req, res) => {
 }
 
 export const deleteFromBasket = (req, res) => {
-  const { productId } = req.params;
-  const db = req.app.locals.db;
+  const productIds = req.body || [];
 
-  const product = db.get('products').find({ id: +productId }).value()
-
-  if (!product) {
-    return res.json({ message: 'Товар не найден!', status: 'error' });
+  if (!productIds.length) {
+    return res.json({ message: 'Не передан массив id товаров!', status: 'error' })
   }
 
-  const checkInBasket = db.get('basket').find({ userId: req.user.id, productId: +productId }).value()
+  const itemsInBasket = global.DB.get('basket')
+    .filter(item => item.userId === req.user.id && productIds.includes(item.productId))
+    .value();
 
-  if (!checkInBasket) {
-    res.json({ message: 'Товар отсутствует в корзине!', status: 'error' });
-  } else {
-    db.get('basket')
-      .remove({ userId: req.user.id, productId: +productId })
-      .write();
+  if (!itemsInBasket.length) {
+    return res.json({ message: 'Ни один из указанных товаров не найден в корзине!', status: 'error' });
   }
 
-  res.json({ message: 'Товар удален из корзины!', status: 'success' })
+  global.DB.get('basket')
+    .remove(item => item.userId === req.user.id && productIds.includes(item.productId))
+    .write();
+
+  res.json({ message: 'Товары удалены из корзины!', status: 'success' });
 }

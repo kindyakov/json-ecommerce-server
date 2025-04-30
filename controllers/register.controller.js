@@ -20,7 +20,11 @@ export const register = async (req, res) => {
       patronymic: '',
       phone: req.body.phone,
       email: '',
+      birthday: null,
+      photo: null,
       age: null,
+      vkId: null,
+      yandexId: null,
       password: hashedPassword,
       createdAt: new Date()
     };

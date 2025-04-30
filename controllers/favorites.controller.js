@@ -1,12 +1,7 @@
-export const favorites = (req, res) => {
-  const db = req.app.locals.db;
-  let favorites = db.get('favorites').filter({ userId: user.id }).value();
+import { getFavorites } from '../helpers/getFavorites.js';
 
-  if (favorites.length) {
-    favorites = favorites.map(item =>
-      db.get('products').find({ id: item.productId }).value()
-    );
-  }
+export const favorites = (req, res) => {
+  const favorites = getFavorites(req.user.id);
   res.json(favorites)
 }
 
