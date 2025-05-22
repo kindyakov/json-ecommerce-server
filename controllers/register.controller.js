@@ -26,7 +26,7 @@ export const register = async (req, res) => {
       vkId: null,
       yandexId: null,
       password: hashedPassword,
-      createdAt: new Date()
+      createdAt: new Date().toISOString()
     };
 
     db.get('users').push(user).write();

@@ -2,6 +2,7 @@ import jsonServer from 'json-server';
 import dotenv from 'dotenv'
 import path from 'path';
 import express from 'express';
+import { YooCheckout } from '@a2seven/yoo-checkout';
 import passport from './passport.config.js';
 import routes from './routes/index.routes.js';
 import { paginationMiddleware } from './middlewares/pagination.middleware.js';
@@ -17,10 +18,14 @@ const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 const PORT = process.env.PORT
 const HOST = process.env.HOST
+const YouKassa = new YooCheckout({
+  secretKey: process.env.YOU_KASSA_SECRET_KEY, shopId: process.env.YOU_KASSA_SHOP_ID
+});
 
 server.locals.db = router.db; // экземпляр lowdb
 global.DB = router.db; // экземпляр lowdb
 global.URL = `${HOST}:${PORT}`
+global.YouKassa = YouKassa
 
 // Подключаем дефолтных посредников (logger, static, cors, no-cache)
 server.use(middlewares);
