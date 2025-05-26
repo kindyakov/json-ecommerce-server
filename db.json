@@ -1520,8 +1520,8 @@
       },
       "expertAssessment": 3.8,
       "path": "/smartphones/xiaomi/redmi-note-12-128-gb-chernyj",
-      "quantity": 1,
-      "totalPrice": 29999
+      "quantity": 2,
+      "totalPrice": 59998
     },
     {
       "id": 6,
@@ -5207,57 +5207,15 @@
       "quantity": 1
     },
     {
-      "id": 1745682521878,
-      "userId": 1743344597740,
-      "productId": 3,
+      "id": 1748269751616,
+      "userId": 1743867386569,
+      "productId": 103,
       "quantity": 2
     },
     {
-      "id": 1745760623565,
-      "userId": 1743344597740,
-      "productId": 104,
-      "quantity": 1
-    },
-    {
-      "id": 1745845020259,
+      "id": 1748269753881,
       "userId": 1743867386569,
-      "productId": 1,
-      "quantity": 2
-    },
-    {
-      "id": 1745939611585,
-      "userId": 1743867386569,
-      "productId": 101,
-      "quantity": 1
-    },
-    {
-      "id": 1745939615446,
-      "userId": 1743867386569,
-      "productId": 5,
-      "quantity": 2
-    },
-    {
-      "id": 1745941619014,
-      "userId": 1743867386569,
-      "productId": 9,
-      "quantity": 1
-    },
-    {
-      "id": 1746029490176,
-      "userId": 1743344597740,
-      "productId": 15,
-      "quantity": 1
-    },
-    {
-      "id": 1746029632094,
-      "userId": 1743344597740,
-      "productId": 101,
-      "quantity": 1
-    },
-    {
-      "id": 1746204966521,
-      "userId": 1743344597740,
-      "productId": 301,
+      "productId": 2,
       "quantity": 1
     }
   ],
@@ -5340,7 +5298,6 @@
       "phone": "79086028955",
       "email": "",
       "age": null,
-      "password": "$2b$10$0OsTYIyKFdwxA6bhS93u5e.j11cjgPLhwh.rhcT71kGp/2.u1maEy",
       "createdAt": "2025-03-30T14:23:17.740Z"
     },
     {
@@ -5356,172 +5313,70 @@
       "age": 21,
       "vkId": null,
       "yandexId": "563896504",
-      "password": null,
       "createdAt": "2025-04-05T15:36:26.571Z"
     }
   ],
   "orders": [
     {
-      "id": "9ff52134-3139-480d-96f4-144b61f3dd25",
-      "createdAt": "2025-05-22T20:59:04.120Z",
-      "updatedAt": "2025-05-22T21:05:33.984Z",
-      "status": "paid",
-      "total": 23,
-      "productsId": [
-        1,
-        2
-      ],
-      "userId": 1743344597740,
-      "delivery": {},
-      "payment": {
-        "type": "bank_card",
-        "id": "2fc1a421-000f-5000-b000-176420aa1f0f",
-        "saved": false,
-        "status": "inactive",
-        "title": "Bank card *2987",
-        "card": {
-          "first6": "220247",
-          "last4": "2987",
-          "expiry_year": "2034",
-          "expiry_month": "04",
-          "card_type": "Mir"
+      "id": "73cb1365-df64-47ac-8a76-544e721f515a",
+      "createdAt": "2025-05-26T14:29:32.519Z",
+      "updatedAt": "2025-05-26T14:29:32.519Z",
+      "expiresAt": "2025-05-26T14:59:32.519Z",
+      "status": "pending",
+      "total": 339996,
+      "countProduct": 4,
+      "products": [
+        {
+          "id": 101,
+          "quantity": 2
+        },
+        {
+          "id": 1,
+          "quantity": 2
         }
-      },
-      "paidAt": "2025-05-22T21:05:33.984Z"
-    },
-    {
-      "id": "a65adaee-dcf9-4f78-b3ed-f98cb383c213",
-      "createdAt": "2025-05-22T21:10:58.466Z",
-      "updatedAt": "2025-05-22T21:14:10.793Z",
-      "status": "paid",
-      "total": 4532,
-      "productsId": [
-        3,
-        6,
-        5
       ],
-      "userId": 1743344597740,
+      "userId": 1743867386569,
       "delivery": {
         "method": null,
         "cost": 0
       },
       "payment": {
-        "type": "bank_card",
-        "id": "2fc1a738-000f-5001-8000-1689eb06a547",
-        "saved": true,
-        "status": "active",
-        "title": "Bank card *1111",
-        "card": {
-          "first6": "411111",
-          "last4": "1111",
-          "expiry_year": "2034",
-          "expiry_month": "04",
-          "card_type": "Visa",
-          "card_product": {
-            "code": "E"
-          },
-          "issuer_country": "US"
-        }
+        "method": null,
+        "status": null,
+        "transactionId": null
       },
       "comment": "",
-      "discount": 0,
-      "paidAt": "2025-05-22T21:14:10.792Z"
-    }
-  ],
-  "payments": [
-    {
-      "id": "2fc1a421-000f-5000-b000-176420aa1f0f",
-      "status": "succeeded",
-      "amount": {
-        "value": "23.00",
-        "currency": "RUB"
-      },
-      "recipient": {
-        "account_id": "1092635",
-        "gateway_id": "2459600"
-      },
-      "payment_method": {
-        "type": "bank_card",
-        "id": "2fc1a421-000f-5000-b000-176420aa1f0f",
-        "saved": false,
-        "status": "inactive"
-      },
-      "created_at": "2025-05-22T21:00:17.044Z",
-      "confirmation": {
-        "type": "redirect",
-        "return_url": "http://localhost:5173/",
-        "confirmation_url": "https://yoomoney.ru/checkout/payments/v2/contract?orderId=2fc1a421-000f-5000-b000-176420aa1f0f"
-      },
-      "test": true,
-      "paid": false,
-      "refundable": false,
-      "metadata": {
-        "orderId": "9ff52134-3139-480d-96f4-144b61f3dd25"
-      },
-      "updatedAt": "2025-05-22T21:05:33.981Z"
+      "discount": 0
     },
     {
-      "id": "2fc1a738-000f-5001-8000-1689eb06a547",
-      "status": "succeeded",
-      "amount": {
-        "value": "4532.00",
-        "currency": "RUB"
-      },
-      "recipient": {
-        "account_id": "1092635",
-        "gateway_id": "2459600"
-      },
-      "payment_method": {
-        "type": "bank_card",
-        "id": "2fc1a738-000f-5001-8000-1689eb06a547",
-        "saved": true,
-        "status": "active",
-        "title": "Bank card *1111",
-        "card": {
-          "first6": "411111",
-          "last4": "1111",
-          "expiry_year": "2034",
-          "expiry_month": "04",
-          "card_type": "Visa",
-          "card_product": {
-            "code": "E"
-          },
-          "issuer_country": "US"
+      "id": "17240b75-8aae-4556-8ab1-bc5c65ac7665",
+      "createdAt": "2025-05-26T14:31:38.616Z",
+      "updatedAt": "2025-05-26T14:31:38.616Z",
+      "expiresAt": "2025-05-26T15:01:38.616Z",
+      "status": "completed",
+      "total": 89999,
+      "countProduct": 1,
+      "products": [
+        {
+          "id": 102,
+          "quantity": 1
         }
+      ],
+      "userId": 1743867386569,
+      "delivery": {
+        "method": null,
+        "cost": 0
       },
-      "created_at": "2025-05-22T21:13:28.594Z",
-      "confirmation": {
-        "type": "redirect",
-        "return_url": "http://localhost:5173/",
-        "confirmation_url": "https://yoomoney.ru/checkout/payments/v2/contract?orderId=2fc1a738-000f-5001-8000-1689eb06a547"
+      "payment": {
+        "method": null,
+        "status": null,
+        "transactionId": null
       },
-      "test": true,
-      "paid": true,
-      "refundable": true,
-      "metadata": {
-        "orderId": "a65adaee-dcf9-4f78-b3ed-f98cb383c213"
-      },
-      "createdAt": "2025-05-22T21:13:28.336Z",
-      "income_amount": {
-        "value": "4373.38",
-        "currency": "RUB"
-      },
-      "captured_at": "2025-05-22T21:14:10.341Z",
-      "refunded_amount": {
-        "value": "0.00",
-        "currency": "RUB"
-      },
-      "authorization_details": {
-        "rrn": "676617398409689",
-        "auth_code": "334160",
-        "three_d_secure": {
-          "applied": false,
-          "method_completed": false,
-          "challenge_completed": false
-        }
-      }
+      "comment": "",
+      "discount": 0
     }
   ],
+  "payments": [],
   "feedbacks": [
     {
       "id": 1,

@@ -121,7 +121,7 @@ passport.use(new YandexStrategy(
   {
     clientID: process.env.YANDEX_CLIENT_ID,
     clientSecret: process.env.YANDEX_CLIENT_SECRET,
-    callbackURL: `${global.URL}/api/auth/yandex/callback`
+    callbackURL: 'http://localhost:8888/api/auth/yandex/callback'
   },
   async (accessToken, refreshToken, profile, done) => {
     try {

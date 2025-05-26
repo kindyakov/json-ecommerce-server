@@ -2,11 +2,23 @@ import { v4 as uuidv4 } from 'uuid';
 
 export const createOrder = (req, res) => {
   try {
-    const { productsId, total } = req.body;
+    const { products } = req.body;
+    let total = 0;
 
-    if (!Array.isArray(productsId) || productsId.length === 0) {
+    if (!Array.isArray(products) || products.length === 0) {
       return res.status(400).json({ error: 'Корзина пуста.' });
     }
+
+    for (const { id, quantity } of products) {
+      const product = global.DB.get('products').find({ id }).value();
+
+      if (!product) {
+        return res.status(404).json({ error: `Товар ${id} не найден.` });
+      }
+
+      total += product.price * quantity;
+    }
+
     if (typeof total !== 'number' || total <= 0) {
       return res.status(400).json({ error: 'Некорректная сумма заказа.' });
     }
@@ -15,9 +27,11 @@ export const createOrder = (req, res) => {
       id: uuidv4(),
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
+      expiresAt: new Date(Date.now() + 30 * 60 * 1000).toISOString(),
       status: 'pending',
       total,
-      productsId,
+      countProduct: products?.reduce((acc, item) => acc + item.quantity || 0, 0),
+      products,
       userId: req.user.id,
       delivery: {
         method: null,
@@ -34,6 +48,10 @@ export const createOrder = (req, res) => {
 
     global.DB.get('orders').push(order).write();
 
+    global.DB.get('basket')
+      .remove(item => item.userId === req.user.id && products.some(p => p.id === item.productId))
+      .write();
+
     res.json({ message: 'Заказ создан!', status: 'success', orderId: order.id })
   } catch (error) {
     console.error(error);
@@ -43,5 +61,23 @@ export const createOrder = (req, res) => {
 
 export const getOrders = (req, res) => {
   const orders = global.DB.get('orders').filter({ userId: req.user.id, }).value();
+
+  for (const order of orders) {
+    order.products = order.products.map(({ id, quantity }) => {
+      return { ...global.DB.get('products').find({ id }).value(), quantity }
+    })
+  }
+
   res.json(orders)
+}
+
+export const getOrder = (req, res) => {
+  const { id } = req.params;
+  const order = global.DB.get('orders').find({ userId: req.user.id, id }).value();
+
+  order.products = order.products.map(({ id, quantity }) => {
+    return { ...global.DB.get('products').find({ id }).value(), quantity }
+  })
+
+  res.json(order)
 }

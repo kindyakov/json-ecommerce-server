@@ -10,7 +10,7 @@ import { auth } from '../controllers/auth.controller.js';
 import { addWithBasket, deleteFromBasket, basket } from '../controllers/basket.controller.js';
 import { favorites, toggleFavorites } from '../controllers/favorites.controller.js';
 import { profile } from '../controllers/profile.controller.js';
-import { createOrder, getOrders } from '../controllers/order.controller.js';
+import { createOrder, getOrders, getOrder } from '../controllers/order.controller.js';
 
 const routes = express.Router();
 
@@ -33,5 +33,8 @@ routes.route('/profile').get(checkAuth, profile)
 routes.route('/order')
   .post(checkAuth, createOrder)
   .get(checkAuth, getOrders)
+
+routes.route('/order/:id')
+  .get(checkAuth, getOrder)
 
 export default routes;

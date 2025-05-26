@@ -12,6 +12,7 @@ export const profile = async (req, res) => {
     const { basket, basketTotal } = getBasket(req.user.id)
     const favorites = getFavorites(req.user.id)
 
+    delete user.password
     res.json({
       user,
       basket,

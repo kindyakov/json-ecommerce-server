@@ -23,7 +23,6 @@ export const createPayment = async (req, res) => {
 
     const payment = await global.YouKassa.createPayment(createPayload, uuidv4());
 
-
     global.DB.get('payments').push({
       ...payment,
       createdAt: new Date().toISOString(),
@@ -38,11 +37,10 @@ export const createPayment = async (req, res) => {
 
 export const notificationsPayment = (req, res) => {
   const notification = req.body;
+  const payment = notification.object;
+  const { orderId } = payment.metadata;
 
   if (notification.event === 'payment.succeeded') {
-    const payment = notification.object;
-    const { orderId } = payment.metadata;
-
     global.DB.get('payments')
       .find({ id: payment.id })
       .assign({ ...payment, updatedAt: new Date().toISOString(), })
@@ -57,6 +55,29 @@ export const notificationsPayment = (req, res) => {
         payment: { ...payment.payment_method },
       })
       .write();
+  } else if (notification.event === 'payment.canceled') {
+    global.DB.get('payments')
+      .find({ id: payment.id })
+      .assign({ ...payment, updatedAt: new Date().toISOString() })
+      .write();
+
+    global.DB.get('orders')
+      .find({ id: orderId })
+      .assign({ status: 'canceled', updatedAt: new Date().toISOString() })
+      .write();
+
+    const order = global.DB.get('orders').find({ id: orderId }).value();
+
+    if (order) {
+      order.products.forEach(product => {
+        global.DB.get('basket').push({
+          id: Date.now(),
+          userId: order.userId,
+          productId: product.id,
+          quantity: product.quantity,
+        }).write();
+      })
+    }
   }
 
   res.json({ status: 'success' })
