@@ -57,6 +57,6 @@ export const auth = async (req, res) => {
       basketTotal
     })
   } catch (error) {
-    return res.status(500).json({ error: 'Произошла ошибка при регистрации пользователя' });
+    return res.status(500).json({ message: 'Произошла ошибка при регистрации пользователя', status: 'error' });
   }
 }

@@ -6,11 +6,11 @@ export const createPayment = async (req, res) => {
     const order = global.DB.get('orders').find({ id: orderId }).value();
 
     if (!order) {
-      return res.status(404).json({ error: 'Заказ не найден.' });
+      return res.status(404).json({ message: 'Заказ не найден.', status: 'error' });
     }
 
     if (order.status !== 'pending') {
-      return res.status(400).json({ error: 'Заказ уже оплачен или отменён.' });
+      return res.status(400).json({ message: 'Заказ уже оплачен или отменён.', status: 'error' });
     }
 
     const createPayload = {
@@ -31,7 +31,7 @@ export const createPayment = async (req, res) => {
     res.json({ redirect_url: payment.confirmation.confirmation_url })
   } catch (error) {
     console.error(error);
-    return res.status(500).json({ error: 'Произошла ошибка при создании платежа!' });
+    return res.status(500).json({ message: 'Произошла ошибка при создании платежа!', status: 'error' });
   }
 }
 

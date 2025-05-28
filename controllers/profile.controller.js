@@ -12,15 +12,21 @@ export const profile = async (req, res) => {
     const { basket, basketTotal } = getBasket(req.user.id)
     const favorites = getFavorites(req.user.id)
 
-    delete user.password
-    res.json({
-      user,
+    const profile = {
+      user: { ...user },
       basket,
       favorites,
       orders: [],
       basketTotal
-    })
+    }
+
+    delete profile?.user?.password
+    delete profile?.user?.vkId
+    delete profile?.user?.yandexId
+
+    res.json(profile)
   } catch (error) {
-    return res.status(500).json({ error: 'Произошла ошибка' });
+    console.log(error)
+    return res.status(500).json({ message: 'Произошла ошибка', status: 'error' });
   }
 }

@@ -5291,16 +5291,6 @@
       "age": 24
     },
     {
-      "id": 1743344597740,
-      "name": "Андрей",
-      "surname": "",
-      "patronymic": "",
-      "phone": "79086028955",
-      "email": "",
-      "age": null,
-      "createdAt": "2025-03-30T14:23:17.740Z"
-    },
-    {
       "id": 1743867386569,
       "name": "Андрей",
       "surname": "Киндяков",
@@ -5313,7 +5303,23 @@
       "age": 21,
       "vkId": null,
       "yandexId": "563896504",
+      "password": "$2b$10$uz4MPWajcviBizSQIy2T9eCJNVVUL2EszRkN3SpI0Q2CGtNK5svya",
       "createdAt": "2025-04-05T15:36:26.571Z"
+    },
+    {
+      "id": 1748436602922,
+      "name": "Андрей",
+      "surname": "",
+      "patronymic": "",
+      "phone": "79086028956",
+      "email": "",
+      "birthday": null,
+      "photo": null,
+      "age": null,
+      "vkId": null,
+      "yandexId": null,
+      "password": "$2b$10$uz4MPWajcviBizSQIy2T9eCJNVVUL2EszRkN3SpI0Q2CGtNK5svya",
+      "createdAt": "2025-05-28T12:50:02.922Z"
     }
   ],
   "orders": [
@@ -5337,15 +5343,24 @@
       ],
       "userId": 1743867386569,
       "delivery": {
-        "method": null,
-        "cost": 0
+        "method": "door",
+        "address": {
+          "apartment": "",
+          "city": "",
+          "comment": "",
+          "entrance": "",
+          "floor": "",
+          "house": "",
+          "street": ""
+        },
+        "cost": 599
       },
       "payment": {
         "method": null,
         "status": null,
         "transactionId": null
       },
-      "comment": "",
+      "comment": null,
       "discount": 0
     },
     {
@@ -5372,7 +5387,7 @@
         "status": null,
         "transactionId": null
       },
-      "comment": "",
+      "comment": null,
       "discount": 0
     }
   ],

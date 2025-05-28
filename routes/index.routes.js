@@ -10,7 +10,7 @@ import { auth } from '../controllers/auth.controller.js';
 import { addWithBasket, deleteFromBasket, basket } from '../controllers/basket.controller.js';
 import { favorites, toggleFavorites } from '../controllers/favorites.controller.js';
 import { profile } from '../controllers/profile.controller.js';
-import { createOrder, getOrders, getOrder } from '../controllers/order.controller.js';
+import { createOrder, getOrders, getOrder, updateOrder } from '../controllers/order.controller.js';
 
 const routes = express.Router();
 
@@ -18,23 +18,28 @@ routes.use('/auth', authRouter);
 routes.use('/payment', paymentRouter);
 
 routes.route('/register').post(register)
+
 // routes.route('/auth').post(auth)
 routes.route('/feedbacks').get(feedbacks)
 routes.route('/filters/:categorySlug?/:subCategorySlug?').get(filters)
+// Корзина
 routes.route('/basket')
   .get(checkAuth, basket)
   .delete(checkAuth, deleteFromBasket);
 routes.route('/basket/:productId')
   .post(checkAuth, addWithBasket)
+// Избранные
 routes.route('/favorites').get(checkAuth, favorites)
 routes.route('/favorites/:productId').put(checkAuth, toggleFavorites);
 routes.route('/profile').get(checkAuth, profile)
 
+// Заказы
 routes.route('/order')
   .post(checkAuth, createOrder)
   .get(checkAuth, getOrders)
 
 routes.route('/order/:id')
   .get(checkAuth, getOrder)
+  .put(checkAuth, updateOrder)
 
 export default routes;

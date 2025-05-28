@@ -46,6 +46,6 @@ export const register = async (req, res) => {
       favorites: [],
     })
   } catch (error) {
-    return res.status(500).json({ error: 'Произошла ошибка при регистрации пользователя' });
+    return res.status(500).json({ message: 'Произошла ошибка при регистрации пользователя', status: 'error' });
   }
 }

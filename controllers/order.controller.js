@@ -6,21 +6,21 @@ export const createOrder = (req, res) => {
     let total = 0;
 
     if (!Array.isArray(products) || products.length === 0) {
-      return res.status(400).json({ error: 'Корзина пуста.' });
+      return res.status(400).json({ message: 'Корзина пуста.', status: 'error' });
     }
 
     for (const { id, quantity } of products) {
       const product = global.DB.get('products').find({ id }).value();
 
       if (!product) {
-        return res.status(404).json({ error: `Товар ${id} не найден.` });
+        return res.status(404).json({ message: `Товар ${id} не найден.`, status: 'error' });
       }
 
       total += product.price * quantity;
     }
 
     if (typeof total !== 'number' || total <= 0) {
-      return res.status(400).json({ error: 'Некорректная сумма заказа.' });
+      return res.status(400).json({ message: 'Некорректная сумма заказа.', status: 'error' });
     }
 
     const order = {
@@ -34,7 +34,8 @@ export const createOrder = (req, res) => {
       products,
       userId: req.user.id,
       delivery: {
-        method: null,
+        method: 'door',
+        address: null,
         cost: 0,
       }, // {"method": "курьер","cost": 500,"address": "Москва, ул. Ленина, д. 10, кв. 5"}
       payment: {
@@ -42,7 +43,7 @@ export const createOrder = (req, res) => {
         status: null,
         transactionId: null
       }, // {"method": "СБП","status": "paid","transactionId": "abc123"}
-      comment: '',
+      comment: null,
       discount: 0
     }
 
@@ -55,12 +56,35 @@ export const createOrder = (req, res) => {
     res.json({ message: 'Заказ создан!', status: 'success', orderId: order.id })
   } catch (error) {
     console.error(error);
-    return res.status(500).json({ error: 'Произошла ошибка при создании Заказа!' });
+    return res.status(500).json({ message: 'Произошла ошибка при создании Заказа!', status: 'error' });
   }
 }
 
+export const updateOrder = (req, res) => {
+  const { id } = req.params;
+  const { delivery } = req.body;
+
+  const order = { ...global.DB.get('orders').find({ userId: req.user.id, id }).value() }
+
+  if (!order) {
+    return res.status(404).json({ message: `Заказ ${id} не найден.`, status: 'error' });
+  }
+
+  global.DB
+    .get('orders')
+    .find({ userId: req.user.id, id })
+    .assign({ delivery })
+    .write();
+
+  order.products = order.products.map(({ id, quantity }) => {
+    return { ...global.DB.get('products').find({ id }).value(), quantity }
+  })
+
+  res.json(order)
+}
+
 export const getOrders = (req, res) => {
-  const orders = global.DB.get('orders').filter({ userId: req.user.id, }).value();
+  const orders = [...global.DB.get('orders').filter({ userId: req.user.id, }).value()]
 
   for (const order of orders) {
     order.products = order.products.map(({ id, quantity }) => {
@@ -73,7 +97,11 @@ export const getOrders = (req, res) => {
 
 export const getOrder = (req, res) => {
   const { id } = req.params;
-  const order = global.DB.get('orders').find({ userId: req.user.id, id }).value();
+  const order = { ...global.DB.get('orders').find({ userId: req.user.id, id }).value() }
+
+  if (!order) {
+    res.status(404).json({ message: `Заказ ${id} не найден.`, status: 'error' })
+  }
 
   order.products = order.products.map(({ id, quantity }) => {
     return { ...global.DB.get('products').find({ id }).value(), quantity }
