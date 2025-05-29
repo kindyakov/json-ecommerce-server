@@ -5344,14 +5344,16 @@
       "userId": 1743867386569,
       "delivery": {
         "method": "door",
-        "address": {
-          "apartment": "",
-          "city": "",
-          "comment": "",
-          "entrance": "",
-          "floor": "",
-          "house": "",
-          "street": ""
+        "data": {
+          "door": {
+            "apartment": "",
+            "city": "",
+            "comment": "",
+            "entrance": "",
+            "floor": "",
+            "house": "",
+            "street": ""
+          }
         },
         "cost": 599
       },
