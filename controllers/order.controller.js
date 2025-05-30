@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
+import { PaymentMethods } from '../settings/paymentMethods.js';
 
 export const createOrder = (req, res) => {
   try {
@@ -23,6 +24,8 @@ export const createOrder = (req, res) => {
       return res.status(400).json({ message: 'Некорректная сумма заказа.', status: 'error' });
     }
 
+    const user = global.DB.get('users').find({ id: req.user.id }).value();
+
     const order = {
       id: uuidv4(),
       createdAt: new Date().toISOString(),
@@ -33,8 +36,18 @@ export const createOrder = (req, res) => {
       countProduct: products?.reduce((acc, item) => acc + item.quantity || 0, 0),
       products,
       userId: req.user.id,
+      client: {
+        name: user.name || '',
+        surname: user.surname || '',
+        phone: user.phone || '',
+      },
       delivery: {
         method: 'door',
+        data: {
+          door: {},
+          cdek: {},
+          boxberry: {}
+        },
         address: null,
         cost: 0,
       }, // {"method": "курьер","cost": 500,"address": "Москва, ул. Ленина, д. 10, кв. 5"}
@@ -107,5 +120,5 @@ export const getOrder = (req, res) => {
     return { ...global.DB.get('products').find({ id }).value(), quantity }
   })
 
-  res.json(order)
+  res.json({ ...order, paymentMethods: PaymentMethods })
 }

@@ -1,8 +1,39 @@
 import { v4 as uuidv4 } from 'uuid';
+import { PaymentMethods } from '../settings/paymentMethods.js';
+import { createAddress } from '../helpers/createAddress.js';
 
 export const createPayment = async (req, res) => {
   try {
-    const { return_url, orderId, payment_method_type = 'bank_card' } = req.body
+    const { delivery, client, return_url, orderId, payment_method_type } = req.body
+
+    // Проверка наличия обязательных полей
+    if (!delivery || typeof delivery !== 'object') {
+      return res.status(400).json({ message: 'Некорректные данные доставки.', status: 'error' });
+    }
+
+    if (!client || typeof client !== 'object') {
+      return res.status(400).json({ message: 'Некорректные данные клиента.', status: 'error' });
+    }
+
+    if (!return_url || typeof return_url !== 'string') {
+      return res.status(400).json({ message: 'Некорректный URL возврата.', status: 'error' });
+    }
+
+    if (!orderId || typeof orderId !== 'string') {
+      return res.status(400).json({ message: 'Некорректный идентификатор заказа.', status: 'error' });
+    }
+
+    if (!payment_method_type || typeof payment_method_type !== 'string') {
+      return res.status(400).json({ message: 'Некорректный тип способа оплаты.', status: 'error' });
+    }
+
+    // Список поддерживаемых способов оплаты YooKassa
+    const supportedPaymentMethods = PaymentMethods.map(item => item.id)
+
+    if (!supportedPaymentMethods.includes(payment_method_type)) {
+      return res.status(400).json({ message: 'Неподдерживаемый способ оплаты.', status: 'error' });
+    }
+
     const order = global.DB.get('orders').find({ id: orderId }).value();
 
     if (!order) {
@@ -27,6 +58,18 @@ export const createPayment = async (req, res) => {
       ...payment,
       createdAt: new Date().toISOString(),
     }).write();
+
+    global.DB.get('orders')
+      .find({ id: orderId })
+      .assign({
+        updatedAt: new Date().toISOString(),
+        delivery: {
+          ...delivery,
+          address: createAddress(delivery.data[delivery.method])
+        },
+        client
+      })
+      .write();
 
     res.json({ redirect_url: payment.confirmation.confirmation_url })
   } catch (error) {
