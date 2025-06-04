@@ -1,37 +1,37 @@
-export const PaymentMethods = [
+export const PaymentMethods = () => [
   {
     id: 'bank_card',
     name: 'Банковская карта',
-    icon: '💳',
+    icon: `${global.BASE_URL}/images/bank_card.jpg`,
   },
   {
     id: 'yoo_money',
     name: 'ЮMoney',
-    icon: '💰',
+    icon: `${global.BASE_URL}/images/ymaney.svg`,
   },
   {
     id: 'sberbank',
     name: 'Сбербанк Онлайн',
-    icon: '🏦',
+    icon: `${global.BASE_URL}/images/sberpay.svg`,
   },
   {
     id: 'sbp',
     name: 'Система быстрых платежей',
-    icon: '⚡',
+    icon: `${global.BASE_URL}/images/sbp.svg`,
   },
   {
     id: 'mobile_balance',
     name: 'Баланс телефона',
-    icon: '📱',
+    icon: `${global.BASE_URL}/images/mobile_balance.jpg`,
   },
   {
     id: 'cash',
     name: 'Наличные',
-    icon: '💵',
+    icon: `${global.BASE_URL}/images/cash.jpg`,
   },
   {
     id: 'installments',
     name: 'Покупка в кредит',
-    icon: '🛍️',
+    icon: `${global.BASE_URL}/images/installments.jpg`,
   },
 ];

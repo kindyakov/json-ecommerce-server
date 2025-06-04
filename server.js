@@ -1,3 +1,4 @@
+import express from 'express';
 import jsonServer from 'json-server';
 import dotenv from 'dotenv'
 import path from 'path';
@@ -7,6 +8,7 @@ import { YooCheckout } from '@a2seven/yoo-checkout';
 import passport from './passport.config.js';
 import routes from './routes/index.routes.js';
 import { paginationMiddleware } from './middlewares/pagination.middleware.js';
+
 // import './cron/cancelStaleOrders.js';
 
 const envFile = process.env.NODE_ENV === 'production'
@@ -32,9 +34,9 @@ global.YouKassa = new YooCheckout({
 // Подключаем дефолтных посредников (logger, static, cors, no-cache)
 server.use(middlewares);
 
-// server.use(
-//   express.static(path.join(process.cwd(), 'public'))
-// );
+server.use(
+  express.static(path.join(process.cwd(), 'public'))
+);
 
 // 4) SPA-fallback: любые URL, не начинающиеся с /api, → index.html
 // server.get(/^\/(?!api).*/, (req, res) => {

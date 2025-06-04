@@ -34,28 +34,19 @@ export const createOrder = (req, res) => {
       status: 'pending',
       total,
       countProduct: products?.reduce((acc, item) => acc + item.quantity || 0, 0),
-      products,
+      products: products.map(({ id, quantity }) => ({ id, quantity })),
       userId: req.user.id,
       client: {
         name: user.name || '',
         surname: user.surname || '',
         phone: user.phone || '',
       },
-      delivery: {
-        method: 'door',
-        data: {
-          door: {},
-          cdek: {},
-          boxberry: {}
-        },
-        address: null,
-        cost: 0,
-      }, // {"method": "курьер","cost": 500,"address": "Москва, ул. Ленина, д. 10, кв. 5"}
+      deliveryId: null,
       payment: {
         method: null,
         status: null,
-        transactionId: null
-      }, // {"method": "СБП","status": "paid","transactionId": "abc123"}
+        id: null
+      },
       comment: null,
       discount: 0
     }
@@ -111,6 +102,12 @@ export const getOrders = (req, res) => {
 export const getOrder = (req, res) => {
   const { id } = req.params;
   const order = { ...global.DB.get('orders').find({ userId: req.user.id, id }).value() }
+  const user = global.DB.get('users').find({ id: req.user.id }).value()
+  let delivery = {}
+
+  if (user.lastDeliveryId) {
+    delivery = global.DB.get('delivery').find({ id: user.lastDeliveryId }).value()
+  }
 
   if (!order) {
     res.status(404).json({ message: `Заказ ${id} не найден.`, status: 'error' })
@@ -119,6 +116,15 @@ export const getOrder = (req, res) => {
   order.products = order.products.map(({ id, quantity }) => {
     return { ...global.DB.get('products').find({ id }).value(), quantity }
   })
+  console.log(global.BASE_URL)
 
-  res.json({ ...order, paymentMethods: PaymentMethods })
+  res.json({
+    ...order,
+    delivery: {
+      method: delivery.method,
+      data: delivery.data,
+      address: delivery.address
+    },
+    paymentMethods: PaymentMethods()
+  })
 }

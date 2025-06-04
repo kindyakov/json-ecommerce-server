@@ -4,7 +4,7 @@ import { createAddress } from '../helpers/createAddress.js';
 
 export const createPayment = async (req, res) => {
   try {
-    const { delivery, client, return_url, orderId, payment_method_type } = req.body
+    const { delivery, client, return_url, orderId, paymentType } = req.body
 
     // Проверка наличия обязательных полей
     if (!delivery || typeof delivery !== 'object') {
@@ -23,14 +23,14 @@ export const createPayment = async (req, res) => {
       return res.status(400).json({ message: 'Некорректный идентификатор заказа.', status: 'error' });
     }
 
-    if (!payment_method_type || typeof payment_method_type !== 'string') {
+    if (!paymentType || typeof paymentType !== 'string') {
       return res.status(400).json({ message: 'Некорректный тип способа оплаты.', status: 'error' });
     }
 
     // Список поддерживаемых способов оплаты YooKassa
     const supportedPaymentMethods = PaymentMethods.map(item => item.id)
 
-    if (!supportedPaymentMethods.includes(payment_method_type)) {
+    if (!supportedPaymentMethods.includes(paymentType)) {
       return res.status(400).json({ message: 'Неподдерживаемый способ оплаты.', status: 'error' });
     }
 
@@ -44,10 +44,23 @@ export const createPayment = async (req, res) => {
       return res.status(400).json({ message: 'Заказ уже оплачен или отменён.', status: 'error' });
     }
 
+    const paymentInfo = order.payment;
+
+    if (paymentInfo?.id && paymentInfo?.status === 'pending') {
+      const existingPayment = await global.YouKassa.getPayment(paymentInfo.id);
+      console.log(existingPayment)
+
+      if (existingPayment.status === 'pending') {
+        return res.json({
+          redirect_url: existingPayment.confirmation.confirmation_url
+        });
+      }
+    }
+
     const createPayload = {
       capture: true,
       amount: { value: order.total, currency: 'RUB' },
-      payment_method_data: { type: payment_method_type },
+      payment_method_data: { type: paymentType },
       confirmation: { type: 'redirect', return_url },
       metadata: { orderId }
     };
@@ -59,15 +72,36 @@ export const createPayment = async (req, res) => {
       createdAt: new Date().toISOString(),
     }).write();
 
+    const deliveryId = uuidv4()
+
+    global.DB.get('delivery').push({
+      id: deliveryId,
+      orderId,
+      userId,
+      paymentId: payment.id,
+      ...delivery,
+      address: createAddress(delivery.data[delivery.method]),
+      cost: 499,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+    }).write()
+
+    global.DB.get('users')
+      .find({ id: req.user.id })
+      .assign({ lastDeliveryId: deliveryId })
+      .write();
+
     global.DB.get('orders')
       .find({ id: orderId })
       .assign({
         updatedAt: new Date().toISOString(),
-        delivery: {
-          ...delivery,
-          address: createAddress(delivery.data[delivery.method])
-        },
-        client
+        deliveryId,
+        client,
+        payment: {
+          id: payment.id,
+          status: payment.status,
+          method: paymentType
+        }
       })
       .write();
 
@@ -95,7 +129,11 @@ export const notificationsPayment = (req, res) => {
         status: 'paid',
         paidAt: new Date().toISOString(),
         updatedAt: new Date().toISOString(),
-        payment: { ...payment.payment_method },
+        payment: {
+          id: payment.id,
+          status: payment.status,
+          method: payment.payment_method.type
+        },
       })
       .write();
   } else if (notification.event === 'payment.canceled') {
@@ -106,7 +144,15 @@ export const notificationsPayment = (req, res) => {
 
     global.DB.get('orders')
       .find({ id: orderId })
-      .assign({ status: 'canceled', updatedAt: new Date().toISOString() })
+      .assign({
+        status: 'canceled',
+        updatedAt: new Date().toISOString(),
+        payment: {
+          id: payment.id,
+          status: payment.status,
+          method: payment.payment_method.type
+        },
+      })
       .write();
 
     const order = global.DB.get('orders').find({ id: orderId }).value();

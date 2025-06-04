@@ -5291,6 +5291,7 @@
       "age": 21,
       "vkId": null,
       "yandexId": "563896504",
+      "lastDeliveryId": "1451806a-5118-45c5-bf41-d928ba9c4386",
       "password": "$2b$10$uz4MPWajcviBizSQIy2T9eCJNVVUL2EszRkN3SpI0Q2CGtNK5svya",
       "createdAt": "2025-04-05T15:36:26.571Z"
     },
@@ -5312,433 +5313,100 @@
   ],
   "orders": [
     {
-      "id": "6ae0ea39-0d18-494a-a7a3-4816bf4dd56a",
-      "createdAt": "2025-05-30T18:25:39.001Z",
-      "updatedAt": "2025-05-30T19:26:55.639Z",
-      "expiresAt": "2025-05-30T18:55:39.001Z",
-      "status": "pending",
-      "total": 369996,
-      "countProduct": 4,
+      "id": "492a090a-0a5f-4626-993c-6d6419db0edd",
+      "createdAt": "2025-05-31T08:05:47.167Z",
+      "updatedAt": "2025-05-31T08:07:42.162Z",
+      "expiresAt": "2025-05-31T08:35:47.167Z",
+      "status": "paid",
+      "total": 8000,
+      "countProduct": 1,
       "products": [
         {
-          "id": 103,
-          "subCategoryId": 1,
-          "article": 231451,
-          "title": "iPhone 14 Pro Max 512 ГБ черный",
-          "slug": "iphone-14-pro-max-512-gb-chernyj",
-          "subCategorySlug": "apple",
-          "categorySlug": "smartphones",
-          "brandId": 1,
-          "price": 109999,
-          "oldPrice": 116999,
-          "discount": 8,
+          "id": 203,
+          "subCategoryId": 10,
+          "article": 123321,
+          "title": "Fitbit Inspire 2",
+          "slug": "fitbit-inspire-2",
+          "subCategorySlug": "fitbit",
+          "categorySlug": "smartwatches",
+          "brandId": null,
+          "price": 8000,
+          "oldPrice": 9000,
+          "discount": 11,
           "inStock": true,
-          "rating": 4.7,
-          "reviewCount": 156,
-          "description": "iPhone 14 с дисплеем Super Retina XDR 6,1 дюйма и передовой двойной камерой 12 МП для съемки в любых условиях. Чип A15 Bionic обеспечивает высокую производительность и эффективность в работе с приложениями.",
-          "fullDescription": "iPhone 14 оснащен системой из двух камер 12 МП (широкоугольная и сверхширокоугольная), которые позволяют делать потрясающие фотографии при любом освещении. Режим киносъемки автоматически смещает фокус между объектами даже во время записи. Дисплей Super Retina XDR с диагональю 6,1 дюйма отличается невероятной детализацией и цветопередачей. Чип A15 Bionic обеспечивает молниеносную работу приложений и игр. Благодаря прочному корпусу из алюминия и стекла Ceramic Shield iPhone 14 защищен от брызг, капель воды и пыли.",
+          "rating": 4.4,
+          "reviewCount": 75,
+          "description": "Fitbit Inspire 2 – базовые умные часы для отслеживания активности и здоровья.",
+          "fullDescription": "Fitbit Inspire 2 предлагает функции отслеживания шагов, пульса, сна и активности, что делает его отличным выбором для начинающих следить за своим здоровьем.",
           "features": {
-            "display": "6,1 дюйма, Super Retina XDR",
-            "processor": "A15 Bionic",
-            "camera": "Двойная камера 12 Мп",
-            "battery": "До 20 часов воспроизведения видео",
-            "memory": "512 ГБ",
-            "os": "iOS 16",
-            "waterProof": "IP68",
-            "5G": "Да",
-            "color": "черный"
+            "display": "0.9 дюйма, сенсорный, OLED",
+            "processor": "ARM Cortex",
+            "ram": "256 МБ",
+            "storage": "1 ГБ",
+            "battery": "до 5 дней",
+            "os": "Fitbit OS",
+            "vpro": "Нет"
           },
           "specifications": [
             {
               "name": "Дисплей",
-              "value": "6,1 дюйма, Super Retina XDR"
+              "value": "0.9 дюйма, OLED"
             },
             {
               "name": "Разрешение",
-              "value": "2532x1170 пикселей"
+              "value": "200x200 пикселей"
             },
             {
               "name": "Процессор",
-              "value": "A15 Bionic"
+              "value": "ARM Cortex"
             },
             {
-              "name": "Память",
-              "value": "128 ГБ"
+              "name": "Оперативная память",
+              "value": "256 МБ"
             },
             {
-              "name": "Основная камера",
-              "value": "Двойная 12 Мп + 12 Мп"
-            },
-            {
-              "name": "Фронтальная камера",
-              "value": "12 Мп"
+              "name": "Хранение",
+              "value": "1 ГБ"
             },
             {
               "name": "Аккумулятор",
-              "value": "3279 мАч"
+              "value": "до 5 дней"
             },
             {
               "name": "Операционная система",
-              "value": "iOS 16"
-            },
-            {
-              "name": "Габариты",
-              "value": "146,7 x 71,5 x 7,8 мм"
-            },
-            {
-              "name": "Вес",
-              "value": "172 г"
+              "value": "Fitbit OS"
             }
           ],
           "tags": [
-            "iPhone",
-            "Apple",
-            "смартфон",
-            "iOS",
-            "5G"
+            "Fitbit",
+            "Inspire",
+            "фитнес",
+            "здоровье",
+            "умные часы"
           ],
-          "variants": [
-            {
-              "id": 1,
-              "price": 79999,
-              "inStock": true,
-              "slug": "iphone-14-pro-max-128-gb-chernyj",
-              "attributes": {
-                "memory": "128 ГБ",
-                "color": "черный"
-              }
-            },
-            {
-              "id": 101,
-              "price": 89999,
-              "inStock": true,
-              "slug": "iphone-14-pro-max-256-gb-zolotoj",
-              "attributes": {
-                "memory": "256 ГБ",
-                "color": "золотой"
-              }
-            },
-            {
-              "id": 102,
-              "price": 89999,
-              "inStock": true,
-              "slug": "iphone-14-pro-max-256-gb-chernyj",
-              "attributes": {
-                "memory": "256 ГБ",
-                "color": "черный"
-              }
-            },
-            {
-              "id": 103,
-              "price": 109999,
-              "inStock": false,
-              "slug": "iphone-14-pro-max-512-gb-chernyj",
-              "attributes": {
-                "memory": "512 ГБ",
-                "color": "черный"
-              }
-            },
-            {
-              "id": 104,
-              "price": 79999,
-              "inStock": false,
-              "slug": "iphone-14-pro-max-128-gb-zolotoj",
-              "attributes": {
-                "memory": "128 ГБ",
-                "color": "золотой"
-              }
-            }
+          "colors": [
+            "черный",
+            "белый",
+            "розовый"
           ],
+          "variants": [],
           "images": [
-            "/images/products/iphone-14-2.jpg",
-            "/images/products/iphone-14-3.jpg",
-            "/images/products/iphone-14-4.jpg",
-            "/images/products/iphone-14-5.jpg",
-            "/images/products/iphone-14-6.jpg"
+            "/images/products/fitbit-inspire-2-1.jpg",
+            "/images/products/fitbit-inspire-2-2.jpg",
+            "/images/products/fitbit-inspire-2-3.jpg",
+            "/images/products/fitbit-inspire-2-4.jpg"
           ],
           "isNew": true,
-          "isBestseller": true,
-          "createdAt": "2023-09-15T12:00:00Z",
-          "updatedAt": "2024-03-01T15:30:00Z",
+          "isBestseller": false,
+          "createdAt": "2023-07-15T08:45:00Z",
+          "updatedAt": "2024-02-10T10:30:00Z",
           "status": {
-            "type": "available",
-            "name": "В наличии"
+            "type": "pre_order",
+            "name": "Предзаказ"
           },
-          "expertAssessment": 4.8,
-          "quantity": 2,
-          "path": "/smartphones/apple/iphone-14-pro-max-512-gb-chernyj",
-          "totalPrice": 219998
-        },
-        {
-          "id": 2,
-          "subCategoryId": 1,
-          "article": 123441,
-          "title": "iPhone 13 128 ГБ черный",
-          "slug": "iphone-13-128-gb-chernyj",
-          "subCategorySlug": "apple",
-          "categorySlug": "smartphones",
-          "brandId": 1,
-          "price": 59999,
-          "oldPrice": 69999,
-          "discount": 14,
-          "inStock": true,
-          "rating": 4.7,
-          "reviewCount": 423,
-          "description": "iPhone 13 с дисплеем Super Retina XDR 6,1 дюйма, передовой двойной камерой и чипом A15 Bionic для невероятной производительности и энергоэффективности.",
-          "fullDescription": "iPhone 13 оснащен системой из двух камер 12 МП с увеличенными матрицами, которые позволяют запечатлеть больше света и деталей в ваших фотографиях. Дисплей Super Retina XDR с диагональю 6,1 дюйма стал ярче, а благодаря технологии OLED обеспечивает потрясающую контрастность и реалистичные цвета. Чип A15 Bionic — невероятно мощный процессор для смартфонов, который обеспечивает молниеносную работу приложений и игр. Благодаря прочному корпусу из алюминия и стекла Ceramic Shield iPhone 13 защищен от брызг, капель воды и пыли.",
-          "features": {
-            "display": "6,1 дюйма, Super Retina XDR",
-            "processor": "A15 Bionic",
-            "camera": "Двойная камера 12 Мп",
-            "battery": "До 19 часов воспроизведения видео",
-            "memory": "128 ГБ",
-            "os": "iOS 15",
-            "waterProof": "IP68"
-          },
-          "specifications": [
-            {
-              "name": "Дисплей",
-              "value": "6,1 дюйма, Super Retina XDR"
-            },
-            {
-              "name": "Разрешение",
-              "value": "2532x1170 пикселей"
-            },
-            {
-              "name": "Процессор",
-              "value": "A15 Bionic"
-            },
-            {
-              "name": "Память",
-              "value": "128 ГБ"
-            },
-            {
-              "name": "Основная камера",
-              "value": "Двойная 12 Мп + 12 Мп"
-            },
-            {
-              "name": "Фронтальная камера",
-              "value": "12 Мп"
-            },
-            {
-              "name": "Аккумулятор",
-              "value": "3240 мАч"
-            },
-            {
-              "name": "Операционная система",
-              "value": "iOS 15"
-            },
-            {
-              "name": "Габариты",
-              "value": "146,7 x 71,5 x 7,65 мм"
-            },
-            {
-              "name": "Вес",
-              "value": "174 г"
-            }
-          ],
-          "tags": [
-            "iPhone",
-            "Apple",
-            "смартфон",
-            "iOS",
-            "5G"
-          ],
-          "variants": [
-            {
-              "id": 201,
-              "price": 59999,
-              "inStock": true,
-              "attributes": {
-                "memory": "128 ГБ",
-                "color": "черный"
-              }
-            },
-            {
-              "id": 202,
-              "price": 69999,
-              "inStock": true,
-              "attributes": {
-                "memory": "256 ГБ",
-                "color": "черный"
-              }
-            },
-            {
-              "id": 203,
-              "price": 89999,
-              "inStock": true,
-              "attributes": {
-                "memory": "512 ГБ",
-                "color": "черный"
-              }
-            }
-          ],
-          "images": [
-            "/images/products/iphone-13-1.jpg",
-            "/images/products/iphone-13-2.jpg",
-            "/images/products/iphone-13-3.jpg",
-            "/images/products/iphone-13-4.jpg"
-          ],
-          "isNew": false,
-          "isBestseller": true,
-          "createdAt": "2022-09-20T12:00:00Z",
-          "updatedAt": "2024-02-15T10:45:00Z",
-          "status": {
-            "type": "available",
-            "name": "В наличии"
-          },
-          "expertAssessment": 4.5,
-          "path": "/smartphones/apple/iphone-13-128-gb-chernyj",
-          "quantity": 1,
-          "totalPrice": 59999
-        },
-        {
-          "id": 101,
-          "subCategoryId": 1,
-          "article": 231452,
-          "title": "iPhone 14 Pro Max 256 ГБ золотой",
-          "slug": "iphone-14-pro-max-256-gb-zolotoj",
-          "subCategorySlug": "apple",
-          "categorySlug": "smartphones",
-          "brandId": 1,
-          "price": 89999,
-          "oldPrice": 96999,
-          "discount": 8,
-          "inStock": true,
-          "rating": 4.3,
-          "reviewCount": 156,
-          "description": "iPhone 14 с дисплеем Super Retina XDR 6,1 дюйма и передовой двойной камерой 12 МП для съемки в любых условиях. Чип A15 Bionic обеспечивает высокую производительность и эффективность в работе с приложениями.",
-          "fullDescription": "iPhone 14 оснащен системой из двух камер 12 МП (широкоугольная и сверхширокоугольная), которые позволяют делать потрясающие фотографии при любом освещении. Режим киносъемки автоматически смещает фокус между объектами даже во время записи. Дисплей Super Retina XDR с диагональю 6,1 дюйма отличается невероятной детализацией и цветопередачей. Чип A15 Bionic обеспечивает молниеносную работу приложений и игр. Благодаря прочному корпусу из алюминия и стекла Ceramic Shield iPhone 14 защищен от брызг, капель воды и пыли.",
-          "features": {
-            "display": "6,1 дюйма, Super Retina XDR",
-            "processor": "A15 Bionic",
-            "camera": "Двойная камера 12 Мп",
-            "battery": "До 20 часов воспроизведения видео",
-            "memory": "256 ГБ",
-            "os": "iOS 16",
-            "waterProof": "IP68",
-            "5G": "Да",
-            "color": "золотой"
-          },
-          "specifications": [
-            {
-              "name": "Дисплей",
-              "value": "6,1 дюйма, Super Retina XDR"
-            },
-            {
-              "name": "Разрешение",
-              "value": "2532x1170 пикселей"
-            },
-            {
-              "name": "Процессор",
-              "value": "A15 Bionic"
-            },
-            {
-              "name": "Память",
-              "value": "128 ГБ"
-            },
-            {
-              "name": "Основная камера",
-              "value": "Двойная 12 Мп + 12 Мп"
-            },
-            {
-              "name": "Фронтальная камера",
-              "value": "12 Мп"
-            },
-            {
-              "name": "Аккумулятор",
-              "value": "3279 мАч"
-            },
-            {
-              "name": "Операционная система",
-              "value": "iOS 16"
-            },
-            {
-              "name": "Габариты",
-              "value": "146,7 x 71,5 x 7,8 мм"
-            },
-            {
-              "name": "Вес",
-              "value": "172 г"
-            }
-          ],
-          "tags": [
-            "iPhone",
-            "Apple",
-            "смартфон",
-            "iOS",
-            "5G"
-          ],
-          "variants": [
-            {
-              "id": 1,
-              "price": 79999,
-              "inStock": true,
-              "slug": "iphone-14-pro-max-128-gb-chernyj",
-              "attributes": {
-                "memory": "128 ГБ",
-                "color": "черный"
-              }
-            },
-            {
-              "id": 101,
-              "price": 89999,
-              "inStock": true,
-              "slug": "iphone-14-pro-max-256-gb-zolotoj",
-              "attributes": {
-                "memory": "256 ГБ",
-                "color": "золотой"
-              }
-            },
-            {
-              "id": 102,
-              "price": 89999,
-              "inStock": true,
-              "slug": "iphone-14-pro-max-256-gb-chernyj",
-              "attributes": {
-                "memory": "256 ГБ",
-                "color": "черный"
-              }
-            },
-            {
-              "id": 103,
-              "price": 109999,
-              "inStock": false,
-              "slug": "iphone-14-pro-max-512-gb-chernyj",
-              "attributes": {
-                "memory": "512 ГБ",
-                "color": "черный"
-              }
-            },
-            {
-              "id": 104,
-              "price": 79999,
-              "inStock": false,
-              "slug": "iphone-14-pro-max-128-gb-zolotoj",
-              "attributes": {
-                "memory": "128 ГБ",
-                "color": "золотой"
-              }
-            }
-          ],
-          "images": [
-            "/images/products/iphone-14-pro-max-zolotoj.jpeg",
-            "/images/products/iphone-14-pro-max-zolotoj-2.jpeg",
-            "/images/products/iphone-14-pro-max-zolotoj-3.jpeg",
-            "/images/products/iphone-14-pro-max-zolotoj-4.jpeg"
-          ],
-          "isNew": true,
-          "isBestseller": true,
-          "createdAt": "2023-09-15T12:00:00Z",
-          "updatedAt": "2024-03-01T15:30:00Z",
-          "status": {
-            "type": "sold_out",
-            "name": "Нет в наличии"
-          },
-          "expertAssessment": 3.1,
-          "path": "/smartphones/apple/iphone-14-pro-max-256-gb-zolotoj",
-          "quantity": 1,
-          "totalPrice": 89999
+          "expertAssessment": 3.3,
+          "path": "/smartwatches/fitbit/fitbit-inspire-2",
+          "quantity": 1
         }
       ],
       "userId": 1743867386569,
@@ -5752,21 +5420,135 @@
         "data": {
           "door": {
             "city": "Липецк",
-            "street": "Свиридова",
-            "house": "18",
-            "entrance": "4",
-            "floor": "2",
-            "apartment": "225"
+            "street": "Свиридова 18",
+            "house": "2",
+            "entrance": "3",
+            "floor": "4",
+            "apartment": "145"
           },
           "cdek": {},
           "boxberry": {}
         },
-        "address": "Липецк, ул. Свиридова, д. 18, подъезд 4, этаж 2, кв. 225"
+        "address": "Липецк, ул. Свиридова 18, д. 2, подъезд 3, этаж 4, кв. 145"
       },
+      "payment": {
+        "id": "2fcccc50-000f-5000-b000-19608a738d6f",
+        "status": "succeeded",
+        "method": "bank_card"
+      },
+      "comment": null,
+      "discount": 0,
+      "paidAt": "2025-05-31T08:07:42.162Z"
+    },
+    {
+      "id": "18b25067-cf6a-4b62-9109-a85a68035a6b",
+      "createdAt": "2025-05-31T08:14:54.508Z",
+      "updatedAt": "2025-05-31T08:14:54.508Z",
+      "expiresAt": "2025-05-31T08:44:54.508Z",
+      "status": "pending",
+      "total": 29999,
+      "countProduct": 1,
+      "products": [
+        {
+          "id": 5,
+          "subCategoryId": 2,
+          "article": 451234,
+          "title": "Redmi Note 12 128 ГБ черный",
+          "slug": "redmi-note-12-128-gb-chernyj",
+          "subCategorySlug": "xiaomi",
+          "categorySlug": "smartphones",
+          "brandId": null,
+          "price": 29999,
+          "oldPrice": 32999,
+          "discount": 9,
+          "inStock": true,
+          "rating": 4.4,
+          "reviewCount": 312,
+          "description": "Xiaomi Redmi Note 12 с мощным процессором MediaTek Dimensity 1080 и хорошей автономностью.",
+          "fullDescription": "Redmi Note 12 предлагает отличное соотношение цены и качества. Процессор MediaTek Dimensity 1080 обеспечивает высокую производительность при работе с приложениями и играми. Батарея емкостью 5000 мАч обеспечивает длительное автономное использование устройства. Дисплей IPS с диагональю 6,67 дюйма имеет разрешение Full HD+ и поддерживает HDR10.",
+          "features": {
+            "display": "6,67 дюйма, IPS, Full HD+",
+            "processor": "MediaTek Dimensity 1080",
+            "camera": "Тройная камера 108 Мп",
+            "battery": "5000 мАч",
+            "memory": "128 ГБ",
+            "os": "Android 13"
+          },
+          "specifications": [
+            {
+              "name": "Дисплей",
+              "value": "6,67 дюйма, IPS, Full HD+"
+            },
+            {
+              "name": "Процессор",
+              "value": "MediaTek Dimensity 1080"
+            },
+            {
+              "name": "Память",
+              "value": "128 ГБ"
+            },
+            {
+              "name": "Основная камера",
+              "value": "Тройная 108 Мп"
+            },
+            {
+              "name": "Фронтальная камера",
+              "value": "16 Мп"
+            },
+            {
+              "name": "Аккумулятор",
+              "value": "5000 мАч"
+            },
+            {
+              "name": "Операционная система",
+              "value": "Android 13"
+            }
+          ],
+          "tags": [
+            "Xiaomi",
+            "Redmi",
+            "Android",
+            "бюджетный",
+            "108 Мп"
+          ],
+          "colors": [
+            "черный",
+            "белый",
+            "зеленый",
+            "фиолетовый"
+          ],
+          "variants": [],
+          "images": [
+            "/images/products/redmi-note-12-1.jpg",
+            "/images/products/redmi-note-12-2.jpg",
+            "/images/products/redmi-note-12-3.jpg",
+            "/images/products/redmi-note-12-4.jpg"
+          ],
+          "isNew": false,
+          "isBestseller": false,
+          "createdAt": "2023-01-20T12:00:00Z",
+          "updatedAt": "2024-02-25T12:45:00Z",
+          "status": {
+            "type": "available",
+            "name": "В наличии"
+          },
+          "expertAssessment": 3.8,
+          "path": "/smartphones/xiaomi/redmi-note-12-128-gb-chernyj",
+          "quantity": 1,
+          "totalPrice": 59998
+        }
+      ],
+      "userId": 1743867386569,
+      "client": {
+        "name": "Андрей",
+        "surname": "Киндяков",
+        "phone": "79086028955"
+      },
+      "deliveryId": null,
       "payment": {
         "method": null,
         "status": null,
-        "transactionId": null
+        "id": null
       },
       "comment": null,
       "discount": 0
@@ -5774,190 +5556,86 @@
   ],
   "payments": [
     {
-      "id": "2fcc178f-000f-5000-b000-19f63eedcdfd",
-      "status": "pending",
+      "id": "2fcccc50-000f-5000-b000-19608a738d6f",
+      "status": "succeeded",
       "amount": {
-        "value": "369996.00",
+        "value": "8000.00",
         "currency": "RUB"
       },
       "recipient": {
-        "account_id": "1092635",
-        "gateway_id": "2459600"
+        "account_id": "1097654",
+        "gateway_id": "2470619"
       },
       "payment_method": {
         "type": "bank_card",
-        "id": "2fcc178f-000f-5000-b000-19f63eedcdfd",
+        "id": "2fcccc50-000f-5000-b000-19608a738d6f",
         "saved": false,
-        "status": "inactive"
+        "status": "inactive",
+        "title": "Bank card *2987",
+        "card": {
+          "first6": "220247",
+          "last4": "2987",
+          "expiry_year": "2027",
+          "expiry_month": "09",
+          "card_type": "Mir"
+        }
       },
-      "created_at": "2025-05-30T19:15:27.691Z",
+      "created_at": "2025-05-31T08:06:40.062Z",
       "confirmation": {
         "type": "redirect",
         "return_url": "http://localhost:5173/account/orders",
-        "confirmation_url": "https://yoomoney.ru/checkout/payments/v2/contract?orderId=2fcc178f-000f-5000-b000-19f63eedcdfd"
+        "confirmation_url": "https://yoomoney.ru/checkout/payments/v2/contract?orderId=2fcccc50-000f-5000-b000-19608a738d6f"
       },
       "test": true,
-      "paid": false,
-      "refundable": false,
+      "paid": true,
+      "refundable": true,
       "metadata": {
-        "orderId": "6ae0ea39-0d18-494a-a7a3-4816bf4dd56a"
+        "orderId": "492a090a-0a5f-4626-993c-6d6419db0edd"
       },
-      "createdAt": "2025-05-30T19:15:27.518Z"
-    },
+      "createdAt": "2025-05-31T08:06:38.559Z",
+      "income_amount": {
+        "value": "7720.00",
+        "currency": "RUB"
+      },
+      "captured_at": "2025-05-31T08:07:43.415Z",
+      "refunded_amount": {
+        "value": "0.00",
+        "currency": "RUB"
+      },
+      "authorization_details": {
+        "rrn": "320406429429248",
+        "auth_code": "326910",
+        "three_d_secure": {
+          "applied": false,
+          "method_completed": false,
+          "challenge_completed": false
+        }
+      },
+      "updatedAt": "2025-05-31T08:07:42.159Z"
+    }
+  ],
+  "delivery": [
     {
-      "id": "2fcc17df-000f-5000-b000-1fdd9d672756",
-      "status": "pending",
-      "amount": {
-        "value": "369996.00",
-        "currency": "RUB"
+      "id": "1451806a-5118-45c5-bf41-d928ba9c4386",
+      "orderId": "492a090a-0a5f-4626-993c-6d6419db0edd",
+      "userId": 1743867386569,
+      "paymentId": "2fcccc50-000f-5000-b000-19608a738d6f",
+      "method": "door",
+      "data": {
+        "door": {
+          "city": "Липецк",
+          "street": "Свиридова 18",
+          "house": "2",
+          "entrance": "3",
+          "floor": "4",
+          "apartment": "145"
+        },
+        "cdek": {},
+        "boxberry": {}
       },
-      "recipient": {
-        "account_id": "1092635",
-        "gateway_id": "2459600"
-      },
-      "payment_method": {
-        "type": "bank_card",
-        "id": "2fcc17df-000f-5000-b000-1fdd9d672756",
-        "saved": false,
-        "status": "inactive"
-      },
-      "created_at": "2025-05-30T19:16:47.820Z",
-      "confirmation": {
-        "type": "redirect",
-        "return_url": "http://localhost:5173/account/orders",
-        "confirmation_url": "https://yoomoney.ru/checkout/payments/v2/contract?orderId=2fcc17df-000f-5000-b000-1fdd9d672756"
-      },
-      "test": true,
-      "paid": false,
-      "refundable": false,
-      "metadata": {
-        "orderId": "6ae0ea39-0d18-494a-a7a3-4816bf4dd56a"
-      },
-      "createdAt": "2025-05-30T19:16:47.639Z"
-    },
-    {
-      "id": "2fcc183c-000f-5001-8000-1c640edac8eb",
-      "status": "pending",
-      "amount": {
-        "value": "369996.00",
-        "currency": "RUB"
-      },
-      "recipient": {
-        "account_id": "1092635",
-        "gateway_id": "2459600"
-      },
-      "payment_method": {
-        "type": "bank_card",
-        "id": "2fcc183c-000f-5001-8000-1c640edac8eb",
-        "saved": false,
-        "status": "inactive"
-      },
-      "created_at": "2025-05-30T19:18:20.849Z",
-      "confirmation": {
-        "type": "redirect",
-        "return_url": "http://localhost:5173/account/orders",
-        "confirmation_url": "https://yoomoney.ru/checkout/payments/v2/contract?orderId=2fcc183c-000f-5001-8000-1c640edac8eb"
-      },
-      "test": true,
-      "paid": false,
-      "refundable": false,
-      "metadata": {
-        "orderId": "6ae0ea39-0d18-494a-a7a3-4816bf4dd56a"
-      },
-      "createdAt": "2025-05-30T19:18:20.652Z"
-    },
-    {
-      "id": "2fcc18a7-000f-5000-b000-1cea6535d718",
-      "status": "pending",
-      "amount": {
-        "value": "369996.00",
-        "currency": "RUB"
-      },
-      "recipient": {
-        "account_id": "1092635",
-        "gateway_id": "2459600"
-      },
-      "payment_method": {
-        "type": "bank_card",
-        "id": "2fcc18a7-000f-5000-b000-1cea6535d718",
-        "saved": false,
-        "status": "inactive"
-      },
-      "created_at": "2025-05-30T19:20:07.270Z",
-      "confirmation": {
-        "type": "redirect",
-        "return_url": "http://localhost:5173/account/orders",
-        "confirmation_url": "https://yoomoney.ru/checkout/payments/v2/contract?orderId=2fcc18a7-000f-5000-b000-1cea6535d718"
-      },
-      "test": true,
-      "paid": false,
-      "refundable": false,
-      "metadata": {
-        "orderId": "6ae0ea39-0d18-494a-a7a3-4816bf4dd56a"
-      },
-      "createdAt": "2025-05-30T19:20:07.079Z"
-    },
-    {
-      "id": "2fcc1987-000f-5000-b000-182ed3170932",
-      "status": "pending",
-      "amount": {
-        "value": "369996.00",
-        "currency": "RUB"
-      },
-      "recipient": {
-        "account_id": "1092635",
-        "gateway_id": "2459600"
-      },
-      "payment_method": {
-        "type": "bank_card",
-        "id": "2fcc1987-000f-5000-b000-182ed3170932",
-        "saved": false,
-        "status": "inactive"
-      },
-      "created_at": "2025-05-30T19:23:51.393Z",
-      "confirmation": {
-        "type": "redirect",
-        "return_url": "http://localhost:5173/account/orders",
-        "confirmation_url": "https://yoomoney.ru/checkout/payments/v2/contract?orderId=2fcc1987-000f-5000-b000-182ed3170932"
-      },
-      "test": true,
-      "paid": false,
-      "refundable": false,
-      "metadata": {
-        "orderId": "6ae0ea39-0d18-494a-a7a3-4816bf4dd56a"
-      },
-      "createdAt": "2025-05-30T19:23:51.209Z"
-    },
-    {
-      "id": "2fcc1a3f-000f-5001-8000-16e0a2cd2d60",
-      "status": "pending",
-      "amount": {
-        "value": "369996.00",
-        "currency": "RUB"
-      },
-      "recipient": {
-        "account_id": "1092635",
-        "gateway_id": "2459600"
-      },
-      "payment_method": {
-        "type": "bank_card",
-        "id": "2fcc1a3f-000f-5001-8000-16e0a2cd2d60",
-        "saved": false,
-        "status": "inactive"
-      },
-      "created_at": "2025-05-30T19:26:55.828Z",
-      "confirmation": {
-        "type": "redirect",
-        "return_url": "http://localhost:5173/account/orders",
-        "confirmation_url": "https://yoomoney.ru/checkout/payments/v2/contract?orderId=2fcc1a3f-000f-5001-8000-16e0a2cd2d60"
-      },
-      "test": true,
-      "paid": false,
-      "refundable": false,
-      "metadata": {
-        "orderId": "6ae0ea39-0d18-494a-a7a3-4816bf4dd56a"
-      },
-      "createdAt": "2025-05-30T19:26:55.636Z"
+      "address": "Липецк, ул. Свиридова 18, д. 2, подъезд 3, этаж 4, кв. 145",
+      "createdAt": "2025-05-31T08:07:42.164Z",
+      "updatedAt": "2025-05-31T08:07:42.164Z"
     }
   ],
   "feedbacks": [

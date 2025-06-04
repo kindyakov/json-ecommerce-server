@@ -1,6 +1,7 @@
 import express from 'express';
 import authRouter from './auth.routes.js';
 import paymentRouter from './payment.routes.js';
+import deliveryRouter from './delivery.routes.js'
 
 import { checkAuth } from '../middlewares/auth.middleware.js';
 import { filters } from '../controllers/filters.controller.js';
@@ -16,6 +17,7 @@ const routes = express.Router();
 
 routes.use('/auth', authRouter);
 routes.use('/payment', paymentRouter);
+routes.use('/delivery', deliveryRouter);
 
 routes.route('/register').post(register)
 
