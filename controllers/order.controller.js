@@ -106,7 +106,17 @@ export const getOrder = (req, res) => {
   let delivery = {}
 
   if (user.lastDeliveryId) {
-    delivery = global.DB.get('delivery').find({ id: user.lastDeliveryId }).value()
+    const deliveryObj = global.DB.get('delivery').find({ id: user.lastDeliveryId }).value()
+    delivery = {
+      data: deliveryObj.data,
+      method: deliveryObj.method,
+    }
+  } else {
+    delivery = {
+      method: null,
+      data: null,
+      address: null,
+    }
   }
 
   if (!order) {
@@ -116,15 +126,11 @@ export const getOrder = (req, res) => {
   order.products = order.products.map(({ id, quantity }) => {
     return { ...global.DB.get('products').find({ id }).value(), quantity }
   })
-  console.log(global.BASE_URL)
+
 
   res.json({
     ...order,
-    delivery: {
-      method: delivery.method,
-      data: delivery.data,
-      address: delivery.address
-    },
+    delivery,
     paymentMethods: PaymentMethods()
   })
 }

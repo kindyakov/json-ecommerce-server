@@ -28,7 +28,7 @@ export const createPayment = async (req, res) => {
     }
 
     // Список поддерживаемых способов оплаты YooKassa
-    const supportedPaymentMethods = PaymentMethods.map(item => item.id)
+    const supportedPaymentMethods = PaymentMethods().map(item => item.id)
 
     if (!supportedPaymentMethods.includes(paymentType)) {
       return res.status(400).json({ message: 'Неподдерживаемый способ оплаты.', status: 'error' });
@@ -77,10 +77,10 @@ export const createPayment = async (req, res) => {
     global.DB.get('delivery').push({
       id: deliveryId,
       orderId,
-      userId,
+      userId: req.user.id,
       paymentId: payment.id,
       ...delivery,
-      address: createAddress(delivery.data[delivery.method]),
+      address: delivery.method === 'door' ? createAddress(delivery.data.door) : delivery.data[delivery.method].address,
       cost: 499,
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),

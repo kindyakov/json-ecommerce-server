@@ -5291,9 +5291,9 @@
       "age": 21,
       "vkId": null,
       "yandexId": "563896504",
-      "lastDeliveryId": "1451806a-5118-45c5-bf41-d928ba9c4386",
       "password": "$2b$10$uz4MPWajcviBizSQIy2T9eCJNVVUL2EszRkN3SpI0Q2CGtNK5svya",
-      "createdAt": "2025-04-05T15:36:26.571Z"
+      "createdAt": "2025-04-05T15:36:26.571Z",
+      "lastDeliveryId": "6e2b37c7-b004-4b71-881f-bc4874d82660"
     },
     {
       "id": 1748436602922,
@@ -5313,99 +5313,16 @@
   ],
   "orders": [
     {
-      "id": "492a090a-0a5f-4626-993c-6d6419db0edd",
-      "createdAt": "2025-05-31T08:05:47.167Z",
-      "updatedAt": "2025-05-31T08:07:42.162Z",
-      "expiresAt": "2025-05-31T08:35:47.167Z",
+      "id": "01fd923a-2cd8-4d52-90de-0f92d410a0fa",
+      "createdAt": "2025-06-05T10:13:19.091Z",
+      "updatedAt": "2025-06-05T11:36:24.684Z",
+      "expiresAt": "2025-06-05T10:43:19.091Z",
       "status": "paid",
-      "total": 8000,
+      "total": 79999,
       "countProduct": 1,
       "products": [
         {
-          "id": 203,
-          "subCategoryId": 10,
-          "article": 123321,
-          "title": "Fitbit Inspire 2",
-          "slug": "fitbit-inspire-2",
-          "subCategorySlug": "fitbit",
-          "categorySlug": "smartwatches",
-          "brandId": null,
-          "price": 8000,
-          "oldPrice": 9000,
-          "discount": 11,
-          "inStock": true,
-          "rating": 4.4,
-          "reviewCount": 75,
-          "description": "Fitbit Inspire 2 – базовые умные часы для отслеживания активности и здоровья.",
-          "fullDescription": "Fitbit Inspire 2 предлагает функции отслеживания шагов, пульса, сна и активности, что делает его отличным выбором для начинающих следить за своим здоровьем.",
-          "features": {
-            "display": "0.9 дюйма, сенсорный, OLED",
-            "processor": "ARM Cortex",
-            "ram": "256 МБ",
-            "storage": "1 ГБ",
-            "battery": "до 5 дней",
-            "os": "Fitbit OS",
-            "vpro": "Нет"
-          },
-          "specifications": [
-            {
-              "name": "Дисплей",
-              "value": "0.9 дюйма, OLED"
-            },
-            {
-              "name": "Разрешение",
-              "value": "200x200 пикселей"
-            },
-            {
-              "name": "Процессор",
-              "value": "ARM Cortex"
-            },
-            {
-              "name": "Оперативная память",
-              "value": "256 МБ"
-            },
-            {
-              "name": "Хранение",
-              "value": "1 ГБ"
-            },
-            {
-              "name": "Аккумулятор",
-              "value": "до 5 дней"
-            },
-            {
-              "name": "Операционная система",
-              "value": "Fitbit OS"
-            }
-          ],
-          "tags": [
-            "Fitbit",
-            "Inspire",
-            "фитнес",
-            "здоровье",
-            "умные часы"
-          ],
-          "colors": [
-            "черный",
-            "белый",
-            "розовый"
-          ],
-          "variants": [],
-          "images": [
-            "/images/products/fitbit-inspire-2-1.jpg",
-            "/images/products/fitbit-inspire-2-2.jpg",
-            "/images/products/fitbit-inspire-2-3.jpg",
-            "/images/products/fitbit-inspire-2-4.jpg"
-          ],
-          "isNew": true,
-          "isBestseller": false,
-          "createdAt": "2023-07-15T08:45:00Z",
-          "updatedAt": "2024-02-10T10:30:00Z",
-          "status": {
-            "type": "pre_order",
-            "name": "Предзаказ"
-          },
-          "expertAssessment": 3.3,
-          "path": "/smartwatches/fitbit/fitbit-inspire-2",
+          "id": 1,
           "quantity": 1
         }
       ],
@@ -5415,127 +5332,28 @@
         "surname": "Киндяков",
         "phone": "79086028955"
       },
-      "delivery": {
-        "method": "door",
-        "data": {
-          "door": {
-            "city": "Липецк",
-            "street": "Свиридова 18",
-            "house": "2",
-            "entrance": "3",
-            "floor": "4",
-            "apartment": "145"
-          },
-          "cdek": {},
-          "boxberry": {}
-        },
-        "address": "Липецк, ул. Свиридова 18, д. 2, подъезд 3, этаж 4, кв. 145"
-      },
+      "deliveryId": "6e2b37c7-b004-4b71-881f-bc4874d82660",
       "payment": {
-        "id": "2fcccc50-000f-5000-b000-19608a738d6f",
+        "id": "2fd394a2-000f-5001-8000-14f00193b042",
         "status": "succeeded",
         "method": "bank_card"
       },
       "comment": null,
       "discount": 0,
-      "paidAt": "2025-05-31T08:07:42.162Z"
+      "paidAt": "2025-06-05T11:36:24.684Z"
     },
     {
-      "id": "18b25067-cf6a-4b62-9109-a85a68035a6b",
-      "createdAt": "2025-05-31T08:14:54.508Z",
-      "updatedAt": "2025-05-31T08:14:54.508Z",
-      "expiresAt": "2025-05-31T08:44:54.508Z",
+      "id": "8d0e2af2-bba8-4c96-ab6e-45ba38be7d63",
+      "createdAt": "2025-06-05T11:39:16.515Z",
+      "updatedAt": "2025-06-05T11:39:16.515Z",
+      "expiresAt": "2025-06-05T12:09:16.515Z",
       "status": "pending",
-      "total": 29999,
+      "total": 14999,
       "countProduct": 1,
       "products": [
         {
-          "id": 5,
-          "subCategoryId": 2,
-          "article": 451234,
-          "title": "Redmi Note 12 128 ГБ черный",
-          "slug": "redmi-note-12-128-gb-chernyj",
-          "subCategorySlug": "xiaomi",
-          "categorySlug": "smartphones",
-          "brandId": null,
-          "price": 29999,
-          "oldPrice": 32999,
-          "discount": 9,
-          "inStock": true,
-          "rating": 4.4,
-          "reviewCount": 312,
-          "description": "Xiaomi Redmi Note 12 с мощным процессором MediaTek Dimensity 1080 и хорошей автономностью.",
-          "fullDescription": "Redmi Note 12 предлагает отличное соотношение цены и качества. Процессор MediaTek Dimensity 1080 обеспечивает высокую производительность при работе с приложениями и играми. Батарея емкостью 5000 мАч обеспечивает длительное автономное использование устройства. Дисплей IPS с диагональю 6,67 дюйма имеет разрешение Full HD+ и поддерживает HDR10.",
-          "features": {
-            "display": "6,67 дюйма, IPS, Full HD+",
-            "processor": "MediaTek Dimensity 1080",
-            "camera": "Тройная камера 108 Мп",
-            "battery": "5000 мАч",
-            "memory": "128 ГБ",
-            "os": "Android 13"
-          },
-          "specifications": [
-            {
-              "name": "Дисплей",
-              "value": "6,67 дюйма, IPS, Full HD+"
-            },
-            {
-              "name": "Процессор",
-              "value": "MediaTek Dimensity 1080"
-            },
-            {
-              "name": "Память",
-              "value": "128 ГБ"
-            },
-            {
-              "name": "Основная камера",
-              "value": "Тройная 108 Мп"
-            },
-            {
-              "name": "Фронтальная камера",
-              "value": "16 Мп"
-            },
-            {
-              "name": "Аккумулятор",
-              "value": "5000 мАч"
-            },
-            {
-              "name": "Операционная система",
-              "value": "Android 13"
-            }
-          ],
-          "tags": [
-            "Xiaomi",
-            "Redmi",
-            "Android",
-            "бюджетный",
-            "108 Мп"
-          ],
-          "colors": [
-            "черный",
-            "белый",
-            "зеленый",
-            "фиолетовый"
-          ],
-          "variants": [],
-          "images": [
-            "/images/products/redmi-note-12-1.jpg",
-            "/images/products/redmi-note-12-2.jpg",
-            "/images/products/redmi-note-12-3.jpg",
-            "/images/products/redmi-note-12-4.jpg"
-          ],
-          "isNew": false,
-          "isBestseller": false,
-          "createdAt": "2023-01-20T12:00:00Z",
-          "updatedAt": "2024-02-25T12:45:00Z",
-          "status": {
-            "type": "available",
-            "name": "В наличии"
-          },
-          "expertAssessment": 3.8,
-          "path": "/smartphones/xiaomi/redmi-note-12-128-gb-chernyj",
-          "quantity": 1,
-          "totalPrice": 59998
+          "id": 10,
+          "quantity": 1
         }
       ],
       "userId": 1743867386569,
@@ -5556,10 +5374,10 @@
   ],
   "payments": [
     {
-      "id": "2fcccc50-000f-5000-b000-19608a738d6f",
+      "id": "2fd394a2-000f-5001-8000-14f00193b042",
       "status": "succeeded",
       "amount": {
-        "value": "8000.00",
+        "value": "79999.00",
         "currency": "RUB"
       },
       "recipient": {
@@ -5568,74 +5386,77 @@
       },
       "payment_method": {
         "type": "bank_card",
-        "id": "2fcccc50-000f-5000-b000-19608a738d6f",
+        "id": "2fd394a2-000f-5001-8000-14f00193b042",
         "saved": false,
         "status": "inactive",
-        "title": "Bank card *2987",
+        "title": "Bank card *1111",
         "card": {
-          "first6": "220247",
-          "last4": "2987",
-          "expiry_year": "2027",
-          "expiry_month": "09",
-          "card_type": "Mir"
+          "first6": "411111",
+          "last4": "1111",
+          "expiry_year": "2034",
+          "expiry_month": "04",
+          "card_type": "Visa",
+          "card_product": {
+            "code": "E"
+          },
+          "issuer_country": "US"
         }
       },
-      "created_at": "2025-05-31T08:06:40.062Z",
+      "created_at": "2025-06-05T11:34:58.225Z",
       "confirmation": {
         "type": "redirect",
         "return_url": "http://localhost:5173/account/orders",
-        "confirmation_url": "https://yoomoney.ru/checkout/payments/v2/contract?orderId=2fcccc50-000f-5000-b000-19608a738d6f"
+        "confirmation_url": "https://yoomoney.ru/checkout/payments/v2/contract?orderId=2fd394a2-000f-5001-8000-14f00193b042"
       },
       "test": true,
       "paid": true,
       "refundable": true,
       "metadata": {
-        "orderId": "492a090a-0a5f-4626-993c-6d6419db0edd"
+        "orderId": "01fd923a-2cd8-4d52-90de-0f92d410a0fa"
       },
-      "createdAt": "2025-05-31T08:06:38.559Z",
+      "createdAt": "2025-06-05T11:34:58.306Z",
       "income_amount": {
-        "value": "7720.00",
+        "value": "77199.03",
         "currency": "RUB"
       },
-      "captured_at": "2025-05-31T08:07:43.415Z",
+      "captured_at": "2025-06-05T11:36:24.462Z",
       "refunded_amount": {
         "value": "0.00",
         "currency": "RUB"
       },
       "authorization_details": {
-        "rrn": "320406429429248",
-        "auth_code": "326910",
+        "rrn": "777532842210938",
+        "auth_code": "661232",
         "three_d_secure": {
           "applied": false,
           "method_completed": false,
           "challenge_completed": false
         }
       },
-      "updatedAt": "2025-05-31T08:07:42.159Z"
+      "updatedAt": "2025-06-05T11:36:24.681Z"
     }
   ],
   "delivery": [
     {
-      "id": "1451806a-5118-45c5-bf41-d928ba9c4386",
-      "orderId": "492a090a-0a5f-4626-993c-6d6419db0edd",
+      "id": "6e2b37c7-b004-4b71-881f-bc4874d82660",
+      "orderId": "01fd923a-2cd8-4d52-90de-0f92d410a0fa",
       "userId": 1743867386569,
-      "paymentId": "2fcccc50-000f-5000-b000-19608a738d6f",
-      "method": "door",
+      "paymentId": "2fd394a2-000f-5001-8000-14f00193b042",
+      "method": "boxberry",
       "data": {
-        "door": {
-          "city": "Липецк",
-          "street": "Свиридова 18",
-          "house": "2",
-          "entrance": "3",
-          "floor": "4",
-          "apartment": "145"
-        },
+        "door": {},
         "cdek": {},
-        "boxberry": {}
+        "boxberry": {
+          "code": "48621",
+          "city": "Липецк",
+          "country": "РОССИЯ",
+          "address": "398046, Липецк г, А.Г. Стаханова ул, д.59",
+          "addressReduce": "А.Г. Стаханова ул, д.59"
+        }
       },
-      "address": "Липецк, ул. Свиридова 18, д. 2, подъезд 3, этаж 4, кв. 145",
-      "createdAt": "2025-05-31T08:07:42.164Z",
-      "updatedAt": "2025-05-31T08:07:42.164Z"
+      "cost": 499,
+      "createdAt": "2025-06-05T11:34:58.307Z",
+      "updatedAt": "2025-06-05T11:34:58.307Z"
     }
   ],
   "feedbacks": [
