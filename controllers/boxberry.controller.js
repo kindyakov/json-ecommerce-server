@@ -1,6 +1,8 @@
 import axios from 'axios'
 
-export const getCities = async (req, res) => {
+const API_BOXBERRY = 'https://api.boxberry.ru/json.php'
+
+export const getPoints = async (req, res) => {
   try {
     const { south, west, north, east } = req.query;
 
@@ -8,7 +10,7 @@ export const getCities = async (req, res) => {
       return res.status(400).json({ message: 'Недостаточно данных', status: 'error' });
     }
 
-    const response = await axios.get('https://api.boxberry.ru/json.php', {
+    const response = await axios.get(API_BOXBERRY, {
       params: {
         token: process.env.BOXBERRY_API_KEY,
         method: 'ListPoints',
@@ -46,6 +48,29 @@ export const getCities = async (req, res) => {
     res.json(filteredPoints);
   } catch (error) {
     console.log(error)
+    return res.status(500).json({ message: 'Произошла ошибка', status: 'error' });
+  }
+}
+
+export const getPoint = async (req, res) => {
+  try {
+    const { code } = req.query;
+
+    if (!code) {
+      return res.status(400).json({ message: 'Не передан код пункта', status: 'error' });
+    }
+
+    const response = await axios.get(API_BOXBERRY, {
+      params: {
+        token: process.env.BOXBERRY_API_KEY,
+        method: 'PointsDescription',
+        code,
+        photo: true
+      }
+    });
+
+    res.json(response.data)
+  } catch (error) {
     return res.status(500).json({ message: 'Произошла ошибка', status: 'error' });
   }
 }

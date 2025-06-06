@@ -103,34 +103,45 @@ export const getOrder = (req, res) => {
   const { id } = req.params;
   const order = { ...global.DB.get('orders').find({ userId: req.user.id, id }).value() }
   const user = global.DB.get('users').find({ id: req.user.id }).value()
-  let delivery = {}
-
-  if (user.lastDeliveryId) {
-    const deliveryObj = global.DB.get('delivery').find({ id: user.lastDeliveryId }).value()
-    delivery = {
-      data: deliveryObj.data,
-      method: deliveryObj.method,
-    }
-  } else {
-    delivery = {
-      method: null,
-      data: null,
-      address: null,
-    }
-  }
 
   if (!order) {
-    res.status(404).json({ message: `Заказ ${id} не найден.`, status: 'error' })
+    return res.status(404).json({ message: `Заказ ${id} не найден.`, status: 'error' });
+  }
+  const userDeliveries = global.DB.get('delivery').filter({ userId: user.id }).value();
+
+  // Сортируем доставки по дате создания (от новых к старым)
+  userDeliveries.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+
+  let uniqueDeliveries = [];
+  const addressSet = new Set();
+
+  if (user.lastDeliveryId) {
+    const lastDelivery = userDeliveries.find(d => d.id === user.lastDeliveryId);
+    if (lastDelivery) {
+      uniqueDeliveries.push(lastDelivery);
+      addressSet.add(lastDelivery.address);
+    }
   }
 
-  order.products = order.products.map(({ id, quantity }) => {
-    return { ...global.DB.get('products').find({ id }).value(), quantity }
-  })
+  for (const delivery of userDeliveries) {
+    if (!addressSet.has(delivery.address)) {
+      uniqueDeliveries.push(delivery);
+      addressSet.add(delivery.address);
+    }
+  }
 
+  if (userDeliveries.length) {
+    uniqueDeliveries = uniqueDeliveries.map(({ address, cost, data, id, method }) => ({ address, cost, data, id, method }))
+  }
+
+  order.products = order.products.map(({ id, quantity }) => ({
+    ...global.DB.get('products').find({ id }).value(),
+    quantity
+  }));
 
   res.json({
     ...order,
-    delivery,
+    delivery: uniqueDeliveries,
     paymentMethods: PaymentMethods()
   })
 }
