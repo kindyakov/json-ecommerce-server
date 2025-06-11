@@ -1,0 +1,1 @@
+const API_YANDEX = 'https://b2b.taxi.tst.yandex.net'

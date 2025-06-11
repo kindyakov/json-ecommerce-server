@@ -434,56 +434,11 @@
         "5G"
       ],
       "variants": [
-        {
-          "id": 1,
-          "price": 79999,
-          "inStock": true,
-          "slug": "iphone-14-pro-max-128-gb-chernyj",
-          "attributes": {
-            "memory": "128 ГБ",
-            "color": "черный"
-          }
-        },
-        {
-          "id": 101,
-          "price": 89999,
-          "inStock": true,
-          "slug": "iphone-14-pro-max-256-gb-zolotoj",
-          "attributes": {
-            "memory": "256 ГБ",
-            "color": "золотой"
-          }
-        },
-        {
-          "id": 102,
-          "price": 89999,
-          "inStock": true,
-          "slug": "iphone-14-pro-max-256-gb-chernyj",
-          "attributes": {
-            "memory": "256 ГБ",
-            "color": "черный"
-          }
-        },
-        {
-          "id": 103,
-          "price": 109999,
-          "inStock": false,
-          "slug": "iphone-14-pro-max-512-gb-chernyj",
-          "attributes": {
-            "memory": "512 ГБ",
-            "color": "черный"
-          }
-        },
-        {
-          "id": 104,
-          "price": 79999,
-          "inStock": false,
-          "slug": "iphone-14-pro-max-128-gb-zolotoj",
-          "attributes": {
-            "memory": "128 ГБ",
-            "color": "золотой"
-          }
-        }
+        1,
+        101,
+        102,
+        103,
+        104
       ],
       "images": [
         "/images/products/iphone-14-2.jpg",
@@ -503,7 +458,13 @@
       "expertAssessment": 3.1,
       "path": "/smartphones/apple/iphone-14-pro-max-128-gb-chernyj",
       "quantity": 2,
-      "totalPrice": 159998
+      "totalPrice": 159998,
+      "weight": 226,
+      "dimensions": {
+        "height": 160.7,
+        "width": 84.6,
+        "depth": 0.35
+      }
     },
     {
       "id": 101,
@@ -583,56 +544,11 @@
         "5G"
       ],
       "variants": [
-        {
-          "id": 1,
-          "price": 79999,
-          "inStock": true,
-          "slug": "iphone-14-pro-max-128-gb-chernyj",
-          "attributes": {
-            "memory": "128 ГБ",
-            "color": "черный"
-          }
-        },
-        {
-          "id": 101,
-          "price": 89999,
-          "inStock": true,
-          "slug": "iphone-14-pro-max-256-gb-zolotoj",
-          "attributes": {
-            "memory": "256 ГБ",
-            "color": "золотой"
-          }
-        },
-        {
-          "id": 102,
-          "price": 89999,
-          "inStock": true,
-          "slug": "iphone-14-pro-max-256-gb-chernyj",
-          "attributes": {
-            "memory": "256 ГБ",
-            "color": "черный"
-          }
-        },
-        {
-          "id": 103,
-          "price": 109999,
-          "inStock": false,
-          "slug": "iphone-14-pro-max-512-gb-chernyj",
-          "attributes": {
-            "memory": "512 ГБ",
-            "color": "черный"
-          }
-        },
-        {
-          "id": 104,
-          "price": 79999,
-          "inStock": false,
-          "slug": "iphone-14-pro-max-128-gb-zolotoj",
-          "attributes": {
-            "memory": "128 ГБ",
-            "color": "золотой"
-          }
-        }
+        1,
+        101,
+        102,
+        103,
+        104
       ],
       "images": [
         "/images/products/iphone-14-pro-max-zolotoj.jpeg",
@@ -651,7 +567,13 @@
       "expertAssessment": 3.1,
       "path": "/smartphones/apple/iphone-14-pro-max-256-gb-zolotoj",
       "quantity": 1,
-      "totalPrice": 89999
+      "totalPrice": 89999,
+      "weight": 235,
+      "dimensions": {
+        "height": 160.7,
+        "width": 89.6,
+        "depth": 0.23
+      }
     },
     {
       "id": 102,
@@ -731,56 +653,11 @@
         "5G"
       ],
       "variants": [
-        {
-          "id": 1,
-          "price": 79999,
-          "inStock": true,
-          "slug": "iphone-14-pro-max-128-gb-chernyj",
-          "attributes": {
-            "memory": "128 ГБ",
-            "color": "черный"
-          }
-        },
-        {
-          "id": 101,
-          "price": 89999,
-          "inStock": true,
-          "slug": "iphone-14-pro-max-256-gb-zolotoj",
-          "attributes": {
-            "memory": "256 ГБ",
-            "color": "золотой"
-          }
-        },
-        {
-          "id": 102,
-          "price": 89999,
-          "inStock": true,
-          "slug": "iphone-14-pro-max-256-gb-chernyj",
-          "attributes": {
-            "memory": "256 ГБ",
-            "color": "черный"
-          }
-        },
-        {
-          "id": 103,
-          "price": 109999,
-          "inStock": false,
-          "slug": "iphone-14-pro-max-512-gb-chernyj",
-          "attributes": {
-            "memory": "512 ГБ",
-            "color": "черный"
-          }
-        },
-        {
-          "id": 104,
-          "price": 79999,
-          "inStock": false,
-          "slug": "iphone-14-pro-max-128-gb-zolotoj",
-          "attributes": {
-            "memory": "128 ГБ",
-            "color": "золотой"
-          }
-        }
+        1,
+        101,
+        102,
+        103,
+        104
       ],
       "images": [
         "/images/products/iphone-14-2.jpg",
@@ -800,7 +677,13 @@
       "expertAssessment": 4.8,
       "path": "/smartphones/apple/iphone-14-pro-max-256-gb-chernyj",
       "quantity": 1,
-      "totalPrice": 89999
+      "totalPrice": 89999,
+      "weight": 226,
+      "dimensions": {
+        "height": 14.8,
+        "width": 7.81,
+        "depth": 0.72
+      }
     },
     {
       "id": 103,
@@ -880,56 +763,11 @@
         "5G"
       ],
       "variants": [
-        {
-          "id": 1,
-          "price": 79999,
-          "inStock": true,
-          "slug": "iphone-14-pro-max-128-gb-chernyj",
-          "attributes": {
-            "memory": "128 ГБ",
-            "color": "черный"
-          }
-        },
-        {
-          "id": 101,
-          "price": 89999,
-          "inStock": true,
-          "slug": "iphone-14-pro-max-256-gb-zolotoj",
-          "attributes": {
-            "memory": "256 ГБ",
-            "color": "золотой"
-          }
-        },
-        {
-          "id": 102,
-          "price": 89999,
-          "inStock": true,
-          "slug": "iphone-14-pro-max-256-gb-chernyj",
-          "attributes": {
-            "memory": "256 ГБ",
-            "color": "черный"
-          }
-        },
-        {
-          "id": 103,
-          "price": 109999,
-          "inStock": false,
-          "slug": "iphone-14-pro-max-512-gb-chernyj",
-          "attributes": {
-            "memory": "512 ГБ",
-            "color": "черный"
-          }
-        },
-        {
-          "id": 104,
-          "price": 79999,
-          "inStock": false,
-          "slug": "iphone-14-pro-max-128-gb-zolotoj",
-          "attributes": {
-            "memory": "128 ГБ",
-            "color": "золотой"
-          }
-        }
+        1,
+        101,
+        102,
+        103,
+        104
       ],
       "images": [
         "/images/products/iphone-14-2.jpg",
@@ -949,7 +787,13 @@
       "expertAssessment": 4.8,
       "quantity": 2,
       "path": "/smartphones/apple/iphone-14-pro-max-512-gb-chernyj",
-      "totalPrice": 219998
+      "totalPrice": 219998,
+      "weight": 226,
+      "dimensions": {
+        "height": 160.8,
+        "width": 78.7,
+        "depth": 0.75
+      }
     },
     {
       "id": 104,
@@ -1029,56 +873,11 @@
         "5G"
       ],
       "variants": [
-        {
-          "id": 1,
-          "price": 79999,
-          "inStock": true,
-          "slug": "iphone-14-pro-max-128-gb-chernyj",
-          "attributes": {
-            "memory": "128 ГБ",
-            "color": "черный"
-          }
-        },
-        {
-          "id": 101,
-          "price": 89999,
-          "inStock": true,
-          "slug": "iphone-14-pro-max-256-gb-zolotoj",
-          "attributes": {
-            "memory": "256 ГБ",
-            "color": "золотой"
-          }
-        },
-        {
-          "id": 102,
-          "price": 89999,
-          "inStock": true,
-          "slug": "iphone-14-pro-max-256-gb-chernyj",
-          "attributes": {
-            "memory": "256 ГБ",
-            "color": "черный"
-          }
-        },
-        {
-          "id": 103,
-          "price": 109999,
-          "inStock": false,
-          "slug": "iphone-14-pro-max-512-gb-chernyj",
-          "attributes": {
-            "memory": "512 ГБ",
-            "color": "черный"
-          }
-        },
-        {
-          "id": 104,
-          "price": 79999,
-          "inStock": false,
-          "slug": "iphone-14-pro-max-128-gb-zolotoj",
-          "attributes": {
-            "memory": "128 ГБ",
-            "color": "золотой"
-          }
-        }
+        1,
+        101,
+        102,
+        103,
+        104
       ],
       "images": [
         "/images/products/iphone-14-pro-max-zolotoj.jpeg",
@@ -1097,7 +896,13 @@
       "expertAssessment": 4.5,
       "quantity": 1,
       "path": "/smartphones/apple/iphone-14-pro-max-128-gb-zolotoj",
-      "totalPrice": 79999
+      "totalPrice": 79999,
+      "weight": 226,
+      "dimensions": {
+        "height": 16.09,
+        "width": 7.81,
+        "depth": 0.31
+      }
     },
     {
       "id": 2,
@@ -1177,37 +982,43 @@
       "variants": [
         {
           "id": 201,
-          "price": 59999,
           "inStock": true,
+          "price": 12000,
+          "slug": "fitbit-versa-3",
           "attributes": {
-            "memory": "128 ГБ",
-            "color": "черный"
+            "memory": "",
+            "color": ""
           }
         },
         {
           "id": 202,
-          "price": 69999,
           "inStock": true,
+          "price": 18000,
+          "slug": "fitbit-sense",
           "attributes": {
-            "memory": "256 ГБ",
-            "color": "черный"
+            "memory": "",
+            "color": ""
           }
         },
         {
           "id": 203,
-          "price": 89999,
           "inStock": true,
+          "price": 8000,
+          "slug": "fitbit-inspire-2",
           "attributes": {
-            "memory": "512 ГБ",
-            "color": "черный"
+            "memory": "",
+            "color": ""
           }
         }
       ],
       "images": [
-        "/images/products/iphone-13-1.jpg",
-        "/images/products/iphone-13-2.jpg",
-        "/images/products/iphone-13-3.jpg",
-        "/images/products/iphone-13-4.jpg"
+        "/images/products/iphone-13-128-gb-chernyj-1.jpg",
+        "/images/products/iphone-13-128-gb-chernyj-2.jpg",
+        "/images/products/iphone-13-128-gb-chernyj-3.jpg",
+        "/images/products/iphone-13-128-gb-chernyj-4.jpg",
+        "/images/products/iphone-13-128-gb-chernyj-5.jpg",
+        "/images/products/iphone-13-128-gb-chernyj-6.jpg",
+        "/images/products/iphone-13-128-gb-chernyj-7.jpg"
       ],
       "isNew": false,
       "isBestseller": true,
@@ -1220,7 +1031,13 @@
       "expertAssessment": 4.5,
       "path": "/smartphones/apple/iphone-13-128-gb-chernyj",
       "quantity": 1,
-      "totalPrice": 59999
+      "totalPrice": 59999,
+      "weight": 187,
+      "dimensions": {
+        "height": 15.1,
+        "width": 7.6,
+        "depth": 0.74
+      }
     },
     {
       "id": 3,
@@ -1300,33 +1117,9 @@
         "компактный"
       ],
       "variants": [
-        {
-          "id": 301,
-          "price": 39999,
-          "inStock": true,
-          "attributes": {
-            "memory": "64 ГБ",
-            "color": "черный"
-          }
-        },
-        {
-          "id": 302,
-          "price": 44999,
-          "inStock": true,
-          "attributes": {
-            "memory": "128 ГБ",
-            "color": "черный"
-          }
-        },
-        {
-          "id": 303,
-          "price": 54999,
-          "inStock": true,
-          "attributes": {
-            "memory": "256 ГБ",
-            "color": "черный"
-          }
-        }
+        301,
+        302,
+        303
       ],
       "images": [
         "/images/products/iphone-se-1.jpg",
@@ -1345,7 +1138,13 @@
       "expertAssessment": 3.3,
       "path": "/smartphones/apple/iphone-se-64-gb-chernyj",
       "quantity": 2,
-      "totalPrice": 79998
+      "totalPrice": 79998,
+      "weight": 157,
+      "dimensions": {
+        "height": 14.8,
+        "width": 7.02,
+        "depth": 0.69
+      }
     },
     {
       "id": 4,
@@ -1433,7 +1232,13 @@
       "expertAssessment": 4.1,
       "path": "/smartphones/xiaomi/xiaomi-13-64-gb-chernyj",
       "quantity": 1,
-      "totalPrice": 69999
+      "totalPrice": 69999,
+      "weight": null,
+      "dimensions": {
+        "height": 162.9,
+        "width": 75.8,
+        "depth": 8.4
+      }
     },
     {
       "id": 5,
@@ -1521,7 +1326,13 @@
       "expertAssessment": 3.8,
       "path": "/smartphones/xiaomi/redmi-note-12-128-gb-chernyj",
       "quantity": 2,
-      "totalPrice": 59998
+      "totalPrice": 59998,
+      "weight": 190,
+      "dimensions": {
+        "height": 16.4,
+        "width": 7.65,
+        "depth": 0.8
+      }
     },
     {
       "id": 6,
@@ -1608,7 +1419,13 @@
       "expertAssessment": 3.3,
       "path": "/smartphones/samsung/galaxy-s23-ultra-256-gb-chernyj",
       "quantity": 1,
-      "totalPrice": 149999
+      "totalPrice": 149999,
+      "weight": 203,
+      "dimensions": {
+        "height": 16.45,
+        "width": 7.92,
+        "depth": 0.81
+      }
     },
     {
       "id": 7,
@@ -1693,7 +1510,9 @@
         "name": "Нет в наличии"
       },
       "expertAssessment": 3.7,
-      "path": "/smartphones/samsung/galaxy-z-fold-5-512-gb-chernyj"
+      "path": "/smartphones/samsung/galaxy-z-fold-5-512-gb-chernyj",
+      "weight": null,
+      "dimensions": null
     },
     {
       "id": 8,
@@ -1778,7 +1597,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 4,
-      "path": "/smartphones/samsung/galaxy-a54-128-gb-chernyj"
+      "path": "/smartphones/samsung/galaxy-a54-128-gb-chernyj",
+      "weight": 163,
+      "dimensions": {
+        "height": 15.9,
+        "width": 7.7,
+        "depth": 0.82
+      }
     },
     {
       "id": 9,
@@ -1865,7 +1690,13 @@
       "expertAssessment": 3.9,
       "path": "/tablets/lenovo/lenovo-tab-m10-plus-64-gb-chernyj",
       "quantity": 1,
-      "totalPrice": 19999
+      "totalPrice": 19999,
+      "weight": 470,
+      "dimensions": {
+        "height": 21.96,
+        "width": 15.82,
+        "depth": 0.73
+      }
     },
     {
       "id": 10,
@@ -1952,7 +1783,13 @@
       "expertAssessment": 3.4,
       "path": "/tablets/lenovo/lenovo-tab-m8-32-gb-chernyj",
       "quantity": 1,
-      "totalPrice": 14999
+      "totalPrice": 14999,
+      "weight": 503,
+      "dimensions": {
+        "height": 12.97,
+        "width": 21.46,
+        "depth": 0.5
+      }
     },
     {
       "id": 11,
@@ -2037,7 +1874,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.6,
-      "path": "/tablets/lenovo/lenovo-tab-m7-32-gb-chernyj"
+      "path": "/tablets/lenovo/lenovo-tab-m7-32-gb-chernyj",
+      "weight": null,
+      "dimensions": {
+        "height": null,
+        "width": null,
+        "depth": null
+      }
     },
     {
       "id": 12,
@@ -2123,7 +1966,9 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.8,
-      "path": "/tablets/huawei/huawei-matepad-11-128-gb-chernyj"
+      "path": "/tablets/huawei/huawei-matepad-11-128-gb-chernyj",
+      "weight": null,
+      "dimensions": null
     },
     {
       "id": 13,
@@ -2208,7 +2053,13 @@
         "name": "Предзаказ"
       },
       "expertAssessment": 4.2,
-      "path": "/tablets/huawei/huawei-mediapad-t7-32-gb-chernyj"
+      "path": "/tablets/huawei/huawei-mediapad-t7-32-gb-chernyj",
+      "weight": 1590,
+      "dimensions": {
+        "height": 24.8,
+        "width": 16.7,
+        "depth": 0.73
+      }
     },
     {
       "id": 14,
@@ -2293,7 +2144,13 @@
         "name": "Нет в наличии"
       },
       "expertAssessment": 4.7,
-      "path": "/tablets/huawei/huawei-mediapad-m5-64-gb-chernyj"
+      "path": "/tablets/huawei/huawei-mediapad-m5-64-gb-chernyj",
+      "weight": 170,
+      "dimensions": {
+        "height": 25.34,
+        "width": 16.89,
+        "depth": 0.78
+      }
     },
     {
       "id": 15,
@@ -2368,7 +2225,13 @@
       "expertAssessment": 4.2,
       "path": "/laptops/asus/asus-rog-phone-7-256-gb-chernyj",
       "quantity": 1,
-      "totalPrice": 89999
+      "totalPrice": 89999,
+      "weight": null,
+      "dimensions": {
+        "height": null,
+        "width": null,
+        "depth": null
+      }
     },
     {
       "id": 16,
@@ -2463,7 +2326,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 3.3,
-      "path": "/laptops/asus/asus-zenfone-9"
+      "path": "/laptops/asus/asus-zenfone-9",
+      "weight": null,
+      "dimensions": {
+        "height": null,
+        "width": null,
+        "depth": null
+      }
     },
     {
       "id": 17,
@@ -2554,7 +2423,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.1,
-      "path": "/laptops/asus/asus-rog-phone-6d-ultimate"
+      "path": "/laptops/asus/asus-rog-phone-6d-ultimate",
+      "weight": null,
+      "dimensions": {
+        "height": null,
+        "width": null,
+        "depth": null
+      }
     },
     {
       "id": 18,
@@ -2645,7 +2520,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.2,
-      "path": "/laptops/asus/asus-rog-phone-6-pro"
+      "path": "/laptops/asus/asus-rog-phone-6-pro",
+      "weight": 217,
+      "dimensions": {
+        "height": 168.9,
+        "width": 77.5,
+        "depth": 0.93
+      }
     },
     {
       "id": 19,
@@ -2732,7 +2613,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.7,
-      "path": "/laptops/asus/asus-rog-phone-6"
+      "path": "/laptops/asus/asus-rog-phone-6",
+      "weight": 204,
+      "dimensions": {
+        "height": 165.9,
+        "width": 7.8,
+        "depth": 0.83
+      }
     },
     {
       "id": 20,
@@ -2819,7 +2706,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 3.6,
-      "path": "/laptops/asus/asus-rog-phone-5"
+      "path": "/laptops/asus/asus-rog-phone-5",
+      "weight": 201,
+      "dimensions": {
+        "height": 14.3,
+        "width": 76.9,
+        "depth": 0.85
+      }
     },
     {
       "id": 21,
@@ -2905,7 +2798,9 @@
         "name": "В наличии"
       },
       "expertAssessment": 3.2,
-      "path": "/laptops/asus/asus-zenfone-9"
+      "path": "/laptops/asus/asus-zenfone-9",
+      "weight": null,
+      "dimensions": null
     },
     {
       "id": 22,
@@ -2992,7 +2887,13 @@
         "name": "Предзаказ"
       },
       "expertAssessment": 4.7,
-      "path": "/laptops/asus/asus-rog-phone-6d"
+      "path": "/laptops/asus/asus-rog-phone-6d",
+      "weight": 215,
+      "dimensions": {
+        "height": 16.8,
+        "width": 7.93,
+        "depth": 0.84
+      }
     },
     {
       "id": 23,
@@ -3079,7 +2980,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.1,
-      "path": "/laptops/asus/asus-rog-phone-5d"
+      "path": "/laptops/asus/asus-rog-phone-5d",
+      "weight": 204,
+      "dimensions": {
+        "height": 165.3,
+        "width": 78.9,
+        "depth": 0.92
+      }
     },
     {
       "id": 24,
@@ -3166,7 +3073,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.9,
-      "path": "/laptops/asus/asus-rog-phone-6-pro"
+      "path": "/laptops/asus/asus-rog-phone-6-pro",
+      "weight": 204,
+      "dimensions": {
+        "height": 16.8,
+        "width": 7.9,
+        "depth": 0.93
+      }
     },
     {
       "id": 25,
@@ -3251,7 +3164,9 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.4,
-      "path": "/laptops/dell/dell-xps-15"
+      "path": "/laptops/dell/dell-xps-15",
+      "weight": null,
+      "dimensions": null
     },
     {
       "id": 26,
@@ -3336,7 +3251,13 @@
         "name": "Предзаказ"
       },
       "expertAssessment": 4.1,
-      "path": "/laptops/dell/dell-latitude-5520"
+      "path": "/laptops/dell/dell-latitude-5520",
+      "weight": null,
+      "dimensions": {
+        "height": null,
+        "width": null,
+        "depth": null
+      }
     },
     {
       "id": 27,
@@ -3421,7 +3342,13 @@
         "name": "Нет в наличии"
       },
       "expertAssessment": 4.4,
-      "path": "/laptops/dell/dell-inspiron-14-5423"
+      "path": "/laptops/dell/dell-inspiron-14-5423",
+      "weight": 170,
+      "dimensions": {
+        "height": 14.8,
+        "width": 7,
+        "depth": 0.92
+      }
     },
     {
       "id": 28,
@@ -3506,7 +3433,9 @@
         "name": "В наличии"
       },
       "expertAssessment": 3.9,
-      "path": "/laptops/hp/hp-pavilion-15"
+      "path": "/laptops/hp/hp-pavilion-15",
+      "weight": null,
+      "dimensions": null
     },
     {
       "id": 29,
@@ -3592,7 +3521,9 @@
         "name": "В наличии"
       },
       "expertAssessment": 3.9,
-      "path": "/laptops/hp/hp-envy-15"
+      "path": "/laptops/hp/hp-envy-15",
+      "weight": null,
+      "dimensions": null
     },
     {
       "id": 30,
@@ -3679,7 +3610,14 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.2,
-      "path": "/laptops/hp/hp-elitebook-840-g11"
+      "path": "/laptops/hp/hp-elitebook-840-g11",
+      "weight": 1390,
+      "dimensions": {
+        "length": null,
+        "width": null,
+        "height": null,
+        "depth": null
+      }
     },
     {
       "id": 101,
@@ -3765,7 +3703,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 3.4,
-      "path": "/smartwatches/garmin/garmin-forerunner-245"
+      "path": "/smartwatches/garmin/garmin-forerunner-245",
+      "weight": 39,
+      "dimensions": {
+        "height": 4.67,
+        "width": 1.8,
+        "depth": 0.85
+      }
     },
     {
       "id": 102,
@@ -3851,7 +3795,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 3.5,
-      "path": "/smartwatches/garmin/garmin-fenix-6-pro"
+      "path": "/smartwatches/garmin/garmin-fenix-6-pro",
+      "weight": 78,
+      "dimensions": {
+        "height": 4.7,
+        "width": 4.2,
+        "depth": 1.3
+      }
     },
     {
       "id": 103,
@@ -3937,7 +3887,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 3.8,
-      "path": "/smartwatches/garmin/garmin-vivoactive-4"
+      "path": "/smartwatches/garmin/garmin-vivoactive-4",
+      "weight": 169,
+      "dimensions": {
+        "height": null,
+        "width": null,
+        "depth": null
+      }
     },
     {
       "id": 201,
@@ -4023,7 +3979,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.2,
-      "path": "/smartwatches/fitbit/fitbit-versa-3"
+      "path": "/smartwatches/fitbit/fitbit-versa-3",
+      "weight": 42,
+      "dimensions": {
+        "height": 5,
+        "width": 4.6,
+        "depth": 0.123
+      }
     },
     {
       "id": 202,
@@ -4109,7 +4071,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.4,
-      "path": "/smartwatches/fitbit/fitbit-sense"
+      "path": "/smartwatches/fitbit/fitbit-sense",
+      "weight": 170,
+      "dimensions": {
+        "height": 14.8,
+        "width": 7,
+        "depth": 0.92
+      }
     },
     {
       "id": 203,
@@ -4195,7 +4163,13 @@
         "name": "Предзаказ"
       },
       "expertAssessment": 3.3,
-      "path": "/smartwatches/fitbit/fitbit-inspire-2"
+      "path": "/smartwatches/fitbit/fitbit-inspire-2",
+      "weight": 38,
+      "dimensions": {
+        "height": 15,
+        "width": 7,
+        "depth": 0.92
+      }
     },
     {
       "id": 301,
@@ -4282,7 +4256,13 @@
       "expertAssessment": 4.7,
       "path": "/gaming-consoles/playstation/playstation-5",
       "quantity": 1,
-      "totalPrice": 70000
+      "totalPrice": 70000,
+      "weight": 4800,
+      "dimensions": {
+        "height": 56,
+        "width": 37,
+        "depth": 19
+      }
     },
     {
       "id": 302,
@@ -4366,7 +4346,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 3.5,
-      "path": "/gaming-consoles/playstation/playstation-4-pro"
+      "path": "/gaming-consoles/playstation/playstation-4-pro",
+      "weight": 6500,
+      "dimensions": {
+        "height": 18.9,
+        "width": 37,
+        "depth": 24
+      }
     },
     {
       "id": 303,
@@ -4450,7 +4436,9 @@
         "name": "В наличии"
       },
       "expertAssessment": 3.1,
-      "path": "/gaming-consoles/playstation/playstation-classic"
+      "path": "/gaming-consoles/playstation/playstation-classic",
+      "weight": null,
+      "dimensions": null
     },
     {
       "id": 401,
@@ -4531,7 +4519,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 3.8,
-      "path": "/gaming-consoles/xbox/xbox-series-x"
+      "path": "/gaming-consoles/xbox/xbox-series-x",
+      "weight": 1706,
+      "dimensions": {
+        "height": 4.8,
+        "width": 35,
+        "depth": 29
+      }
     },
     {
       "id": 402,
@@ -4610,7 +4604,9 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.1,
-      "path": "/gaming-consoles/xbox/xbox-series-s"
+      "path": "/gaming-consoles/xbox/xbox-series-s",
+      "weight": null,
+      "dimensions": null
     },
     {
       "id": 403,
@@ -4688,7 +4684,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.1,
-      "path": "/gaming-consoles/xbox/xbox-one-x"
+      "path": "/gaming-consoles/xbox/xbox-one-x",
+      "weight": 170,
+      "dimensions": {
+        "height": 39.6,
+        "width": 28.5,
+        "depth": 4.92
+      }
     },
     {
       "id": 501,
@@ -4764,7 +4766,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.7,
-      "path": "/headphones/sony/sony-wh-1000xm5"
+      "path": "/headphones/sony/sony-wh-1000xm5",
+      "weight": 238,
+      "dimensions": {
+        "height": 19.6,
+        "width": 7.7,
+        "depth": 0.74
+      }
     },
     {
       "id": 502,
@@ -4840,7 +4848,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 4.9,
-      "path": "/headphones/sony/sony-wf-1000xm4"
+      "path": "/headphones/sony/sony-wf-1000xm4",
+      "weight": 170,
+      "dimensions": {
+        "height": null,
+        "width": null,
+        "depth": null
+      }
     },
     {
       "id": 503,
@@ -4915,7 +4929,13 @@
         "name": "Предзаказ"
       },
       "expertAssessment": 3.7,
-      "path": "/headphones/sony/sony-wh-1000xm3"
+      "path": "/headphones/sony/sony-wh-1000xm3",
+      "weight": 234,
+      "dimensions": {
+        "height": null,
+        "width": null,
+        "depth": null
+      }
     },
     {
       "id": 601,
@@ -4991,7 +5011,13 @@
         "name": "Предзаказ"
       },
       "expertAssessment": 3.2,
-      "path": "/headphones/bose/bose-noise-cancelling-headphones-700"
+      "path": "/headphones/bose/bose-noise-cancelling-headphones-700",
+      "weight": 235,
+      "dimensions": {
+        "height": 16.8,
+        "width": 7.9,
+        "depth": 0.84
+      }
     },
     {
       "id": 602,
@@ -5067,7 +5093,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 5,
-      "path": "/headphones/bose/bose-quietcomfort-35-ii"
+      "path": "/headphones/bose/bose-quietcomfort-35-ii",
+      "weight": 205,
+      "dimensions": {
+        "height": 14.8,
+        "width": 7,
+        "depth": 0.92
+      }
     },
     {
       "id": 603,
@@ -5143,7 +5175,13 @@
         "name": "В наличии"
       },
       "expertAssessment": 3.8,
-      "path": "/headphones/bose/bose-quietcomfort-45"
+      "path": "/headphones/bose/bose-quietcomfort-45",
+      "weight": 450,
+      "dimensions": {
+        "height": null,
+        "width": null,
+        "depth": null
+      }
     }
   ],
   "reviews": [
@@ -5204,6 +5242,18 @@
       "id": 1743595761343,
       "userId": 1743595759305,
       "productId": 1,
+      "quantity": 1
+    },
+    {
+      "id": 1749653010251,
+      "userId": 1743867386569,
+      "productId": 2,
+      "quantity": 1
+    },
+    {
+      "id": 1749653025951,
+      "userId": 1743867386569,
+      "productId": 101,
       "quantity": 1
     }
   ],
@@ -5293,7 +5343,7 @@
       "yandexId": "563896504",
       "password": "$2b$10$uz4MPWajcviBizSQIy2T9eCJNVVUL2EszRkN3SpI0Q2CGtNK5svya",
       "createdAt": "2025-04-05T15:36:26.571Z",
-      "lastDeliveryId": "84408382-605e-407d-ab64-c0189d87bb88"
+      "lastDeliveryId": "4f8b68d4-6665-47eb-b14e-f846f46f267d"
     },
     {
       "id": 1748436602922,
@@ -5317,158 +5367,13 @@
       "createdAt": "2025-06-05T10:13:19.091Z",
       "updatedAt": "2025-06-05T11:36:24.684Z",
       "expiresAt": "2025-06-05T10:43:19.091Z",
-      "status": "paid",
+      "status": "completed",
       "total": 79999,
       "countProduct": 1,
       "products": [
         {
           "id": 1,
-          "subCategoryId": 1,
-          "article": 231451,
-          "title": "iPhone 14 Pro Max 128 ГБ черный",
-          "slug": "iphone-14-pro-max-128-gb-chernyj",
-          "subCategorySlug": "apple",
-          "categorySlug": "smartphones",
-          "brandId": 1,
-          "price": 79999,
-          "oldPrice": 86999,
-          "discount": 8,
-          "inStock": true,
-          "rating": 3.3,
-          "reviewCount": 156,
-          "description": "iPhone 14 с дисплеем Super Retina XDR 6,1 дюйма и передовой двойной камерой 12 МП для съемки в любых условиях. Чип A15 Bionic обеспечивает высокую производительность и эффективность в работе с приложениями.",
-          "fullDescription": "iPhone 14 оснащен системой из двух камер 12 МП (широкоугольная и сверхширокоугольная), которые позволяют делать потрясающие фотографии при любом освещении. Режим киносъемки автоматически смещает фокус между объектами даже во время записи. Дисплей Super Retina XDR с диагональю 6,1 дюйма отличается невероятной детализацией и цветопередачей. Чип A15 Bionic обеспечивает молниеносную работу приложений и игр. Благодаря прочному корпусу из алюминия и стекла Ceramic Shield iPhone 14 защищен от брызг, капель воды и пыли.",
-          "features": {
-            "display": "6,1 дюйма, Super Retina XDR",
-            "processor": "A15 Bionic",
-            "camera": "Двойная камера 12 Мп",
-            "battery": "До 20 часов воспроизведения видео",
-            "memory": "128 ГБ",
-            "os": "iOS 16",
-            "waterProof": "IP68",
-            "5G": "Да",
-            "color": "черный"
-          },
-          "specifications": [
-            {
-              "name": "Дисплей",
-              "value": "6,1 дюйма, Super Retina XDR"
-            },
-            {
-              "name": "Разрешение",
-              "value": "2532x1170 пикселей"
-            },
-            {
-              "name": "Процессор",
-              "value": "A15 Bionic"
-            },
-            {
-              "name": "Память",
-              "value": "128 ГБ"
-            },
-            {
-              "name": "Основная камера",
-              "value": "Двойная 12 Мп + 12 Мп"
-            },
-            {
-              "name": "Фронтальная камера",
-              "value": "12 Мп"
-            },
-            {
-              "name": "Аккумулятор",
-              "value": "3279 мАч"
-            },
-            {
-              "name": "Операционная система",
-              "value": "iOS 16"
-            },
-            {
-              "name": "Габариты",
-              "value": "146,7 x 71,5 x 7,8 мм"
-            },
-            {
-              "name": "Вес",
-              "value": "172 г"
-            }
-          ],
-          "tags": [
-            "iPhone",
-            "Apple",
-            "смартфон",
-            "iOS",
-            "5G"
-          ],
-          "variants": [
-            {
-              "id": 1,
-              "price": 79999,
-              "inStock": true,
-              "slug": "iphone-14-pro-max-128-gb-chernyj",
-              "attributes": {
-                "memory": "128 ГБ",
-                "color": "черный"
-              }
-            },
-            {
-              "id": 101,
-              "price": 89999,
-              "inStock": true,
-              "slug": "iphone-14-pro-max-256-gb-zolotoj",
-              "attributes": {
-                "memory": "256 ГБ",
-                "color": "золотой"
-              }
-            },
-            {
-              "id": 102,
-              "price": 89999,
-              "inStock": true,
-              "slug": "iphone-14-pro-max-256-gb-chernyj",
-              "attributes": {
-                "memory": "256 ГБ",
-                "color": "черный"
-              }
-            },
-            {
-              "id": 103,
-              "price": 109999,
-              "inStock": false,
-              "slug": "iphone-14-pro-max-512-gb-chernyj",
-              "attributes": {
-                "memory": "512 ГБ",
-                "color": "черный"
-              }
-            },
-            {
-              "id": 104,
-              "price": 79999,
-              "inStock": false,
-              "slug": "iphone-14-pro-max-128-gb-zolotoj",
-              "attributes": {
-                "memory": "128 ГБ",
-                "color": "золотой"
-              }
-            }
-          ],
-          "images": [
-            "/images/products/iphone-14-2.jpg",
-            "/images/products/iphone-14-3.jpg",
-            "/images/products/iphone-14-4.jpg",
-            "/images/products/iphone-14-5.jpg",
-            "/images/products/iphone-14-6.jpg"
-          ],
-          "isNew": true,
-          "isBestseller": true,
-          "createdAt": "2023-09-15T12:00:00Z",
-          "updatedAt": "2024-03-01T15:30:00Z",
-          "status": {
-            "type": "sold_out",
-            "name": "Нет в наличии"
-          },
-          "expertAssessment": 3.1,
-          "path": "/smartphones/apple/iphone-14-pro-max-128-gb-chernyj",
-          "quantity": 1,
-          "totalPrice": 159998
+          "quantity": 1
         }
       ],
       "userId": 1743867386569,
@@ -5492,158 +5397,13 @@
       "createdAt": "2025-06-05T11:39:16.515Z",
       "updatedAt": "2025-06-06T12:25:03.612Z",
       "expiresAt": "2025-06-05T12:09:16.515Z",
-      "status": "paid",
+      "status": "delivered",
       "total": 14999,
       "countProduct": 1,
       "products": [
         {
           "id": 1,
-          "subCategoryId": 1,
-          "article": 231451,
-          "title": "iPhone 14 Pro Max 128 ГБ черный",
-          "slug": "iphone-14-pro-max-128-gb-chernyj",
-          "subCategorySlug": "apple",
-          "categorySlug": "smartphones",
-          "brandId": 1,
-          "price": 79999,
-          "oldPrice": 86999,
-          "discount": 8,
-          "inStock": true,
-          "rating": 3.3,
-          "reviewCount": 156,
-          "description": "iPhone 14 с дисплеем Super Retina XDR 6,1 дюйма и передовой двойной камерой 12 МП для съемки в любых условиях. Чип A15 Bionic обеспечивает высокую производительность и эффективность в работе с приложениями.",
-          "fullDescription": "iPhone 14 оснащен системой из двух камер 12 МП (широкоугольная и сверхширокоугольная), которые позволяют делать потрясающие фотографии при любом освещении. Режим киносъемки автоматически смещает фокус между объектами даже во время записи. Дисплей Super Retina XDR с диагональю 6,1 дюйма отличается невероятной детализацией и цветопередачей. Чип A15 Bionic обеспечивает молниеносную работу приложений и игр. Благодаря прочному корпусу из алюминия и стекла Ceramic Shield iPhone 14 защищен от брызг, капель воды и пыли.",
-          "features": {
-            "display": "6,1 дюйма, Super Retina XDR",
-            "processor": "A15 Bionic",
-            "camera": "Двойная камера 12 Мп",
-            "battery": "До 20 часов воспроизведения видео",
-            "memory": "128 ГБ",
-            "os": "iOS 16",
-            "waterProof": "IP68",
-            "5G": "Да",
-            "color": "черный"
-          },
-          "specifications": [
-            {
-              "name": "Дисплей",
-              "value": "6,1 дюйма, Super Retina XDR"
-            },
-            {
-              "name": "Разрешение",
-              "value": "2532x1170 пикселей"
-            },
-            {
-              "name": "Процессор",
-              "value": "A15 Bionic"
-            },
-            {
-              "name": "Память",
-              "value": "128 ГБ"
-            },
-            {
-              "name": "Основная камера",
-              "value": "Двойная 12 Мп + 12 Мп"
-            },
-            {
-              "name": "Фронтальная камера",
-              "value": "12 Мп"
-            },
-            {
-              "name": "Аккумулятор",
-              "value": "3279 мАч"
-            },
-            {
-              "name": "Операционная система",
-              "value": "iOS 16"
-            },
-            {
-              "name": "Габариты",
-              "value": "146,7 x 71,5 x 7,8 мм"
-            },
-            {
-              "name": "Вес",
-              "value": "172 г"
-            }
-          ],
-          "tags": [
-            "iPhone",
-            "Apple",
-            "смартфон",
-            "iOS",
-            "5G"
-          ],
-          "variants": [
-            {
-              "id": 1,
-              "price": 79999,
-              "inStock": true,
-              "slug": "iphone-14-pro-max-128-gb-chernyj",
-              "attributes": {
-                "memory": "128 ГБ",
-                "color": "черный"
-              }
-            },
-            {
-              "id": 101,
-              "price": 89999,
-              "inStock": true,
-              "slug": "iphone-14-pro-max-256-gb-zolotoj",
-              "attributes": {
-                "memory": "256 ГБ",
-                "color": "золотой"
-              }
-            },
-            {
-              "id": 102,
-              "price": 89999,
-              "inStock": true,
-              "slug": "iphone-14-pro-max-256-gb-chernyj",
-              "attributes": {
-                "memory": "256 ГБ",
-                "color": "черный"
-              }
-            },
-            {
-              "id": 103,
-              "price": 109999,
-              "inStock": false,
-              "slug": "iphone-14-pro-max-512-gb-chernyj",
-              "attributes": {
-                "memory": "512 ГБ",
-                "color": "черный"
-              }
-            },
-            {
-              "id": 104,
-              "price": 79999,
-              "inStock": false,
-              "slug": "iphone-14-pro-max-128-gb-zolotoj",
-              "attributes": {
-                "memory": "128 ГБ",
-                "color": "золотой"
-              }
-            }
-          ],
-          "images": [
-            "/images/products/iphone-14-2.jpg",
-            "/images/products/iphone-14-3.jpg",
-            "/images/products/iphone-14-4.jpg",
-            "/images/products/iphone-14-5.jpg",
-            "/images/products/iphone-14-6.jpg"
-          ],
-          "isNew": true,
-          "isBestseller": true,
-          "createdAt": "2023-09-15T12:00:00Z",
-          "updatedAt": "2024-03-01T15:30:00Z",
-          "status": {
-            "type": "sold_out",
-            "name": "Нет в наличии"
-          },
-          "expertAssessment": 3.1,
-          "path": "/smartphones/apple/iphone-14-pro-max-128-gb-chernyj",
-          "quantity": 1,
-          "totalPrice": 159998
+          "quantity": 1
         }
       ],
       "userId": 1743867386569,
@@ -5665,14 +5425,81 @@
     {
       "id": "2ea7ccf2-7269-479e-a75f-d9946cf1e664",
       "createdAt": "2025-06-06T13:12:33.845Z",
-      "updatedAt": "2025-06-06T13:12:33.845Z",
+      "updatedAt": "2025-06-09T15:30:33.030Z",
       "expiresAt": "2025-06-06T13:42:33.845Z",
-      "status": "pending",
+      "status": "paid",
       "total": 89999,
       "countProduct": 1,
       "products": [
         {
           "id": 101,
+          "quantity": 1
+        }
+      ],
+      "userId": 1743867386569,
+      "client": {
+        "name": "Андрей",
+        "surname": "Киндяков",
+        "phone": "79086028955"
+      },
+      "deliveryId": "4f8b68d4-6665-47eb-b14e-f846f46f267d",
+      "payment": {
+        "id": "2fd911c8-000f-5001-9000-1bb16d219b04",
+        "status": "succeeded",
+        "method": "bank_card"
+      },
+      "comment": null,
+      "discount": 0,
+      "paidAt": "2025-06-09T15:30:33.030Z"
+    },
+    {
+      "id": "1a8a4a20-4b67-461f-9a6f-569641f5465b",
+      "createdAt": "2025-06-08T13:52:49.073Z",
+      "updatedAt": "2025-06-08T13:52:49.073Z",
+      "expiresAt": "2025-06-08T14:22:49.073Z",
+      "status": "pending",
+      "total": 29999,
+      "countProduct": 1,
+      "products": [
+        {
+          "id": 5,
+          "quantity": 1
+        }
+      ],
+      "userId": 1743867386569,
+      "client": {
+        "name": "Андрей",
+        "surname": "Киндяков",
+        "phone": "79086028955"
+      },
+      "deliveryId": null,
+      "payment": {
+        "method": null,
+        "status": null,
+        "id": null
+      },
+      "comment": null,
+      "discount": 0
+    },
+    {
+      "id": "f59b6f24-f2c5-4e3d-b58e-179d2fc12df2",
+      "createdAt": "2025-06-08T18:04:51.177Z",
+      "updatedAt": "2025-06-08T18:04:51.177Z",
+      "expiresAt": "2025-06-08T18:34:51.177Z",
+      "status": "pending",
+      "total": 131999,
+      "countProduct": 3,
+      "products": [
+        {
+          "id": 16,
+          "quantity": 1
+        },
+        {
+          "id": 201,
+          "quantity": 1
+        },
+        {
+          "id": 401,
           "quantity": 1
         }
       ],
@@ -5813,6 +5640,100 @@
         }
       },
       "updatedAt": "2025-06-06T12:25:03.611Z"
+    },
+    {
+      "id": "2fd7a8ec-000f-5000-b000-14d4f8dafa5a",
+      "status": "pending",
+      "amount": {
+        "value": "89999.00",
+        "currency": "RUB"
+      },
+      "recipient": {
+        "account_id": "1097654",
+        "gateway_id": "2470619"
+      },
+      "payment_method": {
+        "type": "bank_card",
+        "id": "2fd7a8ec-000f-5000-b000-14d4f8dafa5a",
+        "saved": false,
+        "status": "inactive"
+      },
+      "created_at": "2025-06-08T13:50:36.157Z",
+      "confirmation": {
+        "type": "redirect",
+        "return_url": "http://localhost:5173/account/orders",
+        "confirmation_url": "https://yoomoney.ru/checkout/payments/v2/contract?orderId=2fd7a8ec-000f-5000-b000-14d4f8dafa5a"
+      },
+      "test": true,
+      "paid": false,
+      "refundable": false,
+      "metadata": {
+        "orderId": "2ea7ccf2-7269-479e-a75f-d9946cf1e664"
+      },
+      "createdAt": "2025-06-08T13:50:33.838Z"
+    },
+    {
+      "id": "2fd911c8-000f-5001-9000-1bb16d219b04",
+      "status": "succeeded",
+      "amount": {
+        "value": "89999.00",
+        "currency": "RUB"
+      },
+      "recipient": {
+        "account_id": "1097654",
+        "gateway_id": "2470619"
+      },
+      "payment_method": {
+        "type": "bank_card",
+        "id": "2fd911c8-000f-5001-9000-1bb16d219b04",
+        "saved": false,
+        "status": "inactive",
+        "title": "Bank card *4477",
+        "card": {
+          "first6": "555555",
+          "last4": "4477",
+          "expiry_year": "2034",
+          "expiry_month": "04",
+          "card_type": "MasterCard",
+          "card_product": {
+            "code": "E"
+          },
+          "issuer_country": "US"
+        }
+      },
+      "created_at": "2025-06-09T15:30:16.741Z",
+      "confirmation": {
+        "type": "redirect",
+        "return_url": "http://localhost:5173/account/orders",
+        "confirmation_url": "https://yoomoney.ru/checkout/payments/v2/contract?orderId=2fd911c8-000f-5001-9000-1bb16d219b04"
+      },
+      "test": true,
+      "paid": true,
+      "refundable": true,
+      "metadata": {
+        "orderId": "2ea7ccf2-7269-479e-a75f-d9946cf1e664"
+      },
+      "createdAt": "2025-06-09T15:30:16.756Z",
+      "income_amount": {
+        "value": "86849.03",
+        "currency": "RUB"
+      },
+      "captured_at": "2025-06-09T15:30:32.884Z",
+      "refunded_amount": {
+        "value": "0.00",
+        "currency": "RUB"
+      },
+      "authorization_details": {
+        "rrn": "632425798923051",
+        "auth_code": "844327",
+        "three_d_secure": {
+          "applied": true,
+          "protocol": "v1",
+          "method_completed": false,
+          "challenge_completed": true
+        }
+      },
+      "updatedAt": "2025-06-09T15:30:33.027Z"
     }
   ],
   "delivery": [
@@ -5862,6 +5783,52 @@
       "cost": 499,
       "createdAt": "2025-06-06T12:23:42.798Z",
       "updatedAt": "2025-06-06T12:23:42.798Z"
+    },
+    {
+      "id": "5ec33391-5185-40de-b30a-6f329665fa8c",
+      "orderId": "2ea7ccf2-7269-479e-a75f-d9946cf1e664",
+      "userId": 1743867386569,
+      "paymentId": "2fd7a8ec-000f-5000-b000-14d4f8dafa5a",
+      "method": "boxberry",
+      "data": {
+        "door": {},
+        "cdek": {},
+        "boxberry": {
+          "code": "48621",
+          "city": "Липецк",
+          "country": "РОССИЯ",
+          "address": "398046, Липецк г, А.Г. Стаханова ул, д.59",
+          "addressReduce": "А.Г. Стаханова ул, д.59",
+          "coords": ""
+        }
+      },
+      "address": "398046, Липецк г, А.Г. Стаханова ул, д.59",
+      "cost": 499,
+      "createdAt": "2025-06-08T13:50:33.840Z",
+      "updatedAt": "2025-06-08T13:50:33.840Z"
+    },
+    {
+      "id": "4f8b68d4-6665-47eb-b14e-f846f46f267d",
+      "orderId": "2ea7ccf2-7269-479e-a75f-d9946cf1e664",
+      "userId": 1743867386569,
+      "paymentId": "2fd911c8-000f-5001-9000-1bb16d219b04",
+      "method": "boxberry",
+      "data": {
+        "door": {},
+        "cdek": {},
+        "boxberry": {
+          "code": "48621",
+          "city": "Липецк",
+          "country": "РОССИЯ",
+          "address": "398046, Липецк г, А.Г. Стаханова ул, д.59",
+          "addressReduce": "А.Г. Стаханова ул, д.59",
+          "coords": ""
+        }
+      },
+      "address": "398046, Липецк г, А.Г. Стаханова ул, д.59",
+      "cost": 499,
+      "createdAt": "2025-06-09T15:30:16.757Z",
+      "updatedAt": "2025-06-09T15:30:16.757Z"
     }
   ],
   "feedbacks": [
@@ -5873,7 +5840,13 @@
       "dignities": "Отличная камера и долгий заряд батареи.",
       "disadvantages": "Высокая цена.",
       "comment": "Лучший телефон, который я использовал.",
-      "createdAt": "2019-03-20T12:00:00Z"
+      "createdAt": "2019-03-20T12:00:00Z",
+      "user": {
+        "name": "Алексей",
+        "surname": "Иванов",
+        "patronymic": "Сергеевич",
+        "age": 25
+      }
     },
     {
       "id": 2,
@@ -6027,7 +6000,13 @@
       "dignities": "Отличное качество сборки.",
       "disadvantages": "Небольшая оперативная память.",
       "comment": "Телефон имеет высокое качество сборки, но можно улучшить память.",
-      "createdAt": "2019-04-15T12:00:00Z"
+      "createdAt": "2019-04-15T12:00:00Z",
+      "user": {
+        "name": "Алексей",
+        "surname": "Иванов",
+        "patronymic": "Сергеевич",
+        "age": 25
+      }
     },
     {
       "id": 12,
